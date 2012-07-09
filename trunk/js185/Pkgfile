@@ -1,0 +1,18 @@
+# Description: SpiderMonkey is Mozilla's Javascript Engine (js185) 
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: nspr
+
+name=js185
+version=1.0.0
+release=1
+source=(http://ftp.mozilla.org/pub/mozilla.org/js/$name-$version.tar.gz)
+
+build() {
+	cd js-1.8.5/js/src
+	sed -i 's#s \($(SHLIB_\(ABI\|EXACT\)_VER)\)#s $(notdir \1)#' \
+	Makefile.in
+	./configure --prefix=/usr --enable-threadsafe --with-system-nspr
+	make
+	make DESTDIR=$PKG install
+}
