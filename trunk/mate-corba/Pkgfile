@@ -1,0 +1,16 @@
+# Description: CORBA library supporting MATE desktop system
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: mate-common glib libidl gobject gthread gmodule 
+
+name=mate-corba
+version=1.2.2
+release=1.2
+source=(http://pub.mate-desktop.org/releases/$release/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr --disable-static
+	make
+	make DESTDIR=$PKG install
+}
