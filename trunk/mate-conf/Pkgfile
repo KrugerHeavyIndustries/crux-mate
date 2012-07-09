@@ -1,0 +1,20 @@
+# Description: MATE project configuration support
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: mate-common mate-corba dbus dbus-glib gobject-introspection
+
+name=mate-conf
+version=1.2.1
+release=1.2
+source=(http://pub.mate-desktop.org/releases/$release/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr --sysconfdir=/etc \
+	--libexecdir=/usr/lib/MateConf \
+	--localstatedir=/var --disable-static \
+	--enable-defaults-service --enable-gsettings-backend=no \
+	--enable-introspection
+	make
+	make DESTDIR=$PKG install
+}
