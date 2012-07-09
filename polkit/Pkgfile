@@ -1,0 +1,21 @@
+# Description: Polkit is a toolkit for defining and handling authorizations
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: glib intltool gobject-introspection
+
+name=polkit
+version=0.106
+release=1
+source=(http://www.freedesktop.org/software/$name/releases/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--sysconfdir=/etc \
+	--localstatedir=/var \
+	--libexecdir=/usr/lib/polkit-1 \
+	--with-authfw=shadow \
+	--disable-static
+	make
+	make DESTDIR=$PKG install
+}
