@@ -1,0 +1,15 @@
+# Description: A collection of common utilities for the MATE project
+# Maintainer: Chris Kruger
+# Group: mate
+
+name=mate-common
+version=1.2.1
+release=1.2
+source=(http://pub.mate-desktop.org/releases/$release/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
