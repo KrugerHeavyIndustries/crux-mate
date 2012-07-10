@@ -1,0 +1,17 @@
+# Description: MATE project keyboard support library
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: intltool glib libxklavier
+
+name=libmatekbd
+base=1.2
+version=1.2.0
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr --sysconfdir=/etc
+	make
+	make DESTDIR=$PKG install
+}
