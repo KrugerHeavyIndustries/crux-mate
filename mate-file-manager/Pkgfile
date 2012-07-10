@@ -1,0 +1,20 @@
+# Description: MATE project File Manager
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: mate-desktop shared-mime-info intltool glib gthread gio-unix gio pango gtk libxml gail unique
+
+
+name=mate-file-manager
+base=1.2
+version=1.2.2
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr --sysconfdir=/etc \
+	--localstatedir=/var --disable-static \
+	--libexecdir=/usr/lib/mate-file-manager
+	make
+	make DESTDIR=$PKG install
+}
