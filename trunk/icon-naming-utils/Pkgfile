@@ -1,0 +1,18 @@
+# Description:  Icon Naming Utilities
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: p5-xml-simple
+
+name=icon-naming-utils
+base=1.2
+version=0.8.90
+release=1
+source=(http://tango.freedesktop.org/releases/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--libexecdir=/usr/lib/icon-naming-utils
+	make
+	make DESTDIR=$PKG install
+}
