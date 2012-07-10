@@ -1,0 +1,19 @@
+# Description: MATE project Policy Kit interface
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: intltool 
+
+name=mate-polkit
+base=1.2
+version=1.2.0
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr --sysconfdir=/etc \
+	--localstatedir=/var  --libexecdir=/usr/lib/polkit-mate \
+	--disable-static
+	make
+	make DESTDIR=$PKG install
+}
