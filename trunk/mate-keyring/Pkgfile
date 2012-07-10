@@ -1,0 +1,20 @@
+# Description: MATE project Crypto Key Management
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: mate-conf intltool glib libtasn1
+
+name=mate-keyring
+base=1.2
+version=1.2.1
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr --sysconfdir=/etc \
+	--localstatedir=/var --disable-static \
+	--libexecdir=/usr/lib/mate-keyring \
+	--with-pam-dir=/lib/security --with-root-certs=/etc/ssl/certs
+	make
+	make DESTDIR=$PKG install
+}
