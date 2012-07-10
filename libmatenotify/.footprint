@@ -1,0 +1,31 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/mate-notify-send
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/libmatenotify/
+-rw-r--r--	root/root	usr/include/libmatenotify/notification.h
+-rw-r--r--	root/root	usr/include/libmatenotify/notify-enum-types.h
+-rw-r--r--	root/root	usr/include/libmatenotify/notify.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libmatenotify.la
+lrwxrwxrwx	root/root	usr/lib/libmatenotify.so -> libmatenotify.so.1.2.3
+lrwxrwxrwx	root/root	usr/lib/libmatenotify.so.1 -> libmatenotify.so.1.2.3
+-rwxr-xr-x	root/root	usr/lib/libmatenotify.so.1.2.3
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libmatenotify.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/gtk-doc/
+drwxr-xr-x	root/root	usr/share/gtk-doc/html/
+drwxr-xr-x	root/root	usr/share/gtk-doc/html/libmatenotify/
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/ch01.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/home.png
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/index.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/index.sgml
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/left.png
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/libmatenotify-notification.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/libmatenotify-notify.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/libmatenotify.devhelp
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/libmatenotify.devhelp2
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/right.png
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/style.css
+-rw-r--r--	root/root	usr/share/gtk-doc/html/libmatenotify/up.png
