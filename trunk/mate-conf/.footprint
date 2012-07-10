@@ -32,6 +32,7 @@ drwxr-xr-x	root/root	usr/lib/MateConf/2/
 -rwxr-xr-x	root/root	usr/lib/MateConf/2/libmateconfbackend-xml.la
 -rwxr-xr-x	root/root	usr/lib/MateConf/2/libmateconfbackend-xml.so
 -rwxr-xr-x	root/root	usr/lib/MateConf/mateconf-defaults-mechanism
+-rwxr-xr-x	root/root	usr/lib/MateConf/mateconf-sanity-check-2
 -rwxr-xr-x	root/root	usr/lib/MateConf/mateconfd-2
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/MateConf-2.0.typelib
