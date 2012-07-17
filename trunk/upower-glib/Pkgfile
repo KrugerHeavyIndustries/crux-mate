@@ -1,0 +1,19 @@
+# Description: UPower package provides interface to enumerating power devices
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: intltool dbus-glib-1 polkit gobject-introspection
+
+name=upower
+version=0.9.17
+release=1
+source=(http://upower.freedesktop.org/releases/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr --sysconfdir=/etc \
+	--localstatedir=/var \
+	--libexecdir=/usr/lib/upower \
+	--disable-static
+	make
+	make DESTDIR=$PKG install
+}
