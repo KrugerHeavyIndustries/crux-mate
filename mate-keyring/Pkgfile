@@ -17,4 +17,5 @@ build() {
 	--with-pam-dir=/lib/security --with-root-certs=/etc/ssl/certs
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }

@@ -10,7 +10,9 @@ source=(http://ftp.gnu.org/gnu/$name/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	./configure --prefix=/usr
+	./configure --prefix=/usr \
+		--mandir=/usr/man
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share
 }

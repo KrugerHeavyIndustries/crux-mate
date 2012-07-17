@@ -1,0 +1,9 @@
+#!/bin/bash
+
+getent group polkitd || groupadd -fg 27 polkitd
+
+getent passwd polkitd || useradd -c "PolicyKit Daemon Owner" \
+	-d /etc/polkit-1 -u 27 \
+	-g polkitd -s /bin/false polkitd
+
+passwd -l polkitd

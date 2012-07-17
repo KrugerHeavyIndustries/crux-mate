@@ -16,4 +16,5 @@ build() {
 	--enable-locations-compression
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }

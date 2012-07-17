@@ -11,8 +11,10 @@ source=(http://ftp.gnome.org/pub/gnome/sources/$name/$release/$name-$version.tar
 build() {
 	cd $name-$version
 	./configure --prefix=/usr \
+	--mandir=/usr/man \
 	--disable-tests \
 	--disable-static
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/gtk-doc
 }

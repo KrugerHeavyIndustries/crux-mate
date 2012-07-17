@@ -1,7 +1,7 @@
 # Description: MATE project Policy Kit interface
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool 
+# Depends on: intltool gtk-doc polkit
 
 name=mate-polkit
 base=1.2
@@ -16,4 +16,5 @@ build() {
 	--disable-static
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
 }

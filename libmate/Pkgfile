@@ -13,8 +13,10 @@ source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 build() {
 	cd $name-$version
 	./autogen.sh --prefix=/usr --sysconfdir=/etc \
+	--mandir=/usr/man \
 	--localstatedir=/var --disable-static \
 	--libexecdir=/usr/lib/libmate  --disable-esd
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }

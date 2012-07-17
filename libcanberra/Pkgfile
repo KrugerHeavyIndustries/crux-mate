@@ -1,7 +1,7 @@
 # Description: An implementation of the XDG Sound Theme and Name Specification
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: libvorbis 
+# Depends on: libvorbis gtk
 
 name=libcanberra
 version=0.29
@@ -15,4 +15,5 @@ build() {
 	--disable-oss
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-,}doc
 }

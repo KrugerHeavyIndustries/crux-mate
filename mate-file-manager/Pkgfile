@@ -1,7 +1,7 @@
 # Description: MATE project File Manager
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: mate-desktop shared-mime-info intltool glib gthread gio-unix gio pango gtk libxml gail unique
+# Depends on: mate-desktop shared-mime-info intltool glib gthread gio-unix gio pango gtk libxml gail libunique
 
 
 name=mate-file-manager

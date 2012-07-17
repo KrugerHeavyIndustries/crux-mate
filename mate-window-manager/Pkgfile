@@ -1,7 +1,7 @@
 # Description: MATE project Menus
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool 
+# Depends on: intltool mate-doc-utils mate-conf mate-dialogs
 
 name=mate-window-manager
 base=1.2

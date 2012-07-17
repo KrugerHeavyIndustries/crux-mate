@@ -1,7 +1,7 @@
 # Description: MATE project GUI Dialogs
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool setup-notification Xlib
+# Depends on: intltool setup-notification Xlib gtk-doc mate-conf
 
 name=mate-desktop
 base=1.2
@@ -12,7 +12,9 @@ source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 build() {
 	cd $name-$version
 	./autogen.sh --prefix=/usr --sysconfdir=/etc \
+	--mandir=/usr/man \
 	--localstatedir=/var --disable-static --disable-scrollkeeper
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }
