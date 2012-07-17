@@ -11,10 +11,12 @@ source=(http://pub.mate-desktop.org/releases/$release/$name-$version.tar.xz)
 build() {
 	cd $name-$version
 	./autogen.sh --prefix=/usr --sysconfdir=/etc \
+	--mandir=/usr/man \
 	--libexecdir=/usr/lib/MateConf \
 	--localstatedir=/var --disable-static \
 	--enable-defaults-service --enable-gsettings-backend=no \
 	--enable-introspection
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }

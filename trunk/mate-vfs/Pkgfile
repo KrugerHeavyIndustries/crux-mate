@@ -20,4 +20,5 @@ build() {
 	--enable-openssl --disable-gnutls
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }
