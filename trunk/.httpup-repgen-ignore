@@ -1,1 +1,9 @@
+\.svn
 \.svn$
+\.tgz$
+\.tar\.gz$
+\.partial$
+\.tar\.xz$
+\.tar\.bz2$
+\.zip$
+\.*~$
