@@ -15,4 +15,5 @@ build() {
 	--localstatedir=/var --disable-static
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }

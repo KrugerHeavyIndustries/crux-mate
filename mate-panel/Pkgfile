@@ -1,7 +1,7 @@
 # Description: MATE project Panel
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool ice sm pango gtk glib gio librsvg dbus-glib-1 libmateweather mate-desktop
+# Depends on: intltool ice sm pango gtk glib gio librsvg dbus-glib-1 libmateweather mate-desktop libmatecomponentui
 
 name=mate-panel
 base=1.2
@@ -12,10 +12,12 @@ source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 build() {
 	cd $name-$version
 	./autogen.sh --prefix=/usr --sysconfdir=/etc \
+	--mandir=/usr/man \
 	--localstatedir=/var \
 	--libexecdir=/usr/lib/mate-panel \
 	--disable-static --disable-scrollkeeper \
 	--enable-introspection --enable-matecomponent
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }

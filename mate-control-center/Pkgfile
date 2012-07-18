@@ -1,7 +1,7 @@
 # Description: MATE project Control Center
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: mate-doc-utils mate-conf mate-settings-daemon mate-desktop mate-menus
+# Depends on: mate-doc-utils mate-conf mate-settings-daemon mate-desktop mate-menus mate-window-manager desktop-file-utils
 
 name=mate-control-center
 base=1.2
@@ -13,7 +13,9 @@ build() {
 	cd $name-$version
 	./autogen.sh --prefix=/usr --sysconfdir=/etc \
 	--localstatedir=/var \
-	--disable-static --disable-scrollkeeper
+	--disable-static --disable-scrollkeeper \
+		--disable-update-mimedb
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
 }
