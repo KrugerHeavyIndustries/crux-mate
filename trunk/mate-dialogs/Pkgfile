@@ -12,7 +12,9 @@ source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 build() {
 	cd $name-$version
 	./autogen.sh --prefix=/usr --sysconfdir=/etc \
-	--localstatedir=/var --disable-scrollkeeper
+	--localstatedir=/var --disable-scrollkeeper \
+	--mandir=/usr/man
 	make
 	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
 }
