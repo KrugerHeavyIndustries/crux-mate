@@ -1,7 +1,7 @@
 # Description: MATE project Crypto Key Management
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: mate-conf intltool glib libtasn1
+# Depends on: mate-conf intltool glib libtasn1 gtk
 
 name=mate-keyring
 base=1.2
