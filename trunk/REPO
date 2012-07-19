@@ -75,7 +75,7 @@ f:308dec9f7b20b3ae22ea1d11c302cb84:mate-settings-daemon/Pkgfile
 f:e982ef5a71bfd5cb25ab1b0d03cc192d:mate-settings-daemon/post-install
 f:a39a3aad77ac050f35f31ebc20874b8d:mate-settings-daemon/.md5sum
 f:2ae85ea4ce7ae03a59fd945bb011a775:mate-settings-daemon/.footprint
-f:6b1f0043a29ff3f5c5046817808c4df6:mate-keyring/Pkgfile
+f:f61a687919325e35f9a4d1ef710e60c3:mate-keyring/Pkgfile
 f:5ff3ed2c89f0d3c941fc8b9afa7ec535:mate-keyring/.md5sum
 f:ca30663527ab916fcb2537473f07db6f:mate-keyring/.footprint
 f:f09efda1652b466268222db1361eeea3:libmate/Pkgfile
