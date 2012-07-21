@@ -1,0 +1,20 @@
+# Description: Applets for use with the MATE panel
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: util-linux-ng polkit dbus-glib mate-doc-utils libxslt mate-conf mate-icon-theme mate-panel
+
+name=mate-applets
+version=1.2.3
+release=1
+source=(http://pub.mate-desktop.org/releases/1.2/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr \
+		--disable-schemas-install \
+		--disable-scrollkeeper \
+		--disable-nls
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}
