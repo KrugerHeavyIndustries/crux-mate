@@ -1,7 +1,7 @@
 # Description: MATE project Session Manager
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool gtk glib gio dbus-glib-1 upower
+# Depends on: intltool gtk glib upower mate-common mate-conf
 
 name=mate-session-manager
 base=1.2

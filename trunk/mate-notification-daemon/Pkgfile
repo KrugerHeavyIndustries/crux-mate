@@ -1,7 +1,7 @@
 # Description: MATE project Notification Daemon
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool mate-conf gtk glib dbus-1 dbus-glib-1 libcanberra-gtk libwnck x11
+# Depends on: intltool mate-conf gtk glib libwnck libcanberra libmatenotify
 
 
 name=mate-notification-daemon
