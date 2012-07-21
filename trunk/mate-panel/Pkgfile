@@ -1,7 +1,7 @@
 # Description: MATE project Panel
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool ice sm pango gtk glib gio librsvg dbus-glib-1 libmateweather mate-desktop libmatecomponentui
+# Depends on: intltool ice sm pango gtk glib gio librsvg dbus-glib-1 libmateweather mate-desktop libmatecomponentui mate-menus libwnck
 
 name=mate-panel
 base=1.2

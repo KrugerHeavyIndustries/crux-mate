@@ -1,7 +1,7 @@
 # Description: A collection of documentation utilities for the MATE project
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool libxml2 libxslt rarian libxml2-python gtk-doc
+# Depends on: intltool libxml2 libxslt rarian libxml2-python gtk-doc mate-common
 
 name=mate-doc-utils
 version=1.2.1
