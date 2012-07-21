@@ -1,7 +1,7 @@
 # Description: Polkit is a toolkit for defining and handling authorizations
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: glib intltool gobject-introspection js185
+# Depends on: glib intltool gobject-introspection js185 docbook-xsl
 
 name=polkit
 version=0.106

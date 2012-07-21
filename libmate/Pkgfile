@@ -1,7 +1,7 @@
 # Description: MATE project library
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: mate-common mate-conf mate-vfs libmatecomponent intltool glib gmodule libcanberra
+# Depends on: mate-common mate-conf mate-vfs libmatecomponent intltool glib libcanberra
 
 name=libmate
 base=1.2

@@ -1,7 +1,7 @@
 # Description: MATE project UI library
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: libmatecomponentui libmatekeyring intltool libX11
+# Depends on: libmatecomponentui libmatekeyring intltool
 
 name=libmateui
 base=1.2

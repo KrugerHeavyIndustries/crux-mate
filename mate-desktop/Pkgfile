@@ -1,7 +1,7 @@
 # Description: MATE project GUI Dialogs
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool setup-notification Xlib gtk-doc mate-conf
+# Depends on: intltool gtk-doc mate-conf mate-doc-utils
 
 name=mate-desktop
 base=1.2

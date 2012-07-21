@@ -1,7 +1,7 @@
 # Description: MATE project settings Daemon
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool glib gtk mate-conf gmodule gthread dbus-glib
+# Depends on: intltool glib gtk mate-conf dbus-glib mate-desktop libmatekbd
 
 name=mate-settings-daemon
 base=1.2

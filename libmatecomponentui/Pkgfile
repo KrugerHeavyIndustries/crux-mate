@@ -1,7 +1,7 @@
 # Description: MATE project UI Component library
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: mate-common intltool libmatecanvas libmatecomponent libmate libxml mate-conf gtk gobject 
+# Depends on: mate-common intltool libmatecanvas libmatecomponent libmate mate-conf gtk
 
 name=libmatecomponentui
 base=1.2

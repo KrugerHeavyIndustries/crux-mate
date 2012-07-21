@@ -1,7 +1,7 @@
 # Description: MATE project CANVAS library
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: mate-common intltool glib gtk gail libart_lgpl libglade pango pangoft2
+# Depends on: mate-common intltool glib gtk libart_lgpl libglade pango gtk-doc
 
 name=libmatecanvas
 base=1.2
