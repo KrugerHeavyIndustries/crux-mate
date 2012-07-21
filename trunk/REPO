@@ -72,7 +72,7 @@ f:9df503eec67e6b68e9122d98783447db:mate-common/mate-autogen.patch
 f:aeba1fb430e1508a5578c256cc6bfa9e:mate-common/.footprint
 f:1ac5f00f89f3da0264f76b65faca8185:mate-common/Pkgfile
 f:3b982c6afa16fdb4051130366dcac50f:mate-common/.md5sum
-f:2cbc94d6fa71981734745e36f24d2551:polkit/.footprint
+f:5580e8a77a22c0df4e33ebb213b13e36:polkit/.footprint
 f:b163b6768fc482077fc08f8539e7d3a7:polkit/Pkgfile
 f:a3c9c4795b603f59524f6d87fe906ac3:polkit/.md5sum
 f:4d20de4ccdd698a76b908cf5a125f14e:polkit/pre-install
