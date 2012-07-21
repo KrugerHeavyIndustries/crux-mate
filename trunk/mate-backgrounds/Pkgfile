@@ -1,7 +1,7 @@
 # Description: MATE project desktop backgrounds
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool 
+# Depends on: intltool glib
 
 name=mate-backgrounds
 base=1.2
