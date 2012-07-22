@@ -49,7 +49,7 @@ d:mate-keyring
 f:e29f07a93d6c5a8dd58f1956ac7ff9a0:mate-doc-utils/.footprint
 f:9730c75f9793e92a82663a2d6b59a321:mate-doc-utils/Pkgfile
 f:0bc13ea2c490e664cf2d2c7e18583336:mate-doc-utils/.md5sum
-f:ec532021f14433e643231eab56d20535:libxklavier/.footprint
+f:c73e303add8eb83e64a782445ce7e2fa:libxklavier/.footprint
 f:1dd4026d1dbb0e7a08c3f2eff4796433:libxklavier/Pkgfile
 f:ca758040b8ec0e26a4f43dd890fb44b0:libxklavier/.md5sum
 f:58e87fad4b7cea4d581c25aeeb55b09c:mate-conf-editor/post-install
