@@ -1,7 +1,7 @@
 # Description: MATE project configuration support
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: mate-common mate-corba dbus dbus-glib gobject-introspection polkit
+# Depends on: glib mate-common mate-corba dbus dbus-glib gobject-introspection polkit
 
 name=mate-conf
 version=1.2.1
