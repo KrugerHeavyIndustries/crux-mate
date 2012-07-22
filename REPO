@@ -8,6 +8,7 @@ d:libmatecomponentui
 d:libmateweather
 d:mate-common
 d:polkit
+d:udev
 d:mate-notification-daemon
 d:mate-menus
 d:mate-dialogs
@@ -79,6 +80,11 @@ f:2cbc94d6fa71981734745e36f24d2551:polkit/.footprint
 f:d0000131cb98e3d662b4c63fd2ea0dc8:polkit/Pkgfile
 f:a3c9c4795b603f59524f6d87fe906ac3:polkit/.md5sum
 f:4d20de4ccdd698a76b908cf5a125f14e:polkit/pre-install
+f:585b2d60139c1a3a03fea06c5c16f2a8:udev/start_udev
+f:13b90d507b7b366091f5640fdb83ccf2:udev/.footprint
+f:4c4d8b62e225ed32013ad8352fb0dac0:udev/Pkgfile
+f:ee21e150df6c804eef03a6cb2fc1cceb:udev/81-crux.rules
+f:1a66d73b2b8dd7b75760fe747b9c660d:udev/.md5sum
 f:a0421905ff398469a29ea00c1eb6d604:mate-notification-daemon/post-install
 f:602562d2c46c995c2771fcfee2711e73:mate-notification-daemon/.footprint
 f:382634df65be2020a4bd78495d09deea:mate-notification-daemon/Pkgfile
