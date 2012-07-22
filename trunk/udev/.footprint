@@ -4,6 +4,8 @@ drwxr-xr-x	root/root	etc/udev/rules.d/
 -rw-r--r--	root/root	etc/udev/udev.conf
 drwxr-xr-x	root/root	lib/
 drwxr-xr-x	root/root	lib/firmware/
+lrwxrwxrwx	root/root	lib/libgudev-1.0.so.0 -> libgudev-1.0.so.0.1.1
+-rwxr-xr-x	root/root	lib/libgudev-1.0.so.0.1.1
 lrwxrwxrwx	root/root	lib/libudev.so.0 -> libudev.so.0.13.1
 -rwxr-xr-x	root/root	lib/libudev.so.0.13.1
 drwxr-xr-x	root/root	lib/udev/
@@ -48,12 +50,27 @@ drwxr-xr-x	root/root	sbin/
 lrwxrwxrwx	root/root	sbin/udevd -> ../lib/udev/udevd
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/gudev-1.0/
+drwxr-xr-x	root/root	usr/include/gudev-1.0/gudev/
+-rw-r--r--	root/root	usr/include/gudev-1.0/gudev/gudev.h
+-rw-r--r--	root/root	usr/include/gudev-1.0/gudev/gudevclient.h
+-rw-r--r--	root/root	usr/include/gudev-1.0/gudev/gudevdevice.h
+-rw-r--r--	root/root	usr/include/gudev-1.0/gudev/gudevenumerator.h
+-rw-r--r--	root/root	usr/include/gudev-1.0/gudev/gudevenums.h
+-rw-r--r--	root/root	usr/include/gudev-1.0/gudev/gudevenumtypes.h
+-rw-r--r--	root/root	usr/include/gudev-1.0/gudev/gudevtypes.h
 -rw-r--r--	root/root	usr/include/libudev.h
 drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/girepository-1.0/
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GUdev-1.0.typelib
+-rw-r--r--	root/root	usr/lib/libgudev-1.0.a
+-rwxr-xr-x	root/root	usr/lib/libgudev-1.0.la
+lrwxrwxrwx	root/root	usr/lib/libgudev-1.0.so -> ../../lib/libgudev-1.0.so.0.1.1
 -rw-r--r--	root/root	usr/lib/libudev.a
 -rwxr-xr-x	root/root	usr/lib/libudev.la
 lrwxrwxrwx	root/root	usr/lib/libudev.so -> ../../lib/libudev.so.0.13.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/gudev-1.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libudev.pc
 drwxr-xr-x	root/root	usr/man/
 drwxr-xr-x	root/root	usr/man/man7/
@@ -63,5 +80,7 @@ drwxr-xr-x	root/root	usr/man/man8/
 -rw-r--r--	root/root	usr/man/man8/udevadm.8.gz
 -rw-r--r--	root/root	usr/man/man8/udevd.8.gz
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/gir-1.0/
+-rw-r--r--	root/root	usr/share/gir-1.0/GUdev-1.0.gir
 drwxr-xr-x	root/root	usr/share/pkgconfig/
 -rw-r--r--	root/root	usr/share/pkgconfig/udev.pc

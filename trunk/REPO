@@ -1,4 +1,5 @@
 d:mate-doc-utils
+d:libxklavier
 d:mate-conf-editor
 d:mate-corba
 d:mate-icon-theme
@@ -48,6 +49,9 @@ d:mate-keyring
 f:e29f07a93d6c5a8dd58f1956ac7ff9a0:mate-doc-utils/.footprint
 f:9730c75f9793e92a82663a2d6b59a321:mate-doc-utils/Pkgfile
 f:0bc13ea2c490e664cf2d2c7e18583336:mate-doc-utils/.md5sum
+f:ec532021f14433e643231eab56d20535:libxklavier/.footprint
+f:1dd4026d1dbb0e7a08c3f2eff4796433:libxklavier/Pkgfile
+f:ca758040b8ec0e26a4f43dd890fb44b0:libxklavier/.md5sum
 f:58e87fad4b7cea4d581c25aeeb55b09c:mate-conf-editor/post-install
 f:2b9bfca1b12685b43460a111b100b2bf:mate-conf-editor/.footprint
 f:2730cd311763a73c9996e200e29e0a06:mate-conf-editor/Pkgfile
@@ -81,7 +85,7 @@ f:d0000131cb98e3d662b4c63fd2ea0dc8:polkit/Pkgfile
 f:a3c9c4795b603f59524f6d87fe906ac3:polkit/.md5sum
 f:4d20de4ccdd698a76b908cf5a125f14e:polkit/pre-install
 f:585b2d60139c1a3a03fea06c5c16f2a8:udev/start_udev
-f:13b90d507b7b366091f5640fdb83ccf2:udev/.footprint
+f:1079647a92e3ff7c97c388326569fea0:udev/.footprint
 f:4c4d8b62e225ed32013ad8352fb0dac0:udev/Pkgfile
 f:ee21e150df6c804eef03a6cb2fc1cceb:udev/81-crux.rules
 f:1a66d73b2b8dd7b75760fe747b9c660d:udev/.md5sum
