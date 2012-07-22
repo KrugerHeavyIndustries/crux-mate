@@ -74,7 +74,7 @@ f:9df503eec67e6b68e9122d98783447db:mate-common/mate-autogen.patch
 f:aeba1fb430e1508a5578c256cc6bfa9e:mate-common/.footprint
 f:1ac5f00f89f3da0264f76b65faca8185:mate-common/Pkgfile
 f:3b982c6afa16fdb4051130366dcac50f:mate-common/.md5sum
-f:5580e8a77a22c0df4e33ebb213b13e36:polkit/.footprint
+f:2cbc94d6fa71981734745e36f24d2551:polkit/.footprint
 f:d0000131cb98e3d662b4c63fd2ea0dc8:polkit/Pkgfile
 f:a3c9c4795b603f59524f6d87fe906ac3:polkit/.md5sum
 f:4d20de4ccdd698a76b908cf5a125f14e:polkit/pre-install
@@ -145,7 +145,7 @@ f:28dc48506c44f18fd7c4c249cd7da1c2:mate/.footprint
 f:cdecb53f4b5cf61e41c7f729947af2cf:mate/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:mate/.md5sum
 f:1f3193eb86a79aecf69cd0c73e2016d4:mate-conf/.footprint
-f:31b751e4a6038294c8b0e49ac0ab3815:mate-conf/Pkgfile
+f:f1ffb39aafc141bbf946879d5460ff8c:mate-conf/Pkgfile
 f:f6f77794f1e57941bfc73e1b989c3700:mate-conf/.md5sum
 f:741320f68c05603d4d56248e2d34bb3d:mate-panel/post-install
 f:bf6319cc3a67120f22be43cd5a39981d:mate-panel/.footprint
