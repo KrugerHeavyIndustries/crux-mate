@@ -32,6 +32,7 @@ d:mate-conf
 d:mate-panel
 d:upower
 d:mate-session-manager
+d:gdk-pixbuf
 d:mate-window-manager
 d:mate-backgrounds
 d:libmateui
@@ -158,6 +159,11 @@ f:34a49073c39ec3a521c7d1cedbd5fed2:mate-session-manager/post-install
 f:191f1b4a438f72c98c4a451de9956023:mate-session-manager/.footprint
 f:031d3bbb0990e02ea508a077bac579ad:mate-session-manager/Pkgfile
 f:daa830a373612c31ce58b67697cbaf4f:mate-session-manager/.md5sum
+f:11c2c72246d5b91f324357adf3b669a4:gdk-pixbuf/gdk-pixbuf.loaders
+f:d5311640870a5de1dc8aefcb4509a99d:gdk-pixbuf/gdk-pixbuf-register.sh
+f:3cc21759f03fd8ae90fd1502003d7c78:gdk-pixbuf/.footprint
+f:27ca46ac3244fe670387418f94e9d202:gdk-pixbuf/Pkgfile
+f:8b45e6bd5e9b4baa0831269d3da692ab:gdk-pixbuf/.md5sum
 f:b158f459edda548b7b34fa8108111a28:mate-window-manager/post-install
 f:2fe2f23977805c7086930a584110cabd:mate-window-manager/.footprint
 f:be731f0accf895667a30e394f7b7dcf6:mate-window-manager/Pkgfile
