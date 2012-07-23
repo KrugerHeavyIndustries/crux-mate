@@ -105,7 +105,7 @@ f:c17c668ab3d7b1039a27a689dfb229c1:mate-dialogs/.md5sum
 f:caebe032d348117df65cec727d4a0816:mate-dialogs/.footprint
 f:585b2d60139c1a3a03fea06c5c16f2a8:udev/start_udev
 f:ee21e150df6c804eef03a6cb2fc1cceb:udev/81-crux.rules
-f:4c4d8b62e225ed32013ad8352fb0dac0:udev/Pkgfile
+f:540d1b33b18e3f4fb1299352b6c7bd5b:udev/Pkgfile
 f:1a66d73b2b8dd7b75760fe747b9c660d:udev/.md5sum
 f:1079647a92e3ff7c97c388326569fea0:udev/.footprint
 f:c0e69a8833210e9128a4799e3d00f96e:mate-vfs/Pkgfile
@@ -131,7 +131,7 @@ f:76b0855ace09d1c39e67fa1a880bfce3:libmateweather/Pkgfile
 f:beb263c496c7464f4b54f79760bad2ce:libmateweather/.md5sum
 f:f85df39044792cfac1f4e8fe7622c804:libmateweather/post-install
 f:7b78902cab156938e89f3f2bb4e8543f:libmateweather/.footprint
-f:6ad5e5fc83f9592af70627f056bccc25:upower/Pkgfile
+f:393f44eeed91a8dfc0972b50f8f9e204:upower/Pkgfile
 f:579422ed3d66f37d05c31a4fcee2b9bd:upower/.md5sum
 f:9628dfe7a93e5963656b96fc0012ca8e:upower/.footprint
 f:d087c4f3034ce53eb17ef626b05fcea0:mate-mime-data/Pkgfile
