@@ -1,3 +1,4 @@
+d:atk
 d:mate-doc-utils
 d:libxklavier
 d:mate-conf-editor
@@ -47,6 +48,9 @@ d:mate-applets
 d:mate-mime-data
 d:mate-vfs
 d:mate-keyring
+f:12375b6dbf6e7198451ac812631468be:atk/.footprint
+f:219f909837982ca4fdbfe0bf1ecd3a4d:atk/Pkgfile
+f:495e3491fecda2054954da0d590b04fb:atk/.md5sum
 f:e29f07a93d6c5a8dd58f1956ac7ff9a0:mate-doc-utils/.footprint
 f:9730c75f9793e92a82663a2d6b59a321:mate-doc-utils/Pkgfile
 f:0bc13ea2c490e664cf2d2c7e18583336:mate-doc-utils/.md5sum
