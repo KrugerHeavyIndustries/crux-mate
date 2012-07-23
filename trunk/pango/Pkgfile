@@ -11,9 +11,9 @@ source=(http://download.gnome.org/sources/$name/1.30/$name-$version.tar.xz \
 
 build () {
         cd $name-$version
-        ./configure --prefix=/usr --mandir=/usr/man
+        ./configure --prefix=/usr --mandir=/usr/man --enable-introspection=yes
         make
         make DESTDIR=$PKG install
         install -D -m 644 $SRC/pango.modules $PKG/usr/etc/pango/pango.modules
-        rm -r $PKG/usr/share
+      	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }
