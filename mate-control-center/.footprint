@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/mate-mouse-properties
 -rwxr-xr-x	root/root	usr/bin/mate-network-properties
 -rwxr-xr-x	root/root	usr/bin/mate-thumbnail-font
+-rwxr-xr-x	root/root	usr/bin/mate-typing-monitor
 -rwxr-xr-x	root/root	usr/bin/mate-window-properties
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/mate-window-settings-2.0/
@@ -79,10 +80,12 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/mate-network-properties.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/typing-monitor.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/mate-network-properties.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/mate-preferences-desktop-display.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/typing-monitor.svg
 drwxr-xr-x	root/root	usr/share/mate-control-center/
 drwxr-xr-x	root/root	usr/share/mate-control-center/default-apps/
 -rw-r--r--	root/root	usr/share/mate-control-center/default-apps/mate-default-applications.xml
@@ -92,6 +95,10 @@ drwxr-xr-x	root/root	usr/share/mate-control-center/keybindings/
 drwxr-xr-x	root/root	usr/share/mate-control-center/pixmaps/
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/at-startup.png
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/at-support.png
+-rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/bar-disabled.png
+-rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/bar-green.png
+-rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/bar-red.png
+-rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/bar.png
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/double-click-maybe.png
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/double-click-off.png
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/double-click-on.png
@@ -101,6 +108,7 @@ drwxr-xr-x	root/root	usr/share/mate-control-center/pixmaps/
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/mouse-cursor-normal.png
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/mouse-cursor-white-large.png
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/mouse-cursor-white.png
+-rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/ocean-stripes.png
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/subpixel-bgr.png
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/subpixel-rgb.png
 -rw-r--r--	root/root	usr/share/mate-control-center/pixmaps/subpixel-vbgr.png

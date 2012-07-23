@@ -74,7 +74,7 @@ f:bdc3a2c6607de648f64ad1589016c17e:libmatenotify/.footprint
 f:8d34df9fd761ca1441d8877e2ed8b1c1:libmatenotify/Pkgfile
 f:101fcf8d5f2ad829e4bb7cd560b50268:libmatenotify/.md5sum
 f:97a0f7ac5a112676696fc87414f49651:mate-control-center/post-install
-f:c022fe8100db372e4974deb0fc795761:mate-control-center/.footprint
+f:efe413f2ca8fd52896e208d16232fabb:mate-control-center/.footprint
 f:268940c9da99f334bde472b551e4f4f7:mate-control-center/Pkgfile
 f:7eca44bdf8157f5a4bbef7a618580f4e:mate-control-center/.md5sum
 f:ab79c108a7de1fb7962e7171891f1ce5:libmatecomponentui/.footprint
@@ -111,7 +111,7 @@ f:5bbc3e51ea67ce6231f961c389e1be16:libtasn1/.footprint
 f:cebea83afe1f46e855765170cafc5bd3:libtasn1/Pkgfile
 f:76fb59b3e38d27604c717e9df2380e39:libtasn1/.md5sum
 f:bdffc43fdf2757db15018366fe2e15b1:libwnck/.footprint
-f:55ad82b7645eeafff60ab3297f49076e:libwnck/Pkgfile
+f:628cae9a3bfee5b4eb4afd1abd6ccc82:libwnck/Pkgfile
 f:56c87461cd5c499853fab828ad367948:libwnck/.md5sum
 f:9b31e62e130669a1ae8808030925a92b:mate-themes/.footprint
 f:0a49f745109661755a4a772d3c5af77b:mate-themes/Pkgfile
@@ -168,7 +168,7 @@ f:c6a6cf306ee6730c3a42fa9b20479fe7:p5-xml-simple/.footprint
 f:952a880021ffe493d1b4a7c6f87d7f66:p5-xml-simple/Pkgfile
 f:1ef8f199a0cfe0e8c94ad1e4882b917d:p5-xml-simple/.md5sum
 f:28dc48506c44f18fd7c4c249cd7da1c2:mate/.footprint
-f:cdecb53f4b5cf61e41c7f729947af2cf:mate/Pkgfile
+f:21df6701d813c71a0451702593597525:mate/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:mate/.md5sum
 f:1f3193eb86a79aecf69cd0c73e2016d4:mate-conf/.footprint
 f:f1ffb39aafc141bbf946879d5460ff8c:mate-conf/Pkgfile
