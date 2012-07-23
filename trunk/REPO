@@ -198,7 +198,7 @@ f:3f4c11f9f9e8b438215245677cd81799:libcanberra/.footprint
 f:f1ffb39aafc141bbf946879d5460ff8c:mate-conf/Pkgfile
 f:f6f77794f1e57941bfc73e1b989c3700:mate-conf/.md5sum
 f:1f3193eb86a79aecf69cd0c73e2016d4:mate-conf/.footprint
-f:f5a9428ecc1a0b319da6d1e4a6016805:libmatekbd/Pkgfile
+f:2486ae83cd271ac127da4909d8fa88bc:libmatekbd/Pkgfile
 f:bfc20119ae6fae28836a141aecaee96b:libmatekbd/.md5sum
 f:c05065ca011603ebb175e5aa1e9a523f:libmatekbd/post-install
 f:fbe73e4b83b42a1c3fffd4f9bf3fd8c3:libmatekbd/.footprint
