@@ -1,7 +1,7 @@
 # Description: An image loading library for GTK+
 # URL: http://www.gtk.org/
 # Maintainer: Chris Kruger
-# Depends on: glib, xorg-libx11, libpng, libtiff, libjpeg
+# Depends on: glib, xorg-libx11, libpng, libtiff, libjpeg, gobject-introspection
 
 name=gdk-pixbuf
 version=2.26.1
@@ -13,7 +13,7 @@ build () {
     cd $name-$version
 
     ./configure --prefix=/usr --mandir=/usr/man --disable-nls \
-                --without-libjasper --with-x11
+		--without-libjasper --with-x11 --enable-introspection
     make
     make DESTDIR=$PKG install
 

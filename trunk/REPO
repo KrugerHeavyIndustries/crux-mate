@@ -58,10 +58,10 @@ f:37a4bbf42b34f75b0fdf4ac1e7a33db7:libmatekeyring/Pkgfile
 f:8bf391313421c000464f7e357b09c0c9:libmatekeyring/.md5sum
 f:ac32c3c962649f927bfe4cdd1202e7f8:libmatekeyring/.footprint
 f:d5311640870a5de1dc8aefcb4509a99d:gdk-pixbuf/gdk-pixbuf-register.sh
-f:27ca46ac3244fe670387418f94e9d202:gdk-pixbuf/Pkgfile
+f:634f7cacace4bb08585da0431540d3fa:gdk-pixbuf/Pkgfile
 f:8b45e6bd5e9b4baa0831269d3da692ab:gdk-pixbuf/.md5sum
-f:3cc21759f03fd8ae90fd1502003d7c78:gdk-pixbuf/.footprint
-f:11c2c72246d5b91f324357adf3b669a4:gdk-pixbuf/gdk-pixbuf.loaders
+f:07908ccfb88a0ebb916797efd4d96f49:gdk-pixbuf/.footprint
+f:705e57bfb7d5d40d9b0ebce364a12cf6:gdk-pixbuf/gdk-pixbuf.loaders
 f:8d34df9fd761ca1441d8877e2ed8b1c1:libmatenotify/Pkgfile
 f:101fcf8d5f2ad829e4bb7cd560b50268:libmatenotify/.md5sum
 f:bdc3a2c6607de648f64ad1589016c17e:libmatenotify/.footprint
@@ -96,7 +96,7 @@ f:191f1b4a438f72c98c4a451de9956023:mate-session-manager/.footprint
 f:3661c92220d243c25d87d608ac1be08d:icon-naming-utils/Pkgfile
 f:18df5ee2a095543cc236853c07092b02:icon-naming-utils/.md5sum
 f:73effac44b3c0c3845d596fc199fee5f:icon-naming-utils/.footprint
-f:357599c1a0b1d801b5a0e33bb8b35033:pango/Pkgfile
+f:65f5da4efcf8f074739246c4bd491328:pango/Pkgfile
 f:729d86b95a816d4eaa6db2d04859d014:pango/.md5sum
 f:cacf51a730f6d86697f3a62e5d0b4624:pango/.footprint
 f:4b00848e60b7eb1dfb2274e59666c1ba:pango/pango.modules
@@ -124,7 +124,7 @@ f:5bbc3e51ea67ce6231f961c389e1be16:libtasn1/.footprint
 f:23298ab700be50c010d1798cf3898ee0:consolekit/Pkgfile
 f:2f4a442c612a73b7c14ea6d77ac2674b:consolekit/.md5sum
 f:a921af82fc223d72f84610980af4daeb:consolekit/.footprint
-f:219f909837982ca4fdbfe0bf1ecd3a4d:atk/Pkgfile
+f:6d43a5809360455cebafbc7eff1e66e6:atk/Pkgfile
 f:495e3491fecda2054954da0d590b04fb:atk/.md5sum
 f:99424ea49e7718e001499b7a3158d432:atk/.footprint
 f:76b0855ace09d1c39e67fa1a880bfce3:libmateweather/Pkgfile
@@ -141,7 +141,7 @@ f:1852a6f0cc4c7d93e95c1d47317c0142:libmateui/Pkgfile
 f:4968d49122b3e4d952b09573a4508391:libmateui/.md5sum
 f:af8da3802053d2b3de5c532b144923f9:libmateui/.footprint
 f:943d209df9d2cbdde16263b7bbfd4c10:gtk/gtk-register.sh
-f:cb62ab026c9f45a09370e2e43df39776:gtk/Pkgfile
+f:a3218d89c6c0e7951fe3b0f39155a070:gtk/Pkgfile
 f:3b7dc799c57517375dc91d639b1194e6:gtk/.md5sum
 f:c3aaa13cc4a1bb793d4f4762162272d2:gtk/.footprint
 f:a6cdd690ac73609daf7cd4a553bc9739:gtk/gtk.immodules

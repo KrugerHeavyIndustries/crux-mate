@@ -1,7 +1,7 @@
 # Description: A multi-platform toolkit for creating graphical user interfaces. MATE specific configuration
 # URL: http://www.gtk.org/
 # Maintainer: Chris Kruger
-# Depends on: atk, hicolor-icon-theme, gdk-pixbuf, pango, xorg-libsm, xorg-libxcursor, xorg-libxinerama, xorg-libxrandr, xorg-libxcomposite
+# Depends on: atk, hicolor-icon-theme, gdk-pixbuf, pango, xorg-libsm, xorg-libxcursor, xorg-libxinerama, xorg-libxrandr, xorg-libxcomposite, gobject-introspection
 
 name=gtk
 version=2.24.11
@@ -12,7 +12,7 @@ source=(http://download.gnome.org/sources/gtk+/2.24/${name}+-$version.tar.xz \
 build () {
     cd gtk+-$version
 
-    ./configure --prefix=/usr --mandir=/usr/man
+    ./configure --prefix=/usr --mandir=/usr/man --enable-introspection
     make
     make DESTDIR=$PKG install
     mkdir -p $PKG/usr/etc/gtk-2.0
