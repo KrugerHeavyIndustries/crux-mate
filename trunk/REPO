@@ -85,7 +85,7 @@ f:9eca4238587f5bd5450eae0dfb2b3841:libsoup/.footprint
 f:9730c75f9793e92a82663a2d6b59a321:mate-doc-utils/Pkgfile
 f:0bc13ea2c490e664cf2d2c7e18583336:mate-doc-utils/.md5sum
 f:e29f07a93d6c5a8dd58f1956ac7ff9a0:mate-doc-utils/.footprint
-f:268940c9da99f334bde472b551e4f4f7:mate-control-center/Pkgfile
+f:1e60bac350d07a3c13a0d3334bab847e:mate-control-center/Pkgfile
 f:7eca44bdf8157f5a4bbef7a618580f4e:mate-control-center/.md5sum
 f:97a0f7ac5a112676696fc87414f49651:mate-control-center/post-install
 f:efe413f2ca8fd52896e208d16232fabb:mate-control-center/.footprint
@@ -173,6 +173,7 @@ f:062c70f3eedb1f040b6b9d37ad9d17ad:mate-terminal/post-install
 f:55d665cfbbe08ad24209d95b42cf69fc:mate-terminal/.footprint
 f:f61a687919325e35f9a4d1ef710e60c3:mate-keyring/Pkgfile
 f:5ff3ed2c89f0d3c941fc8b9afa7ec535:mate-keyring/.md5sum
+f:deb67fc65caef854bfac66561d990307:mate-keyring/post-install
 f:ca30663527ab916fcb2537473f07db6f:mate-keyring/.footprint
 f:7b97fe005c6112ba0496860c410bdaf0:mate-panel/Pkgfile
 f:9fb9a9387f59e91f3dc3efe76ee7b48f:mate-panel/.md5sum
