@@ -15,6 +15,7 @@ d:mate-notification-daemon
 d:mate-menus
 d:mate-dialogs
 d:libtasn1
+d:libwnck
 d:mate-themes
 d:libmatecanvas
 d:gobject-introspection
@@ -109,6 +110,9 @@ f:c17c668ab3d7b1039a27a689dfb229c1:mate-dialogs/.md5sum
 f:5bbc3e51ea67ce6231f961c389e1be16:libtasn1/.footprint
 f:cebea83afe1f46e855765170cafc5bd3:libtasn1/Pkgfile
 f:76fb59b3e38d27604c717e9df2380e39:libtasn1/.md5sum
+f:bdffc43fdf2757db15018366fe2e15b1:libwnck/.footprint
+f:55ad82b7645eeafff60ab3297f49076e:libwnck/Pkgfile
+f:56c87461cd5c499853fab828ad367948:libwnck/.md5sum
 f:9b31e62e130669a1ae8808030925a92b:mate-themes/.footprint
 f:0a49f745109661755a4a772d3c5af77b:mate-themes/Pkgfile
 f:2a00ffc008060c529effeef59828fa17:mate-themes/.md5sum
