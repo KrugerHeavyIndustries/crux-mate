@@ -28,6 +28,7 @@ d:libmatecomponent
 d:libmate
 d:consolekit
 d:js185
+d:libunique
 d:mate-polkit
 d:p5-xml-simple
 d:mate
@@ -152,6 +153,10 @@ f:2f4a442c612a73b7c14ea6d77ac2674b:consolekit/.md5sum
 f:312baa2fbc11592afd43a914d89173e1:js185/.footprint
 f:2e2a23468aa47f598b3fbe3a5b8084ab:js185/Pkgfile
 f:7be36f835c9e8a9c1f3f3f1de5719f5e:js185/.md5sum
+f:2a4ad2c73caabee7ed2d943653d76eaa:libunique/libunique.patch
+f:89c719aff1c2335150872c3eb03e8868:libunique/.footprint
+f:5a3bacae60d175b58c22dd90d89ba6de:libunique/Pkgfile
+f:4dd729a9a51609da2ca3ca9e541f7b93:libunique/.md5sum
 f:5aeb4d8406c05320424422545a85ecd8:mate-polkit/.footprint
 f:1c9cabe2014515a58c1a9154df66c247:mate-polkit/Pkgfile
 f:1b8157157ec953be17bf1cbfb16f480f:mate-polkit/.md5sum
