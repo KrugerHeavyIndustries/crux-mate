@@ -1,5 +1,5 @@
 # Description: The GObject Introspection is used to describe program APIs 
-# Maintainer: Chris Kruger
+# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
 # Group: mate
 # Depends on: glib
 
