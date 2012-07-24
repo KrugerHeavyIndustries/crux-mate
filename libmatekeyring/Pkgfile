@@ -1,7 +1,7 @@
 # Description: MATE project Crypto Key Management Library
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool glib libgcrypt
+# Depends on: intltool glib libgcrypt gtk-doc
 
 name=libmatekeyring
 base=1.2
