@@ -1,6 +1,6 @@
 # Description: An image loading library for GTK+
 # URL: http://www.gtk.org/
-# Maintainer: Chris Kruger
+# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
 # Depends on: glib, xorg-libx11, libpng, libtiff, libjpeg, gobject-introspection
 
 name=gdk-pixbuf
