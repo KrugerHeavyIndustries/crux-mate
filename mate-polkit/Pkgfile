@@ -1,5 +1,5 @@
 # Description: MATE project Policy Kit interface
-# Maintainer: Chris Kruger
+# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
 # Group: mate
 # Depends on: intltool gtk gtk-doc polkit
 
