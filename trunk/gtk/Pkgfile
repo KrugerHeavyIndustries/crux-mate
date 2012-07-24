@@ -1,11 +1,11 @@
-# Description: A multi-platform toolkit for creating graphical user interfaces. MATE specific configuration
+# Description: A multi-platform toolkit for creating graphical user interfaces. (MATE specific configuration)
 # URL: http://www.gtk.org/
-# Maintainer: Chris Kruger
+# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
 # Depends on: atk, hicolor-icon-theme, gdk-pixbuf, pango, xorg-libsm, xorg-libxcursor, xorg-libxinerama, xorg-libxrandr, xorg-libxcomposite, gobject-introspection
 
 name=gtk
 version=2.24.11
-release=1
+release=2
 source=(http://download.gnome.org/sources/gtk+/2.24/${name}+-$version.tar.xz \
         gtk.immodules gtk-register.sh)
 

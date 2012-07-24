@@ -1,11 +1,11 @@
 # Description: UPower package provides interface to enumerating power devices
-# Maintainer: Chris Kruger
+# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
 # Group: mate
 # Depends on: intltool polkit udev dbus-glib
 
 name=upower
 version=0.9.17
-release=1
+release=2
 source=(http://upower.freedesktop.org/releases/$name-$version.tar.xz)
 
 build() {

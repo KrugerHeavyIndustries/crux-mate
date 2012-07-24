@@ -1,7 +1,7 @@
 # Description: MATE Desktop Environment (a fork of gnome2)
 # URL: http://mate-desktop.org
 # Maintainer: Chris Kruger
-# Depends on: mate-common mate-doc-utils mate-corba mate-conf libmatecomponent mate-mime-data mate-vfs libmate libmatecanvas libmatecomponentui libmatekeyring mate-keyring libmateui libmatenotify libmatekbd libmateweather mate-icon-theme mate-dialogs mate-desktop mate-file-manager mate-notification-daemon mate-backgrounds mate-menus mate-window-manager mate-polkit mate-settings-daemon mate-control-center mate-panel mate-session-manager mate-themes mate-terminal consolekit
+# Depends on: mate-common mate-doc-utils mate-corba mate-conf libmatecomponent mate-mime-data mate-vfs libmate libmatecanvas libmatecomponentui libmatekeyring mate-keyring libmateui libmatenotify libmatekbd libmateweather mate-icon-theme mate-dialogs mate-desktop mate-file-manager mate-notification-daemon mate-backgrounds mate-menus mate-window-manager polkit mate-settings-daemon mate-control-center mate-panel mate-session-manager mate-themes mate-terminal consolekit
 
 name=mate
 version=1.2

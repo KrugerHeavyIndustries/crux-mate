@@ -1,11 +1,11 @@
 # Description: A set of interfaces for accessibility (with MATE specific config)
 # URL: http://www.gtk.org/
-# Maintainer: Chris Kruger
+# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
 # Depends on: glib gobject-introspection
 
 name=atk
 version=2.4.0
-release=1
+release=2
 source=(http://download.gnome.org/sources/$name/2.4/$name-$version.tar.xz)
 
 build () {
