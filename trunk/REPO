@@ -126,7 +126,7 @@ f:9eca4238587f5bd5450eae0dfb2b3841:libsoup/.footprint
 f:d04de984ca31f487cde47503faec9700:libsoup/Pkgfile
 f:b0f853e1d17d3fbb0da3a89519382f24:libsoup/.md5sum
 f:ac32c3c962649f927bfe4cdd1202e7f8:libmatekeyring/.footprint
-f:37a4bbf42b34f75b0fdf4ac1e7a33db7:libmatekeyring/Pkgfile
+f:730c4aee734b213d8738fb484c4defc2:libmatekeyring/Pkgfile
 f:8bf391313421c000464f7e357b09c0c9:libmatekeyring/.md5sum
 f:e982ef5a71bfd5cb25ab1b0d03cc192d:mate-settings-daemon/post-install
 f:2ae85ea4ce7ae03a59fd945bb011a775:mate-settings-daemon/.footprint
