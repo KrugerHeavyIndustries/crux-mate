@@ -110,7 +110,7 @@ f:c17c668ab3d7b1039a27a689dfb229c1:mate-dialogs/.md5sum
 f:5bbc3e51ea67ce6231f961c389e1be16:libtasn1/.footprint
 f:cebea83afe1f46e855765170cafc5bd3:libtasn1/Pkgfile
 f:76fb59b3e38d27604c717e9df2380e39:libtasn1/.md5sum
-f:bdffc43fdf2757db15018366fe2e15b1:libwnck/.footprint
+f:0d99e542c616734e742a75c8be2da6be:libwnck/.footprint
 f:07da5638b668804b0966a9675482a5b7:libwnck/Pkgfile
 f:56c87461cd5c499853fab828ad367948:libwnck/.md5sum
 f:9b31e62e130669a1ae8808030925a92b:mate-themes/.footprint
@@ -159,7 +159,7 @@ f:89c719aff1c2335150872c3eb03e8868:libunique/.footprint
 f:5a3bacae60d175b58c22dd90d89ba6de:libunique/Pkgfile
 f:4dd729a9a51609da2ca3ca9e541f7b93:libunique/.md5sum
 f:a921af82fc223d72f84610980af4daeb:ConsoleKit/.footprint
-f:23298ab700be50c010d1798cf3898ee0:ConsoleKit/Pkgfile
+f:bb5dc7dab417d299e68f8eeba1b1e854:ConsoleKit/Pkgfile
 f:2f4a442c612a73b7c14ea6d77ac2674b:ConsoleKit/.md5sum
 f:5aeb4d8406c05320424422545a85ecd8:mate-polkit/.footprint
 f:6098ef2170be5afd48fec79e4d83c88c:mate-polkit/Pkgfile
@@ -168,7 +168,7 @@ f:c6a6cf306ee6730c3a42fa9b20479fe7:p5-xml-simple/.footprint
 f:952a880021ffe493d1b4a7c6f87d7f66:p5-xml-simple/Pkgfile
 f:1ef8f199a0cfe0e8c94ad1e4882b917d:p5-xml-simple/.md5sum
 f:28dc48506c44f18fd7c4c249cd7da1c2:mate/.footprint
-f:ae03057e626fd2f1e251524cf46d1e3e:mate/Pkgfile
+f:58efb7c10de5ea30a0b1177ec5049a47:mate/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:mate/.md5sum
 f:1f3193eb86a79aecf69cd0c73e2016d4:mate-conf/.footprint
 f:f1ffb39aafc141bbf946879d5460ff8c:mate-conf/Pkgfile
@@ -188,7 +188,7 @@ f:705e57bfb7d5d40d9b0ebce364a12cf6:gdk-pixbuf/gdk-pixbuf.loaders
 f:d5311640870a5de1dc8aefcb4509a99d:gdk-pixbuf/gdk-pixbuf-register.sh
 f:07908ccfb88a0ebb916797efd4d96f49:gdk-pixbuf/.footprint
 f:634f7cacace4bb08585da0431540d3fa:gdk-pixbuf/Pkgfile
-f:8b45e6bd5e9b4baa0831269d3da692ab:gdk-pixbuf/.md5sum
+f:2d57ae80aa4bfb33c99bc2ed6b1165ef:gdk-pixbuf/.md5sum
 f:b158f459edda548b7b34fa8108111a28:mate-window-manager/post-install
 f:2fe2f23977805c7086930a584110cabd:mate-window-manager/.footprint
 f:be731f0accf895667a30e394f7b7dcf6:mate-window-manager/Pkgfile
