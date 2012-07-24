@@ -18,5 +18,6 @@ build() {
 	--enable-introspection
 	make
 	make DESTDIR=$PKG install
+	install -d -m 0755 $PKG/etc/mateconf/mateconf.xml.system
 	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }
