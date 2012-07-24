@@ -7,6 +7,7 @@ drwxr-xr-x	root/root	etc/mateconf/2/
 -rw-r--r--	root/root	etc/mateconf/2/path
 drwxr-xr-x	root/root	etc/mateconf/mateconf.xml.defaults/
 drwxr-xr-x	root/root	etc/mateconf/mateconf.xml.mandatory/
+drwxr-xr-x	root/root	etc/mateconf/mateconf.xml.system/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/mateconf-merge-tree
