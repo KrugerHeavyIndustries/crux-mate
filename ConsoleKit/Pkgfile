@@ -5,11 +5,13 @@
 
 name=ConsoleKit
 version=0.4.5
-release=1
-source=(http://www.freedesktop.org/software/$name/dist/$name-$version.tar.bz2)
+release=2
+source=(http://www.freedesktop.org/software/$name/dist/$name-$version.tar.bz2 \
+	revert-4f8822.diff)
 
 build() {
 	cd ConsoleKit-$version
+	patch -p1 -i $SRC/revert-4f8822.diff
 	./configure --prefix=/usr \
 	--mandir=/usr/man \
 	--sysconfdir=/etc \
