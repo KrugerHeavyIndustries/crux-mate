@@ -58,7 +58,7 @@ f:730c4aee734b213d8738fb484c4defc2:libmatekeyring/Pkgfile
 f:8bf391313421c000464f7e357b09c0c9:libmatekeyring/.md5sum
 f:ac32c3c962649f927bfe4cdd1202e7f8:libmatekeyring/.footprint
 f:d5311640870a5de1dc8aefcb4509a99d:gdk-pixbuf/gdk-pixbuf-register.sh
-f:516c869a1229ade6f94b8a4858165b80:gdk-pixbuf/Pkgfile
+f:2ebea7dff5255c6e15877ba8dc1495ea:gdk-pixbuf/Pkgfile
 f:2d57ae80aa4bfb33c99bc2ed6b1165ef:gdk-pixbuf/.md5sum
 f:07908ccfb88a0ebb916797efd4d96f49:gdk-pixbuf/.footprint
 f:705e57bfb7d5d40d9b0ebce364a12cf6:gdk-pixbuf/gdk-pixbuf.loaders
