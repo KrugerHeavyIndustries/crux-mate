@@ -161,8 +161,9 @@ f:2730cd311763a73c9996e200e29e0a06:mate-conf-editor/Pkgfile
 f:bf286033d52da963abdd9fb2fd5dd3a0:mate-conf-editor/.md5sum
 f:58e87fad4b7cea4d581c25aeeb55b09c:mate-conf-editor/post-install
 f:2b9bfca1b12685b43460a111b100b2bf:mate-conf-editor/.footprint
-f:bb5dc7dab417d299e68f8eeba1b1e854:ConsoleKit/Pkgfile
-f:2f4a442c612a73b7c14ea6d77ac2674b:ConsoleKit/.md5sum
+f:e7d40e0fa5549790b8749b0ceff0ddc3:ConsoleKit/revert-4f8822.diff
+f:4169297bebddbabd22979f95b684d3ea:ConsoleKit/Pkgfile
+f:85ad54f19457d420e68324c0fef9b25a:ConsoleKit/.md5sum
 f:a921af82fc223d72f84610980af4daeb:ConsoleKit/.footprint
 f:6098ef2170be5afd48fec79e4d83c88c:mate-polkit/Pkgfile
 f:1b8157157ec953be17bf1cbfb16f480f:mate-polkit/.md5sum
