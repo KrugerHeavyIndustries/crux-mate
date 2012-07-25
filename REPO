@@ -51,7 +51,7 @@ d:js185
 d:mate-applets
 d:mate-window-manager
 d:gobject-introspection
-f:fa6958eccc9b9531400c6cc1b55496db:mate/Pkgfile
+f:3354b6e644ef2ec79eab55c365314408:mate/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:mate/.md5sum
 f:28dc48506c44f18fd7c4c249cd7da1c2:mate/.footprint
 f:730c4aee734b213d8738fb484c4defc2:libmatekeyring/Pkgfile
