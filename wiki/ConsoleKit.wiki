@@ -1,0 +1,18 @@
+#summary Notes for ConsoleKit in the crux-mate ports repository
+
+= ConsoleKit in crux-mate =
+
+Since CRUX does not use PAM for authentication it's generally disabled or otherwise avoided in ports. In the case of the on-its-way-out-but-still-used ConsoleKit/polkit/dbus stack, it isn't as easy as using an autotools configure switch.
+
+polkit has a switch for disabling PAM, *--with-authfw=shadow*, but ConsoleKit doesn't make it quite so easy. In order to get ConsoleKit working in CRUX with MATE there are two main options:
+
+  # Install and configure a PAM stack
+  # Remove the PAM requirement from ConsoleKit
+
+Since 1 is not a preferred option for most CRUX users, 2 is accomplished by reverting the following upstream patch: [http://cgit.freedesktop.org/ConsoleKit/commit/?id=4f88228f31a63c026c424a92827f26ad7535275c "Only set sessions to be is-local=true if set by a trusted party"]
+
+That trusted party is PAM in this case with a special connector for ConsoleKit.
+
+= Note =
+
+Please note that ConsoleKit is *NOT* required for a basic MATE desktop to work. It is required for extra functionality that ConsoleKit/polkit/dbus provide, such as changing CPU frequency scaling options or shutting down the system both from the MATE panel.
