@@ -1,13 +1,13 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/mateconf/
-drwxr-xr-x	root/root	etc/mateconf/schemas/
--rw-r--r--	root/root	etc/mateconf/schemas/mate-session.schemas
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/mate-session
 -rwxr-xr-x	root/root	usr/bin/mate-session-properties
 -rwxr-xr-x	root/root	usr/bin/mate-session-save
 -rwxr-xr-x	root/root	usr/bin/mate-wm
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/mateconf/
+drwxr-xr-x	root/root	usr/etc/mateconf/schemas/
+-rw-r--r--	root/root	usr/etc/mateconf/schemas/mate-session.schemas
 drwxr-xr-x	root/root	usr/man/
 drwxr-xr-x	root/root	usr/man/man1/
 -rw-r--r--	root/root	usr/man/man1/mate-session-properties.1.gz

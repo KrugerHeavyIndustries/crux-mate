@@ -6,12 +6,12 @@
 name=mate-panel
 base=1.2
 version=1.2.1
-release=1
+release=2
 source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	./autogen.sh --prefix=/usr --sysconfdir=/etc \
+	./autogen.sh --prefix=/usr \
 	--mandir=/usr/man \
 	--localstatedir=/var \
 	--libexecdir=/usr/lib/mate-panel \

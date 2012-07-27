@@ -1,12 +1,12 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/matecomponent-activation/
--rw-r--r--	root/root	etc/matecomponent-activation/matecomponent-activation-config.xml
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/matecomponent-activation-client
 -rwxr-xr-x	root/root	usr/bin/matecomponent-activation-run-query
 -rwxr-xr-x	root/root	usr/bin/matecomponent-echo-client-2
 -rwxr-xr-x	root/root	usr/bin/matecomponent-slay
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/matecomponent-activation/
+-rw-r--r--	root/root	usr/etc/matecomponent-activation/matecomponent-activation-config.xml
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/libmatecomponent-2.0/
 -rw-r--r--	root/root	usr/include/libmatecomponent-2.0/libmatecomponent.h

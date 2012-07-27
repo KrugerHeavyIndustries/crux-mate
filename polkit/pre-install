@@ -3,7 +3,7 @@
 getent group polkitd || /usr/sbin/groupadd -fg 27 polkitd
 
 getent passwd polkitd || /usr/sbin/useradd -c "PolicyKit Daemon Owner" \
-	-d /etc/polkit-1 -u 27 \
+	-d /usr/etc/polkit-1 -u 27 \
 	-g polkitd -s /bin/false polkitd
 
 passwd -l polkitd

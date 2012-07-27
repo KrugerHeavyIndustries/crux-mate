@@ -4,13 +4,15 @@
 # Depends on: gtk mate-common mate-corba dbus dbus-glib gobject-introspection polkit
 
 name=mate-conf
+base=1.2
 version=1.2.1
-release=1.2
-source=(http://pub.mate-desktop.org/releases/$release/$name-$version.tar.xz)
+release=2
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	./autogen.sh --prefix=/usr --sysconfdir=/etc \
+	sed -i -e 's,/etc/mateconf,@sysmateconfdir@,g' mateconf/default.path.in
+	./autogen.sh --prefix=/usr \
 	--mandir=/usr/man \
 	--libexecdir=/usr/lib/MateConf \
 	--localstatedir=/var --disable-static \
@@ -18,6 +20,6 @@ build() {
 	--enable-introspection
 	make
 	make DESTDIR=$PKG install
-	install -d -m 0755 $PKG/etc/mateconf/mateconf.xml.system
+	install -d -m 0755 $PKG/usr/etc/mateconf/mateconf.xml.system
 	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }

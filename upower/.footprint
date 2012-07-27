@@ -1,9 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/UPower/
--rw-r--r--	root/root	etc/UPower/UPower.conf
-drwxr-xr-x	root/root	etc/dbus-1/
-drwxr-xr-x	root/root	etc/dbus-1/system.d/
--rw-r--r--	root/root	etc/dbus-1/system.d/org.freedesktop.UPower.conf
 drwxr-xr-x	root/root	lib/
 drwxr-xr-x	root/root	lib/udev/
 drwxr-xr-x	root/root	lib/udev/rules.d/
@@ -19,6 +13,12 @@ drwxr-xr-x	root/root	lib/udev/rules.d/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/upower
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/UPower/
+-rw-r--r--	root/root	usr/etc/UPower/UPower.conf
+drwxr-xr-x	root/root	usr/etc/dbus-1/
+drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
+-rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.freedesktop.UPower.conf
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/libupower-glib/
 -rw-r--r--	root/root	usr/include/libupower-glib/up-client.h

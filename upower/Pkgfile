@@ -5,12 +5,12 @@
 
 name=upower
 version=0.9.17
-release=2
+release=3
 source=(http://upower.freedesktop.org/releases/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	./configure --prefix=/usr --sysconfdir=/etc \
+	./configure --prefix=/usr \
 	--mandir=/usr/man \
 	--localstatedir=/var \
 	--libexecdir=/usr/lib/upower \
