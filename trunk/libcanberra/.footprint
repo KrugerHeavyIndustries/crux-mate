@@ -1,5 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/canberra-boot
 -rwxr-xr-x	root/root	usr/bin/canberra-gtk-play
 drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/canberra-gtk.h
@@ -13,6 +14,8 @@ drwxr-xr-x	root/root	usr/lib/gtk-2.0/modules/
 -rwxr-xr-x	root/root	usr/lib/gtk-2.0/modules/libcanberra-gtk-module.la
 -rwxr-xr-x	root/root	usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so
 drwxr-xr-x	root/root	usr/lib/libcanberra-0.29/
+-rwxr-xr-x	root/root	usr/lib/libcanberra-0.29/libcanberra-alsa.la
+-rwxr-xr-x	root/root	usr/lib/libcanberra-0.29/libcanberra-alsa.so
 -rwxr-xr-x	root/root	usr/lib/libcanberra-0.29/libcanberra-multi.la
 -rwxr-xr-x	root/root	usr/lib/libcanberra-0.29/libcanberra-multi.so
 -rwxr-xr-x	root/root	usr/lib/libcanberra-0.29/libcanberra-null.la

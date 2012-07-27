@@ -4,20 +4,18 @@
 # Depends on:
 
 name=mate-conf-editor
+base=1.2
 version=1.2.0
-release=1.2
-source=(http://pub.mate-desktop.org/releases/$release/$name-$version.tar.xz)
+release=2
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 	./autogen.sh --prefix=/usr \
 	--libdir=/usr/lib/mate-conf-editor \
 	--localstatedir=/var \
-	--sysconfdir=/etc \
 	--disable-scrollkeeper \
-	--disable-schemas-install \
-	--with-mateconf-source="xml::/etc/mateconf/mateconf.xml/defaults" \
-	--with-gconf-mandatory-source="xml::/etc/mateconf/mateconf.xml.mandatory" 
-	make -j 4
+	--disable-schemas-install
+	make
 	make DESTDIR=$PKG install
 }
