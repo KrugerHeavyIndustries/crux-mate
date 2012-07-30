@@ -4,9 +4,9 @@
 # Depends on: mate-conf intltool glib libtasn1 gtk
 
 name=mate-keyring
-base=1.2
-version=1.2.1
-release=2
+base=1.4
+version=1.4.0
+release=1
 source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 
 build() {

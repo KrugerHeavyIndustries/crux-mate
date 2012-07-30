@@ -4,8 +4,8 @@
 # Depends on: mate-common intltool glib gtk libart_lgpl libglade pango gtk-doc
 
 name=libmatecanvas
-base=1.2
-version=1.2.0
+base=1.4
+version=1.4.0
 release=1
 source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 

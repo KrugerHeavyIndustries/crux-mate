@@ -59,9 +59,9 @@ drwxr-xr-x	root/root	usr/lib/libglade/2.0/
 -rwxr-xr-x	root/root	usr/lib/libglade/2.0/libmate.la
 -rwxr-xr-x	root/root	usr/lib/libglade/2.0/libmate.so
 -rwxr-xr-x	root/root	usr/lib/libmateui-2.la
-lrwxrwxrwx	root/root	usr/lib/libmateui-2.so -> libmateui-2.so.0.196.4
-lrwxrwxrwx	root/root	usr/lib/libmateui-2.so.0 -> libmateui-2.so.0.196.4
--rwxr-xr-x	root/root	usr/lib/libmateui-2.so.0.196.4
+lrwxrwxrwx	root/root	usr/lib/libmateui-2.so -> libmateui-2.so.0.396.4
+lrwxrwxrwx	root/root	usr/lib/libmateui-2.so.0 -> libmateui-2.so.0.396.4
+-rwxr-xr-x	root/root	usr/lib/libmateui-2.so.0.396.4
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libmateui-2.0.pc
 drwxr-xr-x	root/root	usr/share/

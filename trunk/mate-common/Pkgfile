@@ -3,14 +3,16 @@
 # Group: mate
 
 name=mate-common
-version=1.2.1
-release=1.2
-source=(http://pub.mate-desktop.org/releases/$release/$name-$version.tar.xz mate-autogen.patch)
+base=1.4
+version=1.4.0
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz mate-autogen.patch)
 
 build() {
-	patch -p0 < mate-autogen.patch
+	#patch -p0 < mate-autogen.patch
 	cd $name-$version
-	./autogen.sh --prefix=/usr
+	./autogen.sh --prefix=/usr \
+		--mandir=/usr/man
 	make
 	make DESTDIR=$PKG install
 }

@@ -78,9 +78,9 @@ drwxr-xr-x	root/root	usr/include/mate-vfs-module-2.0/libmatevfs/
 -rw-r--r--	root/root	usr/include/mate-vfs-module-2.0/libmatevfs/mate-vfs-transform.h
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libmatevfs-2.la
-lrwxrwxrwx	root/root	usr/lib/libmatevfs-2.so -> libmatevfs-2.so.0.197.4
-lrwxrwxrwx	root/root	usr/lib/libmatevfs-2.so.0 -> libmatevfs-2.so.0.197.4
--rwxr-xr-x	root/root	usr/lib/libmatevfs-2.so.0.197.4
+lrwxrwxrwx	root/root	usr/lib/libmatevfs-2.so -> libmatevfs-2.so.0.396.4
+lrwxrwxrwx	root/root	usr/lib/libmatevfs-2.so.0 -> libmatevfs-2.so.0.396.4
+-rwxr-xr-x	root/root	usr/lib/libmatevfs-2.so.0.396.4
 drwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/
 drwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/include/
 -rw-r--r--	root/root	usr/lib/mate-vfs-2.0/include/mate-vfs-file-size.h
