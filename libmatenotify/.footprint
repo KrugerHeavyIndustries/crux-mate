@@ -5,11 +5,12 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/libmatenotify/
 -rw-r--r--	root/root	usr/include/libmatenotify/notification.h
 -rw-r--r--	root/root	usr/include/libmatenotify/notify-enum-types.h
+-rw-r--r--	root/root	usr/include/libmatenotify/notify-features.h
 -rw-r--r--	root/root	usr/include/libmatenotify/notify.h
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libmatenotify.la
-lrwxrwxrwx	root/root	usr/lib/libmatenotify.so -> libmatenotify.so.1.2.3
-lrwxrwxrwx	root/root	usr/lib/libmatenotify.so.1 -> libmatenotify.so.1.2.3
--rwxr-xr-x	root/root	usr/lib/libmatenotify.so.1.2.3
+lrwxrwxrwx	root/root	usr/lib/libmatenotify.so -> libmatenotify.so.1.3.0
+lrwxrwxrwx	root/root	usr/lib/libmatenotify.so.1 -> libmatenotify.so.1.3.0
+-rwxr-xr-x	root/root	usr/lib/libmatenotify.so.1.3.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libmatenotify.pc

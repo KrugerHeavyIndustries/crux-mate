@@ -4,7 +4,6 @@
 # Depends on: p5-xml-simple
 
 name=icon-naming-utils
-base=1.2
 version=0.8.90
 release=1
 source=(http://tango.freedesktop.org/releases/$name-$version.tar.bz2)

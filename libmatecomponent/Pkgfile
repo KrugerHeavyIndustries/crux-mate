@@ -4,14 +4,14 @@
 # Depends on: mate-common mate-corba flex popt
 
 name=libmatecomponent
-base=1.2
-version=1.2.1
-release=2
+base=1.4
+version=1.4.0
+release=1
 source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz
 	$name.patch)
 
 build() {
-	patch -p0 < $name.patch
+	#patch -p0 < $name.patch
 	cd $name-$version
 	./autogen.sh --prefix=/usr \
 	--mandir=/usr/man \

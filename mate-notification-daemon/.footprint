@@ -8,6 +8,10 @@ drwxr-xr-x	root/root	usr/etc/mateconf/schemas/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/mate-notification-daemon/
 drwxr-xr-x	root/root	usr/lib/mate-notification-daemon/engines/
+-rwxr-xr-x	root/root	usr/lib/mate-notification-daemon/engines/libcoco.la
+-rwxr-xr-x	root/root	usr/lib/mate-notification-daemon/engines/libcoco.so
+-rwxr-xr-x	root/root	usr/lib/mate-notification-daemon/engines/libnodoka.la
+-rwxr-xr-x	root/root	usr/lib/mate-notification-daemon/engines/libnodoka.so
 -rwxr-xr-x	root/root	usr/lib/mate-notification-daemon/engines/libslider.la
 -rwxr-xr-x	root/root	usr/lib/mate-notification-daemon/engines/libslider.so
 -rwxr-xr-x	root/root	usr/lib/mate-notification-daemon/engines/libstandard.la

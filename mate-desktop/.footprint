@@ -28,6 +28,8 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/mate-about.desktop
 drwxr-xr-x	root/root	usr/share/libmate-desktop/
 -rw-r--r--	root/root	usr/share/libmate-desktop/pnp.ids
+drwxr-xr-x	root/root	usr/share/mate-about/
+-rw-r--r--	root/root	usr/share/mate-about/mate-version.xml
 drwxr-xr-x	root/root	usr/share/mate/
 drwxr-xr-x	root/root	usr/share/mate/help/
 drwxr-xr-x	root/root	usr/share/mate/help/fdl/
@@ -187,6 +189,3 @@ drwxr-xr-x	root/root	usr/share/omf/lgpl/
 -rw-r--r--	root/root	usr/share/omf/lgpl/lgpl-uk.omf
 -rw-r--r--	root/root	usr/share/omf/lgpl/lgpl-vi.omf
 -rw-r--r--	root/root	usr/share/omf/lgpl/lgpl-zh_CN.omf
-drwxr-xr-x	root/root	usr/share/pixmaps/
--rw-r--r--	root/root	usr/share/pixmaps/nyan-cat.gif
--rw-r--r--	root/root	usr/share/pixmaps/nyan-cat_navideno_v3.png
