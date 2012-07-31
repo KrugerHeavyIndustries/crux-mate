@@ -29,6 +29,7 @@ d:libmate
 d:mate-common
 d:libunique
 d:mate-backgrounds
+d:mate-icon-theme-faenza
 d:mate-conf-editor
 d:ConsoleKit
 d:mate-polkit
@@ -160,6 +161,10 @@ f:89c719aff1c2335150872c3eb03e8868:libunique/.footprint
 f:f00b0500b72fe7cae07431da565721b6:mate-backgrounds/Pkgfile
 f:3b1766679829e1aea50a1d86b3ecea52:mate-backgrounds/.md5sum
 f:ea2b66b35e159285a9e7a149f5258134:mate-backgrounds/.footprint
+f:be2e11d80ebcbf560bcceb35276622ed:mate-icon-theme-faenza/Pkgfile
+f:441b3993c6dc86e5c18ce1cee2bfb4be:mate-icon-theme-faenza/.md5sum
+f:8d916af809eeb14d6c6fed853521fa0d:mate-icon-theme-faenza/post-install
+f:7bb8c1489d87818f98d6d472bd002af2:mate-icon-theme-faenza/.footprint
 f:64ccfdf064182c7caea9f4f98d48d9f0:mate-conf-editor/Pkgfile
 f:56752772ddcbb21a0b3f3c4475618610:mate-conf-editor/.md5sum
 f:f8beeea71adeb6004da8daf4bf816df8:mate-conf-editor/post-install
