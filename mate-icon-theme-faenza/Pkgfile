@@ -1,0 +1,18 @@
+# Description: MATE project Theme Icons 
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: mate-common
+
+name=mate-icon-theme-faenza
+base=1.4
+version=1.4.0
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr 
+	make
+	sed -i -e 's,$(mkdir_p),mkdir -p,g' Makefile
+	make DESTDIR=$PKG install
+}
