@@ -13,6 +13,7 @@ drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/mate-vfs-2.0/
 drwxr-xr-x	root/root	usr/etc/mate-vfs-2.0/modules/
 -rw-r--r--	root/root	usr/etc/mate-vfs-2.0/modules/default-modules.conf
+-rw-r--r--	root/root	usr/etc/mate-vfs-2.0/modules/smb-module.conf
 -rw-r--r--	root/root	usr/etc/mate-vfs-2.0/modules/ssl-modules.conf
 drwxr-xr-x	root/root	usr/etc/mateconf/
 drwxr-xr-x	root/root	usr/etc/mateconf/schemas/
@@ -105,6 +106,8 @@ drwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/modules/
 -rwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/modules/libnntp.so
 -rwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/modules/libsftp.la
 -rwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/modules/libsftp.so
+-rwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/modules/libsmb.la
+-rwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/modules/libsmb.so
 -rwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/modules/libtar.la
 -rwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/modules/libtar.so
 -rwxr-xr-x	root/root	usr/lib/mate-vfs-2.0/modules/libvfs-test.la

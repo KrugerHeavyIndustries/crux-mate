@@ -1,7 +1,7 @@
 # Description: MATE project VFS (Virtual File System) 
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: mate-common mate-conf intltool glib gvfs mate-mime-data
+# Depends on: mate-common mate-conf intltool glib gvfs mate-mime-data samba
 
 name=mate-vfs
 base=1.4
