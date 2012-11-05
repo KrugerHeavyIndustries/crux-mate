@@ -57,6 +57,9 @@ drwxr-xr-x	root/root	usr/lib/gobject-introspection/giscanner/
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/annotationparser.py
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/annotationparser.pyc
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/annotationparser.pyo
+-rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/annotationpatterns.py
+-rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/annotationpatterns.pyc
+-rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/annotationpatterns.pyo
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/ast.py
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/ast.pyc
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/ast.pyo
