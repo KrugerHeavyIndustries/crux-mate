@@ -1,0 +1,23 @@
+# Description: MATE project VFS (Virtual File System) 
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: mate-common mate-conf intltool glib gvfs mate-mime-data
+
+name=mate-vfs
+base=1.4
+version=1.4.0
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr \
+	--localstatedir=/var --disable-static \
+	--libexecdir=/usr/lib/mate-vfs \
+	--enable-samba --disable-hal \
+	--enable-avahi --disable-howl \
+	--enable-openssl --disable-gnutls
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+}
