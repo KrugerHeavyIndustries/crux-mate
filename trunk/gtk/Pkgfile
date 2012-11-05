@@ -4,9 +4,9 @@
 # Depends on: atk, hicolor-icon-theme, gdk-pixbuf, pango, xorg-libsm, xorg-libxcursor, xorg-libxinerama, xorg-libxrandr, xorg-libxcomposite, gobject-introspection
 
 name=gtk
-version=2.24.11
+version=2.24.13
 release=2
-source=(http://download.gnome.org/sources/gtk+/2.24/${name}+-$version.tar.xz \
+source=(http://download.gnome.org/sources/gtk+/${version:0:4}/${name}+-$version.tar.xz \
         gtk.immodules gtk-register.sh)
 
 build () {
