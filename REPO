@@ -67,7 +67,7 @@ f:ba872e7bdc5d743893ab868f67d35d7e:libmatenotify/Pkgfile
 f:ace4fee264c6b4584e72a615822deae0:libmatenotify/.md5sum
 f:edd6bb6241edf62442dbab4e32c26a9a:libmatenotify/.footprint
 f:2a4ad2c73caabee7ed2d943653d76eaa:libunique/libunique.patch
-f:5a3bacae60d175b58c22dd90d89ba6de:libunique/Pkgfile
+f:a1f64372cbbf4d973b6f2af56b98c87b:libunique/Pkgfile
 f:4dd729a9a51609da2ca3ca9e541f7b93:libunique/.md5sum
 f:89c719aff1c2335150872c3eb03e8868:libunique/.footprint
 f:580393c2f4c1c3cdf69a945c0705f19b:pango/Pkgfile
@@ -112,7 +112,7 @@ f:5da1924e69841eeb87e09fd8310a7320:mate-control-center/Pkgfile
 f:3cbb7e5b04700f086575a32a162ebb89:mate-control-center/post-install
 f:6253c0ba084b9a402cf73d47574219c1:mate-control-center/.md5sum
 f:705ad7c9ff18ff5cac7f3cc65acfa5b7:mate-control-center/.footprint
-f:53078ef48f61c751fd86efa582e9ce18:rarian/Pkgfile
+f:97ecc0c8c6b8db515bf8e5ad17e15b01:rarian/Pkgfile
 f:16da411c37f733f8daab7044e93fbeda:rarian/.md5sum
 f:327576ca244ed3604732485881e782de:rarian/.footprint
 f:cd8396c58f103f800b0b5c1c0e3688c5:libmateui/Pkgfile
