@@ -1,6 +1,7 @@
 # Description: A documentation metadata library
 # Maintainer: Chris Kruger
 # Group: mate
+# Depends on: libxslt
 
 name=rarian
 version=0.8.1
