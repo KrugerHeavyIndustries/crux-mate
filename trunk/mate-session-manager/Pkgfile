@@ -6,8 +6,9 @@
 name=mate-session-manager
 base=1.4
 version=1.4.0
-release=1
-source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+release=2
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz \
+	start-mate)
 
 build() {
 	cd $name-$version
@@ -19,4 +20,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 	rm -rf $PKG/usr/share/locale
+
+	install -o root -g root -m 0755 $SRC/start-mate $PKG/usr/bin/
 }

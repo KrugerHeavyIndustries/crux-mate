@@ -144,10 +144,11 @@ f:be099be2c1bc434c90d9525f5de2e7fb:gobject-introspection/.footprint
 f:d04de984ca31f487cde47503faec9700:libsoup/Pkgfile
 f:b0f853e1d17d3fbb0da3a89519382f24:libsoup/.md5sum
 f:9eca4238587f5bd5450eae0dfb2b3841:libsoup/.footprint
-f:7bab39b9cdffa0512e2943ac731eed8b:mate-session-manager/Pkgfile
+f:ce13722333eb5eb43e44304185581045:mate-session-manager/start-mate
+f:e07129b9faf601d00c3126c2a8203b8d:mate-session-manager/Pkgfile
 f:ea3886971ef983c6c4d5c9ce651b8c99:mate-session-manager/post-install
-f:d9524392c1594ac96429fbd1db1899bc:mate-session-manager/.md5sum
-f:d5e85b39bfa837da41a249c7bb5c216c:mate-session-manager/.footprint
+f:cd900c7b79826ed3c6422568055ba4dd:mate-session-manager/.md5sum
+f:b1b0fb5b27b62e9504c1d2a8d160cd8f:mate-session-manager/.footprint
 f:e992cc96624cc183cc2918455307d5de:libmatecomponent/Pkgfile
 f:11cf6d2b9a5557d95355363dffa7b941:libmatecomponent/libmatecomponent.patch
 f:0f3ddf5e8aec8a1f352db063e89b6b8b:libmatecomponent/.md5sum
