@@ -4,6 +4,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/mate-session-properties
 -rwxr-xr-x	root/root	usr/bin/mate-session-save
 -rwxr-xr-x	root/root	usr/bin/mate-wm
+-rwxr-xr-x	root/root	usr/bin/start-mate
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/mateconf/
 drwxr-xr-x	root/root	usr/etc/mateconf/schemas/
