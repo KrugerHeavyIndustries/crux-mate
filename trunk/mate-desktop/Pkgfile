@@ -4,10 +4,9 @@
 # Depends on: intltool gtk-doc mate-conf mate-doc-utils
 
 name=mate-desktop
-base=1.4
-version=1.4.1
+version=1.4.2
 release=1
-source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
