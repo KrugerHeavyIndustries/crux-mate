@@ -1,12 +1,12 @@
 # Description: A library for layout and rendering of text (MATE configuration)
 # URL: http://www.gtk.org/
 # Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com 
-# Depends on: cairo, glib, xorg-libsm, xorg-libxext, xorg-libxft, gobject-introspection
+# Depends on: cairo, glib, xorg-libsm, xorg-libxext, xorg-libxft, gobject-introspection, harfbuzz
 
 name=pango
-version=1.30.1
+version=1.32.4
 release=2
-source=(http://download.gnome.org/sources/$name/1.30/$name-$version.tar.xz \
+source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz \
         pango.modules)
 
 build () {
