@@ -215,10 +215,10 @@ f:5cca22b76ceb168c16032fc7103acf2b:mate-settings-daemon/.footprint
 f:af1d66fc501046d5959221993f2a20c6:mate-dialogs/.md5sum
 f:e5eeb1a89aa144b65e1e020f5a62c756:mate-dialogs/Pkgfile
 f:caebe032d348117df65cec727d4a0816:mate-dialogs/.footprint
-f:729d86b95a816d4eaa6db2d04859d014:pango/.md5sum
-f:580393c2f4c1c3cdf69a945c0705f19b:pango/Pkgfile
-f:4b00848e60b7eb1dfb2274e59666c1ba:pango/pango.modules
-f:cacf51a730f6d86697f3a62e5d0b4624:pango/.footprint
+f:d19b473459691482c3b98bc453e2ca53:pango/.md5sum
+f:2b37fb00c6cb39d24ecb897f83e4f3a1:pango/Pkgfile
+f:e22a6f499e6ffd132a7ba147bef5869f:pango/pango.modules
+f:a6488c1e72e6449ffeb9f2774a881f0d:pango/.footprint
 f:9aedceafb44d64b9f27cd4c6fb870aee:mate-window-manager/.md5sum
 f:bead6463d28cdc7020bc538d317c99ee:mate-window-manager/Pkgfile
 f:e7aacc8f31477c5df3e9959e715cb52c:mate-window-manager/post-install
