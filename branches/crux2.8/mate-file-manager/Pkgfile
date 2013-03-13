@@ -1,0 +1,23 @@
+# Description: MATE project File Manager
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: mate-desktop shared-mime-info intltool glib pango gtk libunique
+
+
+name=mate-file-manager
+base=1.4
+version=1.4.0
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr \
+		--mandir=/usr/man \
+		--localstatedir=/var --disable-static \
+		--libexecdir=/usr/lib/mate-file-manager \
+		--disable-update-mimedb
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+}

@@ -1,0 +1,25 @@
+# Description: MATE project configuration support
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: gtk mate-common mate-corba dbus dbus-glib gobject-introspection polkit
+
+name=mate-conf
+base=1.4
+version=1.4.0
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	sed -i -e 's,/etc/mateconf,@sysmateconfdir@,g' mateconf/default.path.in
+	./autogen.sh --prefix=/usr \
+	--mandir=/usr/man \
+	--libexecdir=/usr/lib/MateConf \
+	--localstatedir=/var --disable-static \
+	--enable-defaults-service --enable-gsettings-backend=no \
+	--enable-introspection
+	make
+	make DESTDIR=$PKG install
+	install -d -m 0755 $PKG/usr/etc/mateconf/mateconf.xml.system
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+}

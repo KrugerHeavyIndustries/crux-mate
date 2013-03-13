@@ -1,0 +1,23 @@
+# Description: MATE project component library 
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: mate-common mate-corba flex popt
+
+name=libmatecomponent
+base=1.4
+version=1.4.0
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz
+	$name.patch)
+
+build() {
+	#patch -p0 < $name.patch
+	cd $name-$version
+	./autogen.sh --prefix=/usr \
+	--mandir=/usr/man \
+	--localstatedir=/var --disable-static \
+	--libexecdir=/usr/lib/matecomponent
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+}

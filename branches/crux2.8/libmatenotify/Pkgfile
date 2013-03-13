@@ -1,0 +1,18 @@
+# Description: MATE project notifications support library
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: gtk glib mate-common gtk-doc dbus-glib
+
+name=libmatenotify
+base=1.4
+version=1.4.0
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr --disable-static 
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share
+}

@@ -1,0 +1,19 @@
+# Description: A library for layout and rendering of text (MATE configuration)
+# URL: http://www.gtk.org/
+# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com 
+# Depends on: cairo, glib, xorg-libsm, xorg-libxext, xorg-libxft, gobject-introspection
+
+name=pango
+version=1.30.1
+release=2
+source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz \
+        pango.modules)
+
+build () {
+        cd $name-$version
+        ./configure --prefix=/usr --mandir=/usr/man --enable-introspection=yes
+        make
+        make DESTDIR=$PKG install
+        install -D -m 644 $SRC/pango.modules $PKG/usr/etc/pango/pango.modules
+      	rm -rf $PKG/usr/share/{gtk-doc,locale}
+}
