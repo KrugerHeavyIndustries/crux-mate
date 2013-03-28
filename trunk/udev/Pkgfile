@@ -5,7 +5,7 @@
 
 name=udev
 version=182
-release=2
+release=3
 source=(ftp://ftp.kernel.org/pub/linux/utils/kernel/hotplug/$name-$version.tar.xz \
         81-crux.rules start_udev)
 
@@ -39,4 +39,8 @@ build() {
 
     # Remove junk
     rm -r $PKG/usr/share/{gtk-,}doc
+
+	# Add CD/DVD symlinks
+	sed -i -e '7s/write_cd_rules/& by-id/' \
+		$PKG/lib/udev/rules.d/75-cd-aliases-generator.rules
 }

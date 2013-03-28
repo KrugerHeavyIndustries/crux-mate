@@ -7,16 +7,16 @@ name=libmatecomponent
 base=1.4
 version=1.4.0
 release=1
-source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz
-	$name.patch)
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 
 build() {
-	#patch -p0 < $name.patch
 	cd $name-$version
+	sed -i -e 's,$(srcdir)/test-properties.sh,test/test-properties.sh,' \
+		tests/Makefile.am
 	./autogen.sh --prefix=/usr \
-	--mandir=/usr/man \
-	--localstatedir=/var --disable-static \
-	--libexecdir=/usr/lib/matecomponent
+		--mandir=/usr/man \
+		--localstatedir=/var --disable-static \
+		--libexecdir=/usr/lib/matecomponent
 	make
 	make DESTDIR=$PKG install
 	rm -rf $PKG/usr/share/{gtk-doc,locale}

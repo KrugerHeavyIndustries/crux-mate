@@ -1,25 +1,27 @@
-diff -ur mate-common-1.2.1/macros2/mate-autogen mate-common-1.2.1-patched/macros2/mate-autogen
---- mate-common-1.2.1/macros2/mate-autogen	2012-02-08 19:23:36.000000000 +0000
-+++ mate-common-1.2.1-patched/macros2/mate-autogen	2012-07-14 15:34:17.000000000 +0000
-@@ -316,13 +316,14 @@
+diff -urN mate-common-1.4.0.orig/macros/mate-autogen mate-common-1.4.0/macros/mate-autogen
+--- mate-common-1.4.0.orig/macros/mate-autogen	2012-07-05 11:46:36.000000000 -0500
++++ mate-common-1.4.0/macros/mate-autogen	2013-02-21 10:24:47.711625688 -0600
+@@ -316,14 +316,15 @@
  
  case $REQUIRED_AUTOMAKE_VERSION in
      1.4*) automake_progs="automake-1.4" ;;
--    1.5*) automake_progs="automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7 automake-1.6 automake-1.5" ;;
--    1.6*) automake_progs="automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7 automake-1.6" ;;
--    1.7*) automake_progs="automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7" ;;
--    1.8*) automake_progs="automake-1.11 automake-1.10 automake-1.9 automake-1.8" ;;
--    1.9*) automake_progs="automake-1.11 automake-1.10 automake-1.9" ;;
--    1.10*) automake_progs="automake-1.11 automake-1.10" ;;
--    1.11*) automake_progs="automake-1.11" ;;
-+    1.5*) automake_progs="automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7 automake-1.6 automake-1.5" ;;
-+    1.6*) automake_progs="automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7 automake-1.6" ;;
-+    1.7*) automake_progs="automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7" ;;
-+    1.8*) automake_progs="automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8" ;;
-+    1.9*) automake_progs="automake-1.12 automake-1.11 automake-1.10 automake-1.9" ;;
-+    1.10*) automake_progs="automake-1.12 automake-1.11 automake-1.10" ;;
-+    1.11*) automake_progs="automake-1.12 automake-1.11" ;;
-+    1.12*) automake_progs="automake-1.12" ;;
+-    1.5*) automake_progs="automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7 automake-1.6 automake-1.5" ;;
+-    1.6*) automake_progs="automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7 automake-1.6" ;;
+-    1.7*) automake_progs="automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7" ;;
+-    1.8*) automake_progs="automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8" ;;
+-    1.9*) automake_progs="automake-1.12 automake-1.11 automake-1.10 automake-1.9" ;;
+-    1.10*) automake_progs="automake-1.12 automake-1.11 automake-1.10" ;;
+-    1.11*) automake_progs="automake-1.12 automake-1.11" ;;
+-    1.12*) automake_progs="automake-1.12" ;;
++    1.5*) automake_progs="automake-1.13 automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7 automake-1.6 automake-1.5" ;;
++    1.6*) automake_progs="automake-1.13 automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7 automake-1.6" ;;
++    1.7*) automake_progs="automake-1.13 automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8 automake-1.7" ;;
++    1.8*) automake_progs="automake-1.13 automake-1.12 automake-1.11 automake-1.10 automake-1.9 automake-1.8" ;;
++    1.9*) automake_progs="automake-1.13 automake-1.12 automake-1.11 automake-1.10 automake-1.9" ;;
++    1.10*) automake_progs="automake-1.13 automake-1.12 automake-1.11 automake-1.10" ;;
++    1.11*) automake_progs="automake-1.13 automake-1.12 automake-1.11" ;;
++    1.12*) automake_progs="automake-1.13 automake-1.12" ;;
++    1.13*) automake_progs="automake-1.13" ;;
  esac
  version_check automake AUTOMAKE "$automake_progs" $REQUIRED_AUTOMAKE_VERSION \
      "http://ftp.gnu.org/pub/gnu/automake/automake-$REQUIRED_AUTOMAKE_VERSION.tar.gz"

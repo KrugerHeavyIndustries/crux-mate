@@ -12,8 +12,9 @@ source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
+	sed -i -e 's/AM_CONFIG_HEADER/AC_CONFIG_HEADERS/' configure.in
 	./autogen.sh --prefix=/usr \
-	--localstatedir=/var 
+		--localstatedir=/var 
 	make
 	make DESTDIR=$PKG install
 	rm -rf $PKG/usr/share/locale
