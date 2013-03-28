@@ -7,13 +7,13 @@ name=pango
 version=1.32.5
 release=2
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz \
-        pango.modules)
+	modules.cache)
 
 build () {
-        cd $name-$version
-        ./configure --prefix=/usr --mandir=/usr/man --enable-introspection=yes
-        make
-        make DESTDIR=$PKG install
-        install -D -m 644 $SRC/pango.modules $PKG/usr/etc/pango/pango.modules
-      	rm -rf $PKG/usr/share/{gtk-doc,locale}
+	cd $name-$version
+	./configure --prefix=/usr --mandir=/usr/man --enable-introspection=yes
+	make
+	make DESTDIR=$PKG install
+	install -D -m 644 $SRC/modules.cache $PKG/usr/lib/$name/1.8.0/modules.cache
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
 }
