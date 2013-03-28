@@ -13,6 +13,8 @@ source=(http://download.gnome.org/sources/$name/${version%.*}/$name-$version.tar
 build() {
 	export CFLAGS="${CFLAGS} -Wno-error"
 	cd $name-$version
+	sed -i -e 's/AM_CONFIG_HEADER/AC_CONFIG_HEADERS/' \
+		-e 's/AM_PROG_CC_STDC/AC_PROG_CC/' configure.ac
 	patch -p1 -i $SRC/$name.patch
 	autoreconf
 	./configure --prefix=/usr \
