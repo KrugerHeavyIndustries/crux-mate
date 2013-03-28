@@ -5,9 +5,9 @@
 
 name=gdk-pixbuf
 version=2.26.5
-release=2
+release=4
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz \
-        gdk-pixbuf.loaders gdk-pixbuf-register.sh)
+        loaders.cache gdk-pixbuf-register.sh)
 
 build () {
     cd $name-$version
@@ -17,7 +17,7 @@ build () {
     make
     make DESTDIR=$PKG install
 
-    install -m 644 $SRC/gdk-pixbuf.loaders \
+    install -m 644 $SRC/loaders.cache \
             $PKG/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache
     install -m 755 $SRC/gdk-pixbuf-register.sh \
             $PKG/usr/bin/gdk-pixbuf-register
