@@ -7,9 +7,10 @@ name=mate-vfs
 base=1.4
 version=1.4.0
 release=1
-source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz $name-$version.patch)
 
 build() {
+	patch -p0 < $name-$version.patch
 	cd $name-$version
 	sed -i -e 's/AM_CONFIG_HEADER/AC_CONFIG_HEADERS/' configure.in
 	sed -i -e 's,$(srcdir)/auto-test,test/auto-test,' test/Makefile.am
