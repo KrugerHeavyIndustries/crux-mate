@@ -5,7 +5,7 @@
 
 name=mate-corba
 base=1.4
-version=1.4.0
+version=1.4.1
 release=1
 source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
 
@@ -13,7 +13,7 @@ build() {
 	cd $name-$version
 	sed -i -e 's,$(srcdir)/test.sh,test/everything/test.sh,' \
 		test/everything/Makefile.am
-	./autogen.sh --prefix=/usr --disable-static
+	./autogen.sh --prefix=/usr --disable-static --disable-maintainer-mode
 	make
 	make DESTDIR=$PKG install
 	rm -rf $PKG/usr/share/gtk-doc

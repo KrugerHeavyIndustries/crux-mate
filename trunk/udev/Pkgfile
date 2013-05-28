@@ -1,7 +1,7 @@
 # Description: Userspace device management daemon (configured for MATE)
 # URL:         http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
 # Maintainer:  Chris Kruger crux-maint at krugerheavyindustries dot com
-# Depends on:  kmod gobject-introspection
+# Depends on:  kmod glib gobject gobject-introspection
 
 name=udev
 version=182
