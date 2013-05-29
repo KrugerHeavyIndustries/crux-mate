@@ -1,4 +1,0 @@
-#!/bin/sh
-
-/usr/bin/gtk-update-icon-cache -f -t -i /usr/share/icons/matefaenza
-/usr/bin/gtk-update-icon-cache -f -t -i /usr/share/icons/matefaenzadark

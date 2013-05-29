@@ -1,8 +1,0 @@
-# MATE collection
-# See http://mate-desktop.org
-#
-# Maintained by Kruger Heavy Industries
-# http://www.krugerheavyindustries.com
-  
-ROOT_DIR=/usr/ports/mate
-URL=http://crux-mate.googlecode.com/svn/trunk/
