@@ -1,0 +1,13 @@
+# Description: MATE Desktop Environment (a fork of gnome2)
+# URL: http://mate-desktop.org
+# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
+# Depends on: mate-common mate-doc-utils libmatekeyring mate-keyring libmatekbd libmateweather mate-icon-theme mate-dialogs mate-desktop mate-file-manager mate-notification-daemon mate-backgrounds mate-menus mate-window-manager mate-polkit mate-settings-daemon mate-control-center mate-panel mate-session-manager mate-themes mate-terminal ConsoleKit
+
+name=mate
+version=1.6
+release=1
+source=()
+
+build() {
+   install -d $PKG/usr
+}

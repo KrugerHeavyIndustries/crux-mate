@@ -1,0 +1,18 @@
+# Description: MATE project Theme Icons 
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: intltool icon-naming-utils mate-common
+
+name=mate-icon-theme
+version=1.6.0
+release=1
+source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+    NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr 
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/locale
+}

@@ -1,0 +1,21 @@
+# Description: MATE project settings Daemon
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: intltool glib gtk dbus-glib mate-desktop libmatekbd dconf polkit libnotify
+
+name=mate-settings-daemon
+version=1.6.0
+release=1
+source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+
+build() {
+	export CFLAGS="${CFLAGS} -I/usr/include/nspr"
+	cd $name-$version
+    NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr \
+        --libexecdir=/usr/lib/$name \
+        --disable-static
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}

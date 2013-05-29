@@ -1,0 +1,20 @@
+# Description: MATE project weather data support library 
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: intltool gtk libsoup mate-common gtk-doc
+
+name=libmateweather
+version=1.6.1
+release=1
+source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+    NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr \
+		--disable-static \
+		--enable-locations-compression
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+}
