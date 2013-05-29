@@ -1,0 +1,20 @@
+# Description: A collection of documentation utilities for the MATE project
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: intltool libxml2 libxslt rarian libxml2-python gtk-doc mate-common
+
+name=mate-doc-utils
+base=1.4
+version=1.4.0
+release=1
+source=(http://pub.mate-desktop.org/releases/$base/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr \
+		--mandir=/usr/man --localstatedir=/var \
+		--disable-scrollkeeper
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}

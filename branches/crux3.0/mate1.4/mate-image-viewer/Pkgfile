@@ -1,0 +1,20 @@
+# Description: MATE project Image Viewer
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: librsvg mate-desktop mate-icon-theme shared-mime-info
+
+name=mate-image-viewer
+version=1.4.0
+release=1
+source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr \
+		--disable-scrollkeeper \
+		--disable-schemas-install \
+		--disable-nls
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}

@@ -1,0 +1,286 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/gdialog
+-rwxr-xr-x	root/root	usr/bin/matedialog
+drwxr-xr-x	root/root	usr/man/
+drwxr-xr-x	root/root	usr/man/man1/
+-rw-r--r--	root/root	usr/man/man1/matedialog.1.gz
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/mate/
+drwxr-xr-x	root/root	usr/share/mate/help/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/C/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/C/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/legal.xml
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/C/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/bg/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/bg/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/bg/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/cs/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/cs/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/cs/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/da/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/da/figures/
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-calendar-screenshot.png -> ../../C/figures/matedialog-calendar-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-entry-screenshot.png -> ../../C/figures/matedialog-entry-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-error-screenshot.png -> ../../C/figures/matedialog-error-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-fileselection-screenshot.png -> ../../C/figures/matedialog-fileselection-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-information-screenshot.png -> ../../C/figures/matedialog-information-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-list-screenshot.png -> ../../C/figures/matedialog-list-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-notification-screenshot.png -> ../../C/figures/matedialog-notification-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-progress-screenshot.png -> ../../C/figures/matedialog-progress-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-question-screenshot.png -> ../../C/figures/matedialog-question-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-text-screenshot.png -> ../../C/figures/matedialog-text-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/da/figures/matedialog-warning-screenshot.png -> ../../C/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/da/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/de/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/de/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/de/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/el/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/el/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/el/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/en_GB/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/en_GB/figures/
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-calendar-screenshot.png -> ../../C/figures/matedialog-calendar-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-entry-screenshot.png -> ../../C/figures/matedialog-entry-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-error-screenshot.png -> ../../C/figures/matedialog-error-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-fileselection-screenshot.png -> ../../C/figures/matedialog-fileselection-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-information-screenshot.png -> ../../C/figures/matedialog-information-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-list-screenshot.png -> ../../C/figures/matedialog-list-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-notification-screenshot.png -> ../../C/figures/matedialog-notification-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-progress-screenshot.png -> ../../C/figures/matedialog-progress-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-question-screenshot.png -> ../../C/figures/matedialog-question-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-text-screenshot.png -> ../../C/figures/matedialog-text-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/en_GB/figures/matedialog-warning-screenshot.png -> ../../C/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/en_GB/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/es/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/es/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/es/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/eu/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/eu/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/eu/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/fi/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/fi/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fi/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/fr/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/fr/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/fr/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/oc/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/oc/figures/
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-calendar-screenshot.png -> ../../C/figures/matedialog-calendar-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-entry-screenshot.png -> ../../C/figures/matedialog-entry-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-error-screenshot.png -> ../../C/figures/matedialog-error-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-fileselection-screenshot.png -> ../../C/figures/matedialog-fileselection-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-information-screenshot.png -> ../../C/figures/matedialog-information-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-list-screenshot.png -> ../../C/figures/matedialog-list-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-notification-screenshot.png -> ../../C/figures/matedialog-notification-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-progress-screenshot.png -> ../../C/figures/matedialog-progress-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-question-screenshot.png -> ../../C/figures/matedialog-question-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-text-screenshot.png -> ../../C/figures/matedialog-text-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/oc/figures/matedialog-warning-screenshot.png -> ../../C/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/oc/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/pt_BR/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/pt_BR/figures/
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-calendar-screenshot.png -> ../../C/figures/matedialog-calendar-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-entry-screenshot.png -> ../../C/figures/matedialog-entry-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-error-screenshot.png -> ../../C/figures/matedialog-error-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-fileselection-screenshot.png -> ../../C/figures/matedialog-fileselection-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-information-screenshot.png -> ../../C/figures/matedialog-information-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-list-screenshot.png -> ../../C/figures/matedialog-list-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-notification-screenshot.png -> ../../C/figures/matedialog-notification-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-progress-screenshot.png -> ../../C/figures/matedialog-progress-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-question-screenshot.png -> ../../C/figures/matedialog-question-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-text-screenshot.png -> ../../C/figures/matedialog-text-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/pt_BR/figures/matedialog-warning-screenshot.png -> ../../C/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/pt_BR/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/ru/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/ru/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/ru/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/sv/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/sv/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/sv/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/uk/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/uk/figures/
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-calendar-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-entry-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-error-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-fileselection-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-information-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-list-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-notification-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-progress-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-question-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-text-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/uk/matedialog.xml
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/zh_CN/
+drwxr-xr-x	root/root	usr/share/mate/help/matedialog/zh_CN/figures/
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-calendar-screenshot.png -> ../../C/figures/matedialog-calendar-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-entry-screenshot.png -> ../../C/figures/matedialog-entry-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-error-screenshot.png -> ../../C/figures/matedialog-error-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-fileselection-screenshot.png -> ../../C/figures/matedialog-fileselection-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-information-screenshot.png -> ../../C/figures/matedialog-information-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-list-screenshot.png -> ../../C/figures/matedialog-list-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-notification-screenshot.png -> ../../C/figures/matedialog-notification-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-progress-screenshot.png -> ../../C/figures/matedialog-progress-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-question-screenshot.png -> ../../C/figures/matedialog-question-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-text-screenshot.png -> ../../C/figures/matedialog-text-screenshot.png
+lrwxrwxrwx	root/root	usr/share/mate/help/matedialog/zh_CN/figures/matedialog-warning-screenshot.png -> ../../C/figures/matedialog-warning-screenshot.png
+-rw-r--r--	root/root	usr/share/mate/help/matedialog/zh_CN/matedialog.xml
+drwxr-xr-x	root/root	usr/share/matedialog/
+drwxr-xr-x	root/root	usr/share/matedialog/clothes/
+-rw-r--r--	root/root	usr/share/matedialog/clothes/hawaii-shirt.png
+-rw-r--r--	root/root	usr/share/matedialog/clothes/mate-tshirt.png
+-rw-r--r--	root/root	usr/share/matedialog/clothes/monk.png
+-rw-r--r--	root/root	usr/share/matedialog/clothes/sunglasses.png
+-rw-r--r--	root/root	usr/share/matedialog/clothes/surfboard.png
+-rw-r--r--	root/root	usr/share/matedialog/matedialog-calendar.png
+-rw-r--r--	root/root	usr/share/matedialog/matedialog-entry.png
+-rw-r--r--	root/root	usr/share/matedialog/matedialog-file.png
+-rw-r--r--	root/root	usr/share/matedialog/matedialog-list.png
+-rw-r--r--	root/root	usr/share/matedialog/matedialog-notification.png
+-rw-r--r--	root/root	usr/share/matedialog/matedialog-progress.png
+-rw-r--r--	root/root	usr/share/matedialog/matedialog-scale.png
+-rw-r--r--	root/root	usr/share/matedialog/matedialog-text.png
+-rw-r--r--	root/root	usr/share/matedialog/matedialog.png
+-rw-r--r--	root/root	usr/share/matedialog/matedialog.ui
+drwxr-xr-x	root/root	usr/share/omf/
+drwxr-xr-x	root/root	usr/share/omf/matedialog/
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-C.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-bg.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-cs.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-da.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-de.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-el.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-en_GB.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-es.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-eu.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-fi.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-fr.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-oc.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-pt_BR.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-ru.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-sv.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-uk.omf
+-rw-r--r--	root/root	usr/share/omf/matedialog/matedialog-zh_CN.omf
