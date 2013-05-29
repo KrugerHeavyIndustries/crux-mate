@@ -5,4 +5,4 @@
 # http://www.krugerheavyindustries.com
   
 ROOT_DIR=/usr/ports/mate
-URL=http://crux-mate.googlecode.com/svn/trunk/
+URL=http://crux-mate.googlecode.com/svn/branches/crux3.0/mate1.4
