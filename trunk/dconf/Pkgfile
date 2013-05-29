@@ -1,0 +1,19 @@
+# Description: GSettings backend configuration system
+# URL: https://live.gnome.org/dconf
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: gtk3, docbook-xsl
+
+name=dconf
+version=0.16.0
+release=1
+source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
+
+build() {
+    cd $name-$version
+    ./configure --prefix=/usr \
+        --libexecdir=/usr/lib/$name \
+        --mandir=/usr/man
+    make
+    make DESTDIR=$PKG install
+    rm -r $PKG/usr/share/{gtk-doc,locale}
+}
