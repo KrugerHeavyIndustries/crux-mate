@@ -1,7 +1,7 @@
 # Description: MATE project GUI Dialogs
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool gtk-doc mate-doc-utils
+# Depends on: gdk-pixbuf gtk intltool gtk-doc mate-doc-utils
 
 name=mate-desktop
 version=1.6.1
