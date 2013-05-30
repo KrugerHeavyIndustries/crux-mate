@@ -69,7 +69,7 @@ f:2a4ad2c73caabee7ed2d943653d76eaa:libunique/libunique.patch
 f:f01f9614c72d1d7c56e8334e8e99e04b:libunique/Pkgfile
 f:28dc48506c44f18fd7c4c249cd7da1c2:mate/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mate/.md5sum
-f:0b6df4854a8fee98424e348592e80c97:mate/Pkgfile
+f:94df5216274c8f408beb383f8e7275b9:mate/Pkgfile
 f:5edb6965081f7eb417c491c1afd809c1:ConsoleKit/.footprint
 f:85ad54f19457d420e68324c0fef9b25a:ConsoleKit/.md5sum
 f:e7d40e0fa5549790b8749b0ceff0ddc3:ConsoleKit/revert-4f8822.diff
@@ -164,7 +164,7 @@ f:153be2e4108b5fd2acb40e490c5c632b:libtasn1/.md5sum
 f:86f5712d0cfeb1ddd85394d10fa8d930:libtasn1/Pkgfile
 f:f07e67d6e3ca42e95ded6ab2e6f6c7e0:mate-desktop/.footprint
 f:7612e93ff480dfc6d55f805f791ed4f3:mate-desktop/.md5sum
-f:0f0e4e3fa337007d18ba058c34e1be7a:mate-desktop/Pkgfile
+f:24df25f0ec10b4282f99c52d7d278ef3:mate-desktop/Pkgfile
 f:f4c75566bd3667ed9aa04fa936337246:mate-desktop/post-install
 f:caebe032d348117df65cec727d4a0816:mate-dialogs/.footprint
 f:5c29d10af6079d964ee7b77a58523f04:mate-dialogs/.md5sum
