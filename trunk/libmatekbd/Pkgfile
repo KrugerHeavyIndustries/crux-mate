@@ -1,7 +1,7 @@
 # Description: MATE project keyboard support library
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: intltool glib libxklavier mate-common
+# Depends on: gtk intltool glib libxklavier mate-common
 
 name=libmatekbd
 version=1.6.0
