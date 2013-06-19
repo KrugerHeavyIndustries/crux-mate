@@ -4,8 +4,8 @@
 # Depends on: glib gobject-introspection
 
 name=atk
-version=2.6.0
-release=3
+version=2.8.0
+release=2
 source=(http://download.gnome.org/sources/$name/${version:0:3}/$name-$version.tar.xz)
 
 build () {
