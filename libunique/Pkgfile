@@ -20,7 +20,7 @@ build() {
       -e 's/^AM_CONFIG_HEADER/AC_CONFIG_HEADERS/' \
       -e 's/AM_PROG_CC_STDC/AC_PROG_CC/'
 
-  autoreconf
+  autoreconf -vfi
 
   ./configure --prefix=/usr \
               --disable-dbus \
