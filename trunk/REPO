@@ -72,7 +72,6 @@ f:9e26846678bd6e1d5d6ef3cee48f0612:gdk-pixbuf/.footprint
 f:274e5d6942039713a7aa6bfca71eae96:gdk-pixbuf/Pkgfile
 f:aa7b1fba76f8e8a6d989af05971e46fa:gdk-pixbuf/.md5sum
 f:5c199bfbe5a2c65abae00f48ea6f2e65:gdk-pixbuf/loaders.cache
-f:9e517ac23b46934ecc4356587c05f992:pango/post-install
 f:df6aa9c0ffc17067feab6c9d925484ec:pango/modules.cache
 f:b26f6804eebab4bf59ffdf5e2b6d0b2f:pango/.footprint
 f:24854115e1417b5f625e0d710aa587ae:pango/Pkgfile
