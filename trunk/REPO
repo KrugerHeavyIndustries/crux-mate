@@ -118,9 +118,9 @@ f:5edb6965081f7eb417c491c1afd809c1:ConsoleKit/.footprint
 f:342e185833579adbaa12d74e3cb38b00:ConsoleKit/Pkgfile
 f:85ad54f19457d420e68324c0fef9b25a:ConsoleKit/.md5sum
 f:e7d40e0fa5549790b8749b0ceff0ddc3:ConsoleKit/revert-4f8822.diff
-f:d70e37881b70ac4d4658c64145b2b844:at-spi2-core/.footprint
-f:9ab57b4bee408c5f288ab0859f383ce4:at-spi2-core/Pkgfile
-f:8eaa2ee8ed31f4c46991e8917e487795:at-spi2-core/.md5sum
+f:4132f5a436196e2f4007d1047c5a52fc:at-spi2-core/.footprint
+f:b2cc707e06fc36740e8b21569c97432e:at-spi2-core/Pkgfile
+f:cbce1c9056f121c5261605be3bea1568:at-spi2-core/.md5sum
 f:a6b71e7f94e9fb2b84c7c69498958aeb:libnotify/.footprint
 f:017c56e7e3fef66e37b3368cf8f4003b:libnotify/Pkgfile
 f:9935954a5b2a224c1e051684a3a607e1:libnotify/.md5sum
