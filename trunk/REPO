@@ -177,10 +177,10 @@ f:f4c75566bd3667ed9aa04fa936337246:mate-image-viewer/post-install
 f:e207c7f00d0913e21b6a171fc144068f:mate-image-viewer/.footprint
 f:f8f1a014b38dccf2462d757e627d6bdb:mate-image-viewer/Pkgfile
 f:24f5436b6b147832fa61713170e8bad1:mate-image-viewer/.md5sum
-f:e5f74be27525658dae59401455944186:gtk3/post-install
-f:a7692c055e71697de6fd89714a8de6ca:gtk3/.footprint
-f:bcd1b345b2b52550546fd5e3b952c269:gtk3/Pkgfile
-f:9ed83df4c5f5876213616cb896261fc1:gtk3/.md5sum
+f:b27b32737de456150d38deb6e4ffecb5:gtk3/post-install
+f:64c5e8fc65d2e4a59abb42eb1864299b:gtk3/.footprint
+f:c60507c9d0a0e97df2a8079408603643:gtk3/Pkgfile
+f:e28271a77745bcdfb99556e8b79c2c53:gtk3/.md5sum
 f:e29f07a93d6c5a8dd58f1956ac7ff9a0:mate-doc-utils/.footprint
 f:ffc5f9eb74aedb1d573c40b209dc694d:mate-doc-utils/Pkgfile
 f:975fdeb227b4c23ec606ba968a1117d4:mate-doc-utils/.md5sum

@@ -4,9 +4,9 @@
 # Depends on: gtk, at-spi2-atk, xorg-libxi
 
 name=gtk3
-version=3.6.4
-release=1
-source=(http://download.gnome.org/sources/gtk+/3.6/gtk+-$version.tar.xz)
+version=3.10.3
+release=2
+source=(http://download.gnome.org/sources/gtk+/${version%.*}/gtk+-$version.tar.xz)
 
 build () {
     cd gtk+-$version
