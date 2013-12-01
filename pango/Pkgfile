@@ -4,9 +4,9 @@
 # Depends on: harfbuzz, glib, xorg-libsm, xorg-libxext, xorg-libxft, gobject-introspection
 
 name=pango
-version=1.32.5
-release=3
-source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz \
+version=1.36.1
+release=2
+source=(http://download.gnome.org/sources/$name/${version%.*}/$name-$version.tar.xz \
 	modules.cache)
 
 build () {
