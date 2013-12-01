@@ -144,11 +144,11 @@ f:f4c75566bd3667ed9aa04fa936337246:mate-file-manager/post-install
 f:1bcb0edf9eeba934067573bb27b1ab09:mate-file-manager/.footprint
 f:c9cab6d8fa87a4c93eb99d2325f6cbfe:mate-file-manager/Pkgfile
 f:b705eda26d2beb5e8167d5ace11cc121:mate-file-manager/.md5sum
-f:8e37502560bc30d6926a42dd813c8590:gtk/gtk.immodules
-f:91355e999097e450602380d0be720dd0:gtk/.footprint
+f:05ed08136937cfbacc84e81b27e5b2ee:gtk/gtk.immodules
+f:4e80f20269facadda4b84674ae3a43d6:gtk/.footprint
 f:943d209df9d2cbdde16263b7bbfd4c10:gtk/gtk-register.sh
-f:f8bc4446000ec4d9a8bd6be5e1238f7b:gtk/Pkgfile
-f:56e678f2edc5454395b532ba63003165:gtk/.md5sum
+f:914a710c0f653ceace998f9d2ddc33e0:gtk/Pkgfile
+f:86c489d329f21f1532e880eec83ba7e6:gtk/.md5sum
 f:deb67fc65caef854bfac66561d990307:mate-keyring/post-install
 f:9e0f6b5b3eacc1588dc14898466d0651:mate-keyring/.footprint
 f:7699a4d25465312935ed71d0d5448963:mate-keyring/Pkgfile
