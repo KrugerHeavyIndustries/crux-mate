@@ -72,10 +72,11 @@ f:9da3c443ed9a2e921cb52521618197be:gdk-pixbuf/.footprint
 f:cde226148e49f1e51f519da12d9af1b5:gdk-pixbuf/Pkgfile
 f:74094fbb7fc268df4c5216d219526213:gdk-pixbuf/.md5sum
 f:5c199bfbe5a2c65abae00f48ea6f2e65:gdk-pixbuf/loaders.cache
+f:9e517ac23b46934ecc4356587c05f992:pango/post-install
 f:df6aa9c0ffc17067feab6c9d925484ec:pango/modules.cache
-f:cca526e0489043dd48bcb134a3e26d2c:pango/.footprint
-f:a30a400a72683b52b58a3bb7d8897c62:pango/Pkgfile
-f:319e552ffc36de646c17a261e4adbc18:pango/.md5sum
+f:b26f6804eebab4bf59ffdf5e2b6d0b2f:pango/.footprint
+f:24854115e1417b5f625e0d710aa587ae:pango/Pkgfile
+f:e1c2bac24c39d4acaa1dc99b42146aee:pango/.md5sum
 f:cc7440ce99b6846b841084a0d0dc89a2:libtasn1/.footprint
 f:86f5712d0cfeb1ddd85394d10fa8d930:libtasn1/Pkgfile
 f:153be2e4108b5fd2acb40e490c5c632b:libtasn1/.md5sum
