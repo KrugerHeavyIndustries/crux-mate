@@ -68,9 +68,9 @@ f:3930122c08b14768ce845d56ab3f96c6:libcanberra/.footprint
 f:e1a09b8a1ce1392dd0e6ed7452954d8b:libcanberra/Pkgfile
 f:65e437f6f265a8d251003f1b9dfb68a1:libcanberra/.md5sum
 f:d5311640870a5de1dc8aefcb4509a99d:gdk-pixbuf/gdk-pixbuf-register.sh
-f:9da3c443ed9a2e921cb52521618197be:gdk-pixbuf/.footprint
-f:cde226148e49f1e51f519da12d9af1b5:gdk-pixbuf/Pkgfile
-f:74094fbb7fc268df4c5216d219526213:gdk-pixbuf/.md5sum
+f:9e26846678bd6e1d5d6ef3cee48f0612:gdk-pixbuf/.footprint
+f:274e5d6942039713a7aa6bfca71eae96:gdk-pixbuf/Pkgfile
+f:aa7b1fba76f8e8a6d989af05971e46fa:gdk-pixbuf/.md5sum
 f:5c199bfbe5a2c65abae00f48ea6f2e65:gdk-pixbuf/loaders.cache
 f:9e517ac23b46934ecc4356587c05f992:pango/post-install
 f:df6aa9c0ffc17067feab6c9d925484ec:pango/modules.cache
