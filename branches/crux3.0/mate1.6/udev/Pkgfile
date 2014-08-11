@@ -1,0 +1,46 @@
+# Description: Userspace device management daemon (configured for MATE)
+# URL:         http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
+# Maintainer:  Chris Kruger crux-maint at krugerheavyindustries dot com
+# Depends on:  kmod gobject-introspection
+
+name=udev
+version=182
+release=3
+source=(ftp://ftp.kernel.org/pub/linux/utils/kernel/hotplug/$name-$version.tar.xz \
+        81-crux.rules start_udev)
+
+build() {
+    cd udev-$version
+
+    ./configure --prefix=/usr \
+                --sbindir=/sbin --bindir=/sbin \
+                --sysconfdir=/etc \
+                --with-rootlibdir=/lib \
+                --with-rootprefix= \
+                --libexecdir=/lib \
+                --mandir=/usr/man \
+                --disable-udev_acl \
+                --disable-keymap \
+                --enable-static \
+                --enable-rule_generator
+
+    make
+    make install DESTDIR=$PKG
+
+    mkdir -p $PKG/lib/{firmware,udev/devices/{pts,shm}}
+    mkdir -p $PKG/{lib,sbin,run}
+    
+    # Symlink to udevd
+    ln -s ../lib/udev/udevd $PKG/sbin/udevd
+
+    # Add CRUX items
+    install -m 0755 $SRC/start_udev $PKG/sbin
+    install -m 0644 $SRC/81-crux.rules $PKG/lib/udev/rules.d
+
+    # Remove junk
+    rm -r $PKG/usr/share/{gtk-,}doc
+
+	# Add CD/DVD symlinks
+	sed -i -e '7s/write_cd_rules/& by-id/' \
+		$PKG/lib/udev/rules.d/75-cd-aliases-generator.rules
+}

@@ -1,0 +1,18 @@
+# Description: MATE project keyboard support library
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: gtk intltool glib libxklavier mate-common
+
+name=libmatekbd
+version=1.6.0
+release=1
+source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+    NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}

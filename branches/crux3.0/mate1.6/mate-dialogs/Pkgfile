@@ -1,0 +1,20 @@
+# Description: MATE project GUI Dialogs
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: mate-doc-utils
+
+name=mate-dialogs
+version=1.6.0
+release=1
+source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+    NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr \
+        --disable-scrollkeeper \
+        --mandir=/usr/man
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/locale
+}

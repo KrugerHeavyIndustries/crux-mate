@@ -1,0 +1,22 @@
+# Description: MATE project Control Center
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: mate-doc-utils mate-settings-daemon mate-desktop mate-menus mate-window-manager desktop-file-utils xorg-libxscrnsaver libunique librsvg
+
+name=mate-control-center
+version=1.6.0
+release=1
+source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+    NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr \
+		--disable-nls \
+        --disable-static \
+        --disable-scrollkeeper \
+        --disable-update-mimedb
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/locale
+}

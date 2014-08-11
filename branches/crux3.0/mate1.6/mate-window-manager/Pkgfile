@@ -1,0 +1,20 @@
+# Description: MATE project Menus
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: intltool mate-doc-utils mate-dialogs libcanberra
+
+name=mate-window-manager
+version=1.6.1
+release=1
+source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+    NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr \
+        --mandir=/usr/man \
+        --disable-static
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/locale
+}
