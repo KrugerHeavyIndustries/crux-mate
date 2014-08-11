@@ -1,0 +1,24 @@
+# Description: A userspace virtual filesystem designed to work with gio
+# URL: http://www.gnome.org/
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: samba, fuse, dbus
+
+name=gvfs
+version=1.16.2
+release=1
+source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib/$name \
+		--enable-fuse \
+		--enable-samba \
+		--disable-schemas-compile \
+		--disable-nls \
+		--disable-gphoto2
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}

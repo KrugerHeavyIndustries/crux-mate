@@ -1,0 +1,20 @@
+# Description: MATE project Crypto Key Management Library
+# Maintainer: Chris Kruger
+# Group: mate
+# Depends on: intltool glib libgcrypt gtk-doc mate-common dbus
+
+name=libmatekeyring
+version=1.6.0
+release=1
+source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+    NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--disable-static
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+}
