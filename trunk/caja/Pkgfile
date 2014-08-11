@@ -1,0 +1,19 @@
+# Depends on: mate-desktop pangox-compat gvfs
+
+name=caja
+version=1.8.1
+release=1
+source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
+
+build() {
+    cd $name-$version
+    ./configure --prefix=/usr \
+        --libexecdir=/usr/lib/$name \
+        --mandir=/usr/man \
+        --disable-nls \
+        --disable-update-mimedb
+    make
+    make DESTDIR=$PKG install
+
+    rm -r $PKG/usr/share/gtk-doc
+}

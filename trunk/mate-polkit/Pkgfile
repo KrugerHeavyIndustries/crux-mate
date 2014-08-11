@@ -1,20 +1,17 @@
-# Description: MATE project Policy Kit interface
-# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
-# Group: mate
-# Depends on: intltool gtk gtk-doc polkit mate-common
+# Depends on: polkit gtk
 
 name=mate-polkit
-version=1.6.0
+version=1.8.0
 release=1
-source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-    NOCONFIGURE=1 ./autogen.sh
-	./configure --prefix=/usr \
+    cd $name-$version
+    ./configure --prefix=/usr \
         --libexecdir=/usr/lib/$name \
-        --disable-static
-	make
-	make DESTDIR=$PKG install
-	rm -rf $PKG/usr/share/locale
+        --disable-nls
+    make
+    make DESTDIR=$PKG install
+
+    rm -r $PKG/usr/share/locale
 }

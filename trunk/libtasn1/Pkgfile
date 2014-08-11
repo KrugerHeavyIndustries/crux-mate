@@ -1,17 +1,14 @@
-# Description: Highly portable C library than encodes and decodes DER/BER data
-# Maintainer: Chris Kruger
-# Group: mate
-
 name=libtasn1
-version=3.3
+version=3.5
 release=1
 source=(http://ftp.gnu.org/gnu/$name/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
-	./configure --prefix=/usr \
-		--mandir=/usr/man
-	make
-	make DESTDIR=$PKG install
-	rm -rf $PKG/usr/share
+    cd $name-$version
+    ./configure --prefix=/usr \
+        --mandir=/usr/man
+    make
+    make DESTDIR=$PKG install
+
+    rm -r $PKG/usr/share
 }

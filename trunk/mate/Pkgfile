@@ -1,13 +1,14 @@
-# Description: MATE Desktop Environment (a fork of gnome2)
+# Description: MATE Desktop Environment
 # URL: http://mate-desktop.org
 # Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
-# Depends on: gdk-pixbuf gtk gtk3 mate-common mate-doc-utils libmatekeyring mate-keyring libmatekbd libmateweather mate-icon-theme mate-dialogs mate-desktop mate-file-manager mate-notification-daemon mate-backgrounds mate-menus mate-window-manager mate-polkit mate-settings-daemon mate-control-center mate-panel mate-session-manager mate-themes mate-terminal ConsoleKit
+# Depends on: atril caja engrampa eom marco mate-applets mate-backgrounds mate-control-center mate-desktop mate-dialogs mate-icon-theme mate-menus mate-netspeed mate-notification-daemon mate-panel mate-polkit mate-screensaver mate-session-manager mate-settings-daemon mate-terminal mate-themes pluma
 
 name=mate
-version=1.6
+version=1.8
 release=1
 source=()
 
 build() {
    install -d $PKG/usr
 }
+

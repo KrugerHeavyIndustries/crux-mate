@@ -10,6 +10,7 @@ drwxr-xr-x	root/root	usr/include/mate-menus/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/MateMenu-2.0.typelib
+-rw-r--r--	root/root	usr/lib/libmate-menu.a
 -rwxr-xr-x	root/root	usr/lib/libmate-menu.la
 lrwxrwxrwx	root/root	usr/lib/libmate-menu.so -> libmate-menu.so.2.4.9
 lrwxrwxrwx	root/root	usr/lib/libmate-menu.so.2 -> libmate-menu.so.2.4.9
@@ -18,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libmate-menu.pc
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/matemenu.a
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/matemenu.la
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/matemenu.so
 drwxr-xr-x	root/root	usr/share/

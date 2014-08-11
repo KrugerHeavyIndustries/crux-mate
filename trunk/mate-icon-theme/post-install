@@ -1,3 +1,4 @@
 #!/bin/sh
 
-/usr/bin/gtk-update-icon-cache -f -t -i /usr/share/icons/*
+/usr/bin/gtk-update-icon-cache /usr/share/icons/mate
+/usr/bin/gtk-update-icon-cache /usr/share/icons/menta

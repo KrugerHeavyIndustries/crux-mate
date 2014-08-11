@@ -1,0 +1,17 @@
+# Depends on: gcr docbook-xsl
+
+name=gnome-keyring
+version=3.12.2
+release=1
+source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
+
+build() {
+    cd $name-$version
+    ./configure --prefix=/usr \
+        --mandir=/usr/man \
+        --disable-nls
+    make
+    make DESTDIR=$PKG install
+
+    rm -r $PKG/usr/share/locale
+}

@@ -1,13 +1,12 @@
 # Description: Perl/CPAN XML::Simple module 
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: p5-xml-simple
 
 name=p5-xml-simple
 _realname=XML-Simple
 version=2.20
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/G/GR/GRANTM/$_realname-$version.tar.gz)
+source=(http://www.cpan.org/CPAN/authors/id/G/GR/GRANTM/$_realname-$version.tar.gz)
 
 build() {
 	cd $_realname-$version
