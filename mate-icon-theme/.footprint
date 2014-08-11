@@ -409,6 +409,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/16x16/apps/openterm.png -> utilities-t
 -rw-r--r--	root/root	usr/share/icons/mate/16x16/apps/preferences-desktop-screensaver.png
 -rw-r--r--	root/root	usr/share/icons/mate/16x16/apps/preferences-desktop-theme.png
 -rw-r--r--	root/root	usr/share/icons/mate/16x16/apps/preferences-desktop-wallpaper.png
+-rw-r--r--	root/root	usr/share/icons/mate/16x16/apps/preferences-system-bluetooth.png
 -rw-r--r--	root/root	usr/share/icons/mate/16x16/apps/preferences-system-windows.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/16x16/apps/redhat-filemanager.png -> system-file-manager.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/16x16/apps/screensaver.png -> preferences-desktop-screensaver.png
@@ -1512,6 +1513,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/22x22/apps/openterm.png -> utilities-t
 -rw-r--r--	root/root	usr/share/icons/mate/22x22/apps/preferences-desktop-screensaver.png
 -rw-r--r--	root/root	usr/share/icons/mate/22x22/apps/preferences-desktop-theme.png
 -rw-r--r--	root/root	usr/share/icons/mate/22x22/apps/preferences-desktop-wallpaper.png
+-rw-r--r--	root/root	usr/share/icons/mate/22x22/apps/preferences-system-bluetooth.png
 -rw-r--r--	root/root	usr/share/icons/mate/22x22/apps/preferences-system-windows.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/22x22/apps/redhat-filemanager.png -> system-file-manager.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/22x22/apps/screensaver.png -> preferences-desktop-screensaver.png
@@ -2612,6 +2614,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/24x24/apps/openterm.png -> utilities-t
 -rw-r--r--	root/root	usr/share/icons/mate/24x24/apps/preferences-desktop-screensaver.png
 -rw-r--r--	root/root	usr/share/icons/mate/24x24/apps/preferences-desktop-theme.png
 -rw-r--r--	root/root	usr/share/icons/mate/24x24/apps/preferences-desktop-wallpaper.png
+-rw-r--r--	root/root	usr/share/icons/mate/24x24/apps/preferences-system-bluetooth.png
 -rw-r--r--	root/root	usr/share/icons/mate/24x24/apps/preferences-system-windows.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/24x24/apps/redhat-filemanager.png -> system-file-manager.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/24x24/apps/screensaver.png -> preferences-desktop-screensaver.png
@@ -3673,6 +3676,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/font_bitmap.png -> f
 lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/font_truetype.png -> font-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/font_type1.png -> font-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/gnome-fs-executable.png -> application-x-executable.png
+lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/gnome-fs-regular.icon -> text-x-preview.icon
 lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/gnome-fs-regular.png -> text-x-preview.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/gnome-mime-application-magicpoint.png -> x-office-presentation.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/gnome-mime-application-msword.png -> x-office-document.png
@@ -3769,6 +3773,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/gnome-mime-text-x-zs
 -rw-r--r--	root/root	usr/share/icons/mate/256x256/mimetypes/gnome-mime-video.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/gnome-mime-x-font-afm.png -> font-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/gnome-package.png -> package-x-generic.png
+lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/gtk-file.icon -> text-x-preview.icon
 -rw-r--r--	root/root	usr/share/icons/mate/256x256/mimetypes/gtk-file.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/html.png -> text-html.png
 -rw-r--r--	root/root	usr/share/icons/mate/256x256/mimetypes/image-svg+xml-compressed.png
@@ -3844,6 +3849,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/256x256/mimetypes/template_source.png 
 -rw-r--r--	root/root	usr/share/icons/mate/256x256/mimetypes/text-x-makefile.png
 -rw-r--r--	root/root	usr/share/icons/mate/256x256/mimetypes/text-x-opml+xml.png
 -rw-r--r--	root/root	usr/share/icons/mate/256x256/mimetypes/text-x-patch.png
+-rw-r--r--	root/root	usr/share/icons/mate/256x256/mimetypes/text-x-preview.icon
 -rw-r--r--	root/root	usr/share/icons/mate/256x256/mimetypes/text-x-preview.png
 -rw-r--r--	root/root	usr/share/icons/mate/256x256/mimetypes/text-x-python.png
 -rw-r--r--	root/root	usr/share/icons/mate/256x256/mimetypes/text-x-readme.png
@@ -4413,6 +4419,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/32x32/apps/openterm.png -> utilities-t
 -rw-r--r--	root/root	usr/share/icons/mate/32x32/apps/preferences-desktop-screensaver.png
 -rw-r--r--	root/root	usr/share/icons/mate/32x32/apps/preferences-desktop-theme.png
 -rw-r--r--	root/root	usr/share/icons/mate/32x32/apps/preferences-desktop-wallpaper.png
+-rw-r--r--	root/root	usr/share/icons/mate/32x32/apps/preferences-system-bluetooth.png
 -rw-r--r--	root/root	usr/share/icons/mate/32x32/apps/preferences-system-windows.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/32x32/apps/redhat-filemanager.png -> system-file-manager.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/32x32/apps/screensaver.png -> preferences-desktop-screensaver.png
@@ -5509,6 +5516,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/apps/openterm.png -> utilities-t
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/apps/preferences-desktop-screensaver.png
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/apps/preferences-desktop-theme.png
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/apps/preferences-desktop-wallpaper.png
+-rw-r--r--	root/root	usr/share/icons/mate/48x48/apps/preferences-system-bluetooth.png
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/apps/preferences-system-windows.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/apps/redhat-filemanager.png -> system-file-manager.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/apps/screensaver.png -> preferences-desktop-screensaver.png
@@ -5811,6 +5819,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/font_bitmap.png -> fon
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/font_truetype.png -> font-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/font_type1.png -> font-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/gnome-fs-executable.png -> application-x-executable.png
+lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/gnome-fs-regular.icon -> text-x-preview.icon
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/gnome-fs-regular.png -> text-x-preview.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/gnome-mime-application-magicpoint.png -> x-office-presentation.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/gnome-mime-application-msword.png -> x-office-document.png
@@ -5908,6 +5917,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/gnome-mime-text-x-zsh.
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/mimetypes/gnome-mime-video.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/gnome-mime-x-font-afm.png -> font-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/gnome-package.png -> package-x-generic.png
+lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/gtk-file.icon -> text-x-preview.icon
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/mimetypes/gtk-file.png
 lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/html.png -> text-html.png
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/mimetypes/image-svg+xml-compressed.png
@@ -5989,6 +5999,7 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/48x48/mimetypes/template_source.png ->
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/mimetypes/text-x-makefile.png
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/mimetypes/text-x-opml+xml.png
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/mimetypes/text-x-patch.png
+-rw-r--r--	root/root	usr/share/icons/mate/48x48/mimetypes/text-x-preview.icon
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/mimetypes/text-x-preview.png
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/mimetypes/text-x-python.png
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/mimetypes/text-x-readme.png
@@ -6214,14 +6225,387 @@ lrwxrwxrwx	root/root	usr/share/icons/mate/8x8/emblems/emblem-nowrite.png -> embl
 -rw-r--r--	root/root	usr/share/icons/mate/8x8/emblems/emblem-synchronizing.png
 -rw-r--r--	root/root	usr/share/icons/mate/8x8/emblems/emblem-unreadable.png
 -rw-r--r--	root/root	usr/share/icons/mate/index.theme
+drwxr-xr-x	root/root	usr/share/icons/mate/scalable/
+drwxr-xr-x	root/root	usr/share/icons/mate/scalable/actions/
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/action-unavailable-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/bookmark-add-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/bookmark-new-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/call-end-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/call-start-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/document-open-recent-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/document-open-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/document-page-setup-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/document-properties-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/document-save-as-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/document-save-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/document-send-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/drive-multidisk-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-clear-all-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-clear-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-clear-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-copy-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-cut-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-delete-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-find-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-paste-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-redo-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-redo-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-select-all-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-select-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-undo-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/edit-undo-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/find-location-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-indent-less-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-indent-less-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-indent-more-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-indent-more-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-justify-center-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-justify-fill-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-justify-left-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-justify-right-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-text-bold-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-text-direction-ltr-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-text-direction-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-text-italic-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-text-strikethrough-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/format-text-underline-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-bottom-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-down-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-first-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-first-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-home-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-jump-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-jump-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-last-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-last-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-next-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-next-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-previous-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-previous-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-top-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/go-up-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/insert-image-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/insert-link-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/insert-object-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/insert-text-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/list-add-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/list-remove-all-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/list-remove-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/mail-mark-important-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/mail-send-receive-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/mail-send-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-eject-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-playback-pause-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-playback-start-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-playback-start-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-playback-stop-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-record-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-seek-backward-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-seek-backward-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-seek-forward-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-seek-forward-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-skip-backward-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-skip-backward-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-skip-forward-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/media-skip-forward-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/object-flip-horizontal-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/object-flip-vertical-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/object-rotate-left-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/object-rotate-right-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/object-select-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/process-stop-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/send-to-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/system-run-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/system-shutdown-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/tab-new-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/view-continuous-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/view-dual-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/view-fullscreen-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/view-grid-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/view-list-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/view-more-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/view-paged-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/view-refresh-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/view-restore-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/window-close-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/zoom-fit-best-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/zoom-in-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/zoom-original-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/zoom-out-symbolic.svg
+drwxr-xr-x	root/root	usr/share/icons/mate/scalable/apps/
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/accessories-calculator-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/accessories-character-map-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/accessories-dictionary-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/accessories-text-editor-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/applets-screenshooter-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/bluetooth-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/gnome-power-manager-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/goa-panel-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/help-browser-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-color-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-desktop-accessibility-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-desktop-display-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-desktop-keyboard-shortcuts-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-desktop-locale-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-desktop-remote-desktop-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-desktop-screensaver-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-desktop-wallpaper-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-system-bluetooth.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-system-network-proxy-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-system-network-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-system-notifications-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-system-privacy-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-system-search-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-system-sharing-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/preferences-system-time-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/system-file-manager-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/system-software-install-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/system-users-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/text-editor-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/user-info-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/utilities-system-monitor-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/utilities-terminal-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/web-browser-symbolic.svg
+drwxr-xr-x	root/root	usr/share/icons/mate/scalable/categories/
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/categories/applications-engineering-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/categories/applications-games-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/categories/applications-graphics-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/categories/applications-multimedia-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/categories/applications-science-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/categories/applications-utilities-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/categories/preferences-other-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/categories/preferences-system-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/categories/system-help-symbolic.svg
+drwxr-xr-x	root/root	usr/share/icons/mate/scalable/devices/
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/audio-card-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/audio-input-microphone-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/camera-photo-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/camera-web-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/colorimeter-colorhug-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/computer-apple-ipad-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/computer-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/display-projector-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/drive-harddisk-ieee1394-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/drive-harddisk-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/drive-harddisk-system-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/drive-harddisk-usb-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/drive-multidisk-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/drive-optical-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/drive-removable-media-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/headphones-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/input-dialpad-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/input-gaming-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/input-keyboard-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/input-mouse-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/input-tablet-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/input-touchpad-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/media-flash-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/media-floppy-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/media-optical-bd-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/media-optical-cd-audio-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/media-optical-dvd-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/media-optical-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/media-removable-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/media-zip-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/multimedia-player-apple-ipod-touch-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/multimedia-player-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/phone-apple-iphone-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/phone-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/printer-network-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/printer-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/scanner-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/devices/video-display-symbolic.svg
+drwxr-xr-x	root/root	usr/share/icons/mate/scalable/emblems/
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-default-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-documents-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-favorite-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-important-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-music-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-ok-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-photos-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-shared-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-synchronizing-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-system-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emblems/emblem-videos-symbolic.svg
+drwxr-xr-x	root/root	usr/share/icons/mate/scalable/emotes/
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-angel-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-angry-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-confused-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-cool-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-crying-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-devilish-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-embarrassed-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-kiss-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-laugh-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-monkey-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-plain-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-raspberry-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-sad-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-shutmouth-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-sick-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-smile-big-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-smile-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-smirk-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-surprised-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-tired-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-uncertain-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-wink-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-worried-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/emotes/face-yawn-symbolic.svg
+drwxr-xr-x	root/root	usr/share/icons/mate/scalable/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/mimetypes/application-certificate-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/mimetypes/application-rss+xml-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/mimetypes/application-x-appliance-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/mimetypes/audio-x-generic-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/mimetypes/package-x-generic-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/mimetypes/text-x-generic-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/mimetypes/video-x-generic-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/mimetypes/x-office-calendar-symbolic.svg
+drwxr-xr-x	root/root	usr/share/icons/mate/scalable/places/
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/folder-documents-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/folder-download-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/folder-music-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/folder-pictures-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/folder-publicshare-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/folder-remote-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/folder-saved-search-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/folder-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/folder-templates-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/folder-videos-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/network-server-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/network-workgroup-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/start-here-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/user-bookmarks-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/user-home-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/places/user-trash-symbolic.svg
+drwxr-xr-x	root/root	usr/share/icons/mate/scalable/status/
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/alarm-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/appointment-missed-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/appointment-soon-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/audio-volume-high-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/audio-volume-low-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/audio-volume-medium-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/audio-volume-muted-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/avatar-default-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-caution-charging-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-caution-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-empty-charging-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-empty-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-full-charged-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-full-charging-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-full-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-good-charging-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-good-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-low-charging-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-low-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/battery-missing-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/bluetooth-active-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/bluetooth-disabled-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/call-missed-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/changes-allow-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/changes-prevent-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/channel-insecure-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/channel-secure-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/computer-fail-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/dialog-error-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/dialog-information-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/dialog-password-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/dialog-question-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/dialog-warning-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/display-brightness-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/keyboard-brightness-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/mail-attachment-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/mail-read-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/mail-replied-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/mail-unread-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/media-playlist-repeat-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/media-playlist-shuffle-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/microphone-sensitivity-high-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/microphone-sensitivity-low-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/microphone-sensitivity-medium-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/microphone-sensitivity-muted-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-3g-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-4g-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-acquiring-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-connected-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-edge-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-gprs-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-signal-excellent-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-signal-good-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-signal-none-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-signal-ok-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-signal-weak-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-cellular-umts-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-error-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-idle-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-no-route-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-offline-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-receive-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-transmit-receive-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-transmit-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-vpn-acquiring-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-vpn-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wired-acquiring-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wired-disconnected-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wired-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wireless-acquiring-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wireless-connected-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wireless-encrypted-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wireless-hotspot-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wireless-signal-excellent-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wireless-signal-good-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wireless-signal-none-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wireless-signal-ok-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/network-wireless-signal-weak-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/non-starred-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/printer-error-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/printer-printing-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/printer-warning-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/security-high-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/security-low-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/security-medium-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/semi-starred-rtl-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/semi-starred-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/software-update-available-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/software-update-urgent-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/starred-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/task-due-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/task-past-due-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/touchpad-disabled-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/user-available-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/user-away-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/user-busy-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/user-idle-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/user-invisible-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/user-offline-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/user-status-pending-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/user-trash-full-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/view-wrapped-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-clear-night-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-clear-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-few-clouds-night-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-few-clouds-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-fog-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-overcast-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-severe-alert-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-showers-scattered-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-showers-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-snow-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/mate/scalable/status/weather-storm-symbolic.svg
 drwxr-xr-x	root/root	usr/share/icons/menta/
 drwxr-xr-x	root/root	usr/share/icons/menta/16x16/
 drwxr-xr-x	root/root	usr/share/icons/menta/16x16/actions/
+lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/actions/add.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/menta/16x16/actions/document-open.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/actions/fileopen.png -> document-open.png
 -rw-r--r--	root/root	usr/share/icons/menta/16x16/actions/folder-new.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/actions/folder_new.png -> folder-new.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/actions/gtk-add.png -> list-add.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/actions/gtk-open.png -> document-open.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/actions/gtk-remove.png -> list-remove.png
+-rw-r--r--	root/root	usr/share/icons/menta/16x16/actions/list-add.png
+-rw-r--r--	root/root	usr/share/icons/menta/16x16/actions/list-remove.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/actions/remove.png -> list-remove.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/actions/stock_new-dir.png -> folder-new.png
 drwxr-xr-x	root/root	usr/share/icons/menta/16x16/apps/
 lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/apps/background.png -> preferences-desktop-wallpaper.png
@@ -6282,6 +6666,7 @@ lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/places/stock_folder.png -> fold
 -rw-r--r--	root/root	usr/share/icons/menta/16x16/places/user-desktop.png
 -rw-r--r--	root/root	usr/share/icons/menta/16x16/places/user-home.png
 drwxr-xr-x	root/root	usr/share/icons/menta/16x16/status/
+-rw-r--r--	root/root	usr/share/icons/menta/16x16/status/avatar-default.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/status/connect_creating.png -> network-transmit-receive.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/status/connect_established.png -> network-idle.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/status/connect_no.png -> network-offline.png
@@ -6310,11 +6695,17 @@ lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/status/nm-no-connection.png -> 
 lrwxrwxrwx	root/root	usr/share/icons/menta/16x16/status/stock_open.png -> folder-open.png
 drwxr-xr-x	root/root	usr/share/icons/menta/22x22/
 drwxr-xr-x	root/root	usr/share/icons/menta/22x22/actions/
+lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/actions/add.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/menta/22x22/actions/document-open.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/actions/fileopen.png -> document-open.png
 -rw-r--r--	root/root	usr/share/icons/menta/22x22/actions/folder-new.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/actions/folder_new.png -> folder-new.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/actions/gtk-add.png -> list-add.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/actions/gtk-open.png -> document-open.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/actions/gtk-remove.png -> list-remove.png
+-rw-r--r--	root/root	usr/share/icons/menta/22x22/actions/list-add.png
+-rw-r--r--	root/root	usr/share/icons/menta/22x22/actions/list-remove.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/actions/remove.png -> list-remove.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/actions/stock_new-dir.png -> folder-new.png
 drwxr-xr-x	root/root	usr/share/icons/menta/22x22/apps/
 lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/apps/background.png -> preferences-desktop-wallpaper.png
@@ -6375,6 +6766,7 @@ lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/places/stock_folder.png -> fold
 -rw-r--r--	root/root	usr/share/icons/menta/22x22/places/user-desktop.png
 -rw-r--r--	root/root	usr/share/icons/menta/22x22/places/user-home.png
 drwxr-xr-x	root/root	usr/share/icons/menta/22x22/status/
+-rw-r--r--	root/root	usr/share/icons/menta/22x22/status/avatar-default.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/status/connect_creating.png -> network-transmit-receive.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/status/connect_established.png -> network-idle.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/status/connect_no.png -> network-offline.png
@@ -6403,11 +6795,17 @@ lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/status/nm-no-connection.png -> 
 lrwxrwxrwx	root/root	usr/share/icons/menta/22x22/status/stock_open.png -> folder-open.png
 drwxr-xr-x	root/root	usr/share/icons/menta/24x24/
 drwxr-xr-x	root/root	usr/share/icons/menta/24x24/actions/
+lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/actions/add.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/menta/24x24/actions/document-open.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/actions/fileopen.png -> document-open.png
 -rw-r--r--	root/root	usr/share/icons/menta/24x24/actions/folder-new.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/actions/folder_new.png -> folder-new.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/actions/gtk-add.png -> list-add.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/actions/gtk-open.png -> document-open.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/actions/gtk-remove.png -> list-remove.png
+-rw-r--r--	root/root	usr/share/icons/menta/24x24/actions/list-add.png
+-rw-r--r--	root/root	usr/share/icons/menta/24x24/actions/list-remove.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/actions/remove.png -> list-remove.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/actions/stock_new-dir.png -> folder-new.png
 drwxr-xr-x	root/root	usr/share/icons/menta/24x24/apps/
 lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/apps/background.png -> preferences-desktop-wallpaper.png
@@ -6468,6 +6866,7 @@ lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/places/stock_folder.png -> fold
 -rw-r--r--	root/root	usr/share/icons/menta/24x24/places/user-desktop.png
 -rw-r--r--	root/root	usr/share/icons/menta/24x24/places/user-home.png
 drwxr-xr-x	root/root	usr/share/icons/menta/24x24/status/
+-rw-r--r--	root/root	usr/share/icons/menta/24x24/status/avatar-default.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/status/connect_creating.png -> network-transmit-receive.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/status/connect_established.png -> network-idle.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/24x24/status/connect_no.png -> network-offline.png
@@ -6557,6 +6956,7 @@ lrwxrwxrwx	root/root	usr/share/icons/menta/256x256/places/stock_folder.png -> fo
 -rw-r--r--	root/root	usr/share/icons/menta/256x256/places/user-desktop.png
 -rw-r--r--	root/root	usr/share/icons/menta/256x256/places/user-home.png
 drwxr-xr-x	root/root	usr/share/icons/menta/256x256/status/
+-rw-r--r--	root/root	usr/share/icons/menta/256x256/status/avatar-default.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/256x256/status/connect_creating.png -> network-transmit-receive.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/256x256/status/connect_established.png -> network-idle.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/256x256/status/connect_no.png -> network-offline.png
@@ -6585,11 +6985,17 @@ lrwxrwxrwx	root/root	usr/share/icons/menta/256x256/status/nm-no-connection.png -
 lrwxrwxrwx	root/root	usr/share/icons/menta/256x256/status/stock_open.png -> folder-open.png
 drwxr-xr-x	root/root	usr/share/icons/menta/32x32/
 drwxr-xr-x	root/root	usr/share/icons/menta/32x32/actions/
+lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/actions/add.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/menta/32x32/actions/document-open.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/actions/fileopen.png -> document-open.png
 -rw-r--r--	root/root	usr/share/icons/menta/32x32/actions/folder-new.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/actions/folder_new.png -> folder-new.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/actions/gtk-add.png -> list-add.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/actions/gtk-open.png -> document-open.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/actions/gtk-remove.png -> list-remove.png
+-rw-r--r--	root/root	usr/share/icons/menta/32x32/actions/list-add.png
+-rw-r--r--	root/root	usr/share/icons/menta/32x32/actions/list-remove.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/actions/remove.png -> list-remove.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/actions/stock_new-dir.png -> folder-new.png
 drwxr-xr-x	root/root	usr/share/icons/menta/32x32/apps/
 lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/apps/background.png -> preferences-desktop-wallpaper.png
@@ -6650,6 +7056,7 @@ lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/places/stock_folder.png -> fold
 -rw-r--r--	root/root	usr/share/icons/menta/32x32/places/user-desktop.png
 -rw-r--r--	root/root	usr/share/icons/menta/32x32/places/user-home.png
 drwxr-xr-x	root/root	usr/share/icons/menta/32x32/status/
+-rw-r--r--	root/root	usr/share/icons/menta/32x32/status/avatar-default.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/status/connect_creating.png -> network-transmit-receive.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/status/connect_established.png -> network-idle.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/status/connect_no.png -> network-offline.png
@@ -6678,11 +7085,17 @@ lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/status/nm-no-connection.png -> 
 lrwxrwxrwx	root/root	usr/share/icons/menta/32x32/status/stock_open.png -> folder-open.png
 drwxr-xr-x	root/root	usr/share/icons/menta/48x48/
 drwxr-xr-x	root/root	usr/share/icons/menta/48x48/actions/
+lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/actions/add.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/menta/48x48/actions/document-open.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/actions/fileopen.png -> document-open.png
 -rw-r--r--	root/root	usr/share/icons/menta/48x48/actions/folder-new.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/actions/folder_new.png -> folder-new.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/actions/gtk-add.png -> list-add.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/actions/gtk-open.png -> document-open.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/actions/gtk-remove.png -> list-remove.png
+-rw-r--r--	root/root	usr/share/icons/menta/48x48/actions/list-add.png
+-rw-r--r--	root/root	usr/share/icons/menta/48x48/actions/list-remove.png
+lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/actions/remove.png -> list-remove.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/actions/stock_new-dir.png -> folder-new.png
 drwxr-xr-x	root/root	usr/share/icons/menta/48x48/apps/
 lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/apps/background.png -> preferences-desktop-wallpaper.png
@@ -6743,6 +7156,7 @@ lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/places/stock_folder.png -> fold
 -rw-r--r--	root/root	usr/share/icons/menta/48x48/places/user-desktop.png
 -rw-r--r--	root/root	usr/share/icons/menta/48x48/places/user-home.png
 drwxr-xr-x	root/root	usr/share/icons/menta/48x48/status/
+-rw-r--r--	root/root	usr/share/icons/menta/48x48/status/avatar-default.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/status/connect_creating.png -> network-transmit-receive.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/status/connect_established.png -> network-idle.png
 lrwxrwxrwx	root/root	usr/share/icons/menta/48x48/status/connect_no.png -> network-offline.png

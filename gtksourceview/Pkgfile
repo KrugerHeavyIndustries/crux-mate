@@ -1,0 +1,16 @@
+# Depends on: gtk libxml2 intltool
+
+name=gtksourceview
+version=2.10.5
+release=1
+source=(http://download.gnome.org/sources/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+    cd $name-$version
+    ./configure --prefix=/usr \
+        --disable-nls
+    make
+    make DESTDIR=$PKG install
+
+    rm -r $PKG/usr/share/{gtk-doc,locale}
+}

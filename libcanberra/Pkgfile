@@ -1,7 +1,7 @@
 # Description: An implementation of the XDG Sound Theme and Name Specification
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: libvorbis gtk alsa-lib
+# Depends on: libvorbis gtk alsa-lib gtk3 gstreamer-compat
 
 name=libcanberra
 version=0.29

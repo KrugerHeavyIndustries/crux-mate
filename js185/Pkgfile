@@ -1,7 +1,7 @@
 # Description: SpiderMonkey is Mozilla's Javascript Engine (js185) 
 # Maintainer: Chris Kruger
 # Group: mate
-# Depends on: nspr
+# Depends on: nspr python
 
 name=js185
 version=1.0.0

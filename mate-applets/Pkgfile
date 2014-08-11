@@ -1,21 +1,18 @@
-# Description: Applets for use with the MATE panel
-# Maintainer: Chris Kruger
-# Group: mate
-# Depends on: util-linux polkit dbus-glib mate-doc-utils libxslt mate-conf mate-icon-theme mate-panel libmatewnck mate-settings-daemon libnotify upower pygtk
+# Depends on: mate-panel mate-icon-theme polkit libgtop gtksourceview libnotify
 
 name=mate-applets
-version=1.6.1
+version=1.8.0
 release=1
-source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-    NOCONFIGURE=1 ./autogen.sh
-	./configure --prefix=/usr \
-		--libexecdir=/usr/lib/$name \
-		--disable-scrollkeeper \
-		--disable-nls
-	make
-	make DESTDIR=$PKG install
-	rm -r $PKG/usr/share/locale
+    cd $name-$version
+    ./configure --prefix=/usr \
+        --libexecdir=/usr/lib/$name \
+        --disable-nls \
+        --disable-schemas-compile
+    make
+    make DESTDIR=$PKG install
+
+    rm -r $PKG/usr/share/locale
 }

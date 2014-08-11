@@ -1,0 +1,13 @@
+#!/bin/sh
+
+/usr/bin/gtk-update-icon-cache /usr/share/icons/ContrastHigh
+/usr/bin/gtk-update-icon-cache /usr/share/icons/ContrastHighInverse
+/usr/bin/gtk-update-icon-cache /usr/share/icons/ContrastHighLargePrint
+/usr/bin/gtk-update-icon-cache /usr/share/icons/ContrastHighLargePrintInverse
+/usr/bin/gtk-update-icon-cache /usr/share/icons/ContrastHigh-SVG
+/usr/bin/gtk-update-icon-cache /usr/share/icons/Fog
+/usr/bin/gtk-update-icon-cache /usr/share/icons/mate
+/usr/bin/gtk-update-icon-cache /usr/share/icons/MateLargePrint
+/usr/bin/gtk-update-icon-cache /usr/share/icons/Quid
+
+# EOF

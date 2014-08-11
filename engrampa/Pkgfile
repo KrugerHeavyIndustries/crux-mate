@@ -1,0 +1,17 @@
+# Depends on: itstool glib gtk intltool
+
+name=engrampa
+version=1.8.0
+release=1
+source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
+
+build() {
+    cd $name-$version
+    ./configure --prefix=/usr \
+        --libexecdir=/usr/lib/$name \
+        --mandir=/usr/man \
+		--disable-schemas-compile \
+        --disable-nls
+    make
+    make DESTDIR=$PKG install
+}

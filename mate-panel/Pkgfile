@@ -1,23 +1,18 @@
-# Description: MATE project Panel
-# Maintainer: Chris Kruger
-# Group: mate
-# Depends on: intltool pango gtk glib librsvg libmateweather mate-desktop mate-menus libmatewnck libcanberra dconf dbus-glib
+# Depends on: mate-desktop mate-menus libwnck librsvg libmateweather libcanberra dbus-glib
 
 name=mate-panel
-version=1.6.0
+version=1.8.0
 release=1
-source=(http://pub.mate-desktop.org/releases/${version:0:3}/$name-$version.tar.xz)
+source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-    NOCONFIGURE=1 ./autogen.sh
-	./configure --prefix=/usr \
-		--mandir=/usr/man \
-		--libexecdir=/usr/lib/$name \
-		--disable-static \
-        --disable-scrollkeeper \
-		--enable-introspection
-	make
-	make DESTDIR=$PKG install
-	rm -rf $PKG/usr/share/{gtk-doc,locale}
+    cd $name-$version
+    ./configure --prefix=/usr \
+        --libexecdir=/usr/lib/$name \
+        --mandir=/usr/man \
+        --disable-nls \
+        --disable-schemas-compile
+    make
+    make DESTDIR=$PKG install
+    rm -r $PKG/usr/share/{gtk-doc,locale}
 }
