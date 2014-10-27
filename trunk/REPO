@@ -96,8 +96,8 @@ f:06d3aa24d61c6c0d38c2367f9eb0cc2d:dconf/.footprint
 f:9935954a5b2a224c1e051684a3a607e1:libnotify/.md5sum
 f:702b4e12d564c312e3925eab0992489a:libnotify/Pkgfile
 f:a6b71e7f94e9fb2b84c7c69498958aeb:libnotify/.footprint
-f:d5a3fb9a54daa01a56e9c39ca60adb90:mate-applets/.md5sum
-f:e9096c681d690865be2ab934d5975fda:mate-applets/Pkgfile
+f:7fb7bc57529b7a5854d051d8fad07e16:mate-applets/.md5sum
+f:b44af4ea057b461f5b66f616b7c7f3be:mate-applets/Pkgfile
 f:32cb219738baabe96fac6afd9543c41b:mate-applets/post-install
 f:315a9dac810790eedb736c38f4e366f5:mate-applets/.footprint
 f:1ef8f199a0cfe0e8c94ad1e4882b917d:p5-xml-simple/.md5sum
