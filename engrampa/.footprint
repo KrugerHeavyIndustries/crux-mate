@@ -2,6 +2,10 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/engrampa
 drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/caja/
+drwxr-xr-x	root/root	usr/lib/caja/extensions-2.0/
+-rwxr-xr-x	root/root	usr/lib/caja/extensions-2.0/libcaja-engrampa.la
+-rwxr-xr-x	root/root	usr/lib/caja/extensions-2.0/libcaja-engrampa.so
 drwxr-xr-x	root/root	usr/lib/engrampa/
 drwxr-xr-x	root/root	usr/lib/engrampa/engrampa/
 -rw-r--r--	root/root	usr/lib/engrampa/engrampa/isoinfo.sh
