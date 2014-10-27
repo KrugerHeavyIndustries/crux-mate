@@ -111,8 +111,8 @@ f:1562a06bb7ce7960d69fa587a0213382:mate-settings-daemon/.md5sum
 f:46b22d37d32ac8a65425162bb3dc9dfc:mate-settings-daemon/Pkgfile
 f:b6a86ea74c2de56b2d77cbfe79d22e6c:mate-settings-daemon/post-install
 f:e255709df1cf625ef8b4f1dda40c6af5:mate-settings-daemon/.footprint
-f:ed7dcd6f9b3ad966ba99da423402e4c8:polkit/.md5sum
-f:b6ba8d2cc2681bc53140f11449f6a230:polkit/Pkgfile
+f:6a18acb06568e29e59354cbeebb6be5c:polkit/.md5sum
+f:a9d75f3167b7679bb6c5a04b5fe55b72:polkit/Pkgfile
 f:f0e76578db547ba1db0fa3fc0215334d:polkit/.footprint
 f:4967bbf341d5e6b6096779f333af75a7:polkit/pre-install
 f:a0c3fae07fdceab094220ff4b50c3a39:mate-panel/.md5sum
