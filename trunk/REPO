@@ -68,8 +68,8 @@ f:788b6e0320ce6888c1251b6e5e5a1f99:gcr/.md5sum
 f:9be4e841c862710241bc35b8c890d129:gcr/Pkgfile
 f:de0d5475a82ee8fb655762c7300ffaa0:gcr/post-install
 f:89e5fe2cbcc83cf4b35cf4f585f5cc1c:gcr/.footprint
-f:9f2a7c3822702241809421796fcac286:caja/.md5sum
-f:a28b980f90d9dc535da4e34202dad959:caja/Pkgfile
+f:009042e1ef59bb92fa80d15ce87a4c11:caja/.md5sum
+f:a7a42d4b2ee660579649228d18a6257f:caja/Pkgfile
 f:de0d5475a82ee8fb655762c7300ffaa0:caja/post-install
 f:baa4bc4465df3d8a2352b5818b1410a8:caja/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:mate/.md5sum
