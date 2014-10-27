@@ -139,10 +139,10 @@ f:87745cc392cd5e2cd41a01d5b91e4035:gvfs/.footprint
 f:548c3b5ca07441f89bd00219db7afb2e:libgtop/.md5sum
 f:c98ffa1fe2c6acd28d32b1a5b5c151cc:libgtop/Pkgfile
 f:ce3c58e81051f5f3e51f0ea06f1cad09:libgtop/.footprint
-f:55ca91520acfbfa928069c239297bc6a:mate-themes/.md5sum
-f:bab3d64bb6b657ccd6cb630261f9997a:mate-themes/Pkgfile
+f:3fcffd0f0346d0e6470cba373ebc3867:mate-themes/.md5sum
+f:b33bb76888bf6b99ffc4d80f4cfca5c1:mate-themes/Pkgfile
 f:2f64f0f3b3e0f88ade59aa662983a6c4:mate-themes/post-install
-f:aebf25ffff9bf726a1d815b21035b24d:mate-themes/.footprint
+f:7361e3f12d7874056f62f82757e23481:mate-themes/.footprint
 f:5320e72ff09c1618f59eccd61a87c8b6:libtasn1/.md5sum
 f:4eecbeb6cace5a81d6c181986bd64f57:libtasn1/Pkgfile
 f:178f18dffba4ec4ff59f5669aa432896:libtasn1/.footprint
