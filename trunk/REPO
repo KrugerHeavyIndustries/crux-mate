@@ -115,8 +115,8 @@ f:ed7dcd6f9b3ad966ba99da423402e4c8:polkit/.md5sum
 f:b6ba8d2cc2681bc53140f11449f6a230:polkit/Pkgfile
 f:f0e76578db547ba1db0fa3fc0215334d:polkit/.footprint
 f:4967bbf341d5e6b6096779f333af75a7:polkit/pre-install
-f:60570ae897f77f3c513a101e6095ce7d:mate-panel/.md5sum
-f:d17221b552b66621b319bcf441f962e9:mate-panel/Pkgfile
+f:a0c3fae07fdceab094220ff4b50c3a39:mate-panel/.md5sum
+f:fe16b6157a07d1516c26ede3407753de:mate-panel/Pkgfile
 f:de0d5475a82ee8fb655762c7300ffaa0:mate-panel/post-install
 f:f8335274b2b844b68a5a2608f1ea8d6c:mate-panel/.footprint
 f:ce06d3cb20a7d53e38995853791262ce:mate-dialogs/.md5sum
