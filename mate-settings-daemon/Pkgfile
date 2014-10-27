@@ -1,7 +1,7 @@
 # Depends on: libmatekbd libnotify nspr polkit dconf mate-desktop nss
 
 name=mate-settings-daemon
-version=1.8.1
+version=1.8.2
 release=1
 source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
 

@@ -107,8 +107,8 @@ f:b019e0e3c484c87eb135bb213716470f:mate-notification-daemon/.md5sum
 f:4ef7d92bf46a9465d0ec7f8310a45add:mate-notification-daemon/Pkgfile
 f:de0d5475a82ee8fb655762c7300ffaa0:mate-notification-daemon/post-install
 f:7b57b8c8813763d42ce7aad74b206dd1:mate-notification-daemon/.footprint
-f:3df85f161bc1386eb9fe2636cc2d7be2:mate-settings-daemon/.md5sum
-f:8c4b2114ec540c9de729aaa14f630761:mate-settings-daemon/Pkgfile
+f:1562a06bb7ce7960d69fa587a0213382:mate-settings-daemon/.md5sum
+f:46b22d37d32ac8a65425162bb3dc9dfc:mate-settings-daemon/Pkgfile
 f:b6a86ea74c2de56b2d77cbfe79d22e6c:mate-settings-daemon/post-install
 f:e255709df1cf625ef8b4f1dda40c6af5:mate-settings-daemon/.footprint
 f:ed7dcd6f9b3ad966ba99da423402e4c8:polkit/.md5sum
