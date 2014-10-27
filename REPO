@@ -166,9 +166,9 @@ f:2a6cfdb1c1d183d2b014cdc751fff52c:consolekit/.md5sum
 f:40361479906e79091d3b3e5058f6ec81:consolekit/Pkgfile
 f:5ec032cc073e3bf64f6d41562bccf014:consolekit/.footprint
 f:e7d40e0fa5549790b8749b0ceff0ddc3:consolekit/revert-4f8822.diff
-f:5da36322cda7536579ea9fc095843df0:upower/.md5sum
-f:c7cabfe802260ded13d94ede621a4e3b:upower/Pkgfile
-f:a78dffa2f64f8dbd3d8b01c8306ea64d:upower/.footprint
+f:a034126c0e0c97aab1333c99f27a4852:upower/.md5sum
+f:65879b07f2175c973d25bbe1fe8bfadf:upower/Pkgfile
+f:e1f1ff8a9109f7efce0afbb72accd0a9:upower/.footprint
 f:d964ab337df207d844c36d561bf02d68:marco/.md5sum
 f:2065ef65f219435abb08d69a955da6d2:marco/Pkgfile
 f:8ab1a8aebf81c512aa5d551b60792167:marco/post-install

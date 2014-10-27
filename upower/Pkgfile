@@ -4,7 +4,7 @@
 # Depends on: intltool polkit eudev-gudev dbus-glib
 
 name=upower
-version=0.9.20
+version=0.9.23
 release=1
 source=(http://upower.freedesktop.org/releases/$name-$version.tar.xz)
 
