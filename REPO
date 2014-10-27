@@ -169,8 +169,8 @@ f:e7d40e0fa5549790b8749b0ceff0ddc3:consolekit/revert-4f8822.diff
 f:5da36322cda7536579ea9fc095843df0:upower/.md5sum
 f:c7cabfe802260ded13d94ede621a4e3b:upower/Pkgfile
 f:a78dffa2f64f8dbd3d8b01c8306ea64d:upower/.footprint
-f:8b82d2876d8a2610a167b18074de295e:marco/.md5sum
-f:537099de728c8a74541271dd8fd4c12b:marco/Pkgfile
+f:d964ab337df207d844c36d561bf02d68:marco/.md5sum
+f:2065ef65f219435abb08d69a955da6d2:marco/Pkgfile
 f:8ab1a8aebf81c512aa5d551b60792167:marco/post-install
 f:eac8508f9fb0199b28c539e0def90f38:marco/.footprint
 f:0ebc031bd35a550fbc440d1bc4a19c5e:libunique/G_CONST_RETURN.patch
