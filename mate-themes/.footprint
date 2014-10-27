@@ -2759,17 +2759,8 @@ drwxr-xr-x	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/
 -rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/scale-slider-vertical-dark.svg
 -rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/scale-slider-vertical-insensitive-dark.svg
 -rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/sidebar-radio-checked-dark.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/sidebar-radio-prelight.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/sidebar-radio-selected-dark.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/sidebar-radio-selected-prelight.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/switch-slider-grip.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/treeview-border-dark.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/treeview-focus-border-dark.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/trough-border-horizontal-dark.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/trough-border-horizontal-dark1.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/trough-border-switch-dark.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/trough-border-vertical-dark.svg
--rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/trough-border-vertical-dark1.svg
+-rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/slider_fine_horizontal.svg
+-rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/assets/slider_fine_vertical.svg
 -rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/gtk-dark.css
 -rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/gtk-main-dark.css
 -rw-r--r--	root/root	usr/share/themes/BlackMATE/gtk-3.0/gtk-main.css
@@ -2870,7 +2861,6 @@ drwxr-xr-x	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/Others/
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/chromium.rc
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/combo_down.png
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/dummy.png
--rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/pcmanfm.rc
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/pluma.rc
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/stock_back.png
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/stock_find.png
@@ -2878,6 +2868,7 @@ drwxr-xr-x	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/Others/
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/stock_home.png
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/stock_refresh.png
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/stock_stop.png
+-rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/apps/thunar.rc
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/gtk-2.0/gtkrc
 drwxr-xr-x	root/root	usr/share/themes/BlueMenta/gtk-2.0/widgets/
 drwxr-xr-x	root/root	usr/share/themes/BlueMenta/gtk-2.0/widgets/Null/
@@ -3562,6 +3553,8 @@ drwxr-xr-x	root/root	usr/share/themes/GreenLaguna/gtk-3.0/assets/
 -rw-r--r--	root/root	usr/share/themes/GreenLaguna/gtk-3.0/assets/scale-slider-vertical.svg
 -rw-r--r--	root/root	usr/share/themes/GreenLaguna/gtk-3.0/assets/sidebar-radio-prelight.svg
 -rw-r--r--	root/root	usr/share/themes/GreenLaguna/gtk-3.0/assets/sidebar-radio-selected-prelight.svg
+-rw-r--r--	root/root	usr/share/themes/GreenLaguna/gtk-3.0/assets/slider_fine_horizontal.svg
+-rw-r--r--	root/root	usr/share/themes/GreenLaguna/gtk-3.0/assets/slider_fine_vertical.svg
 -rw-r--r--	root/root	usr/share/themes/GreenLaguna/gtk-3.0/assets/switch-slider-grip.svg
 -rw-r--r--	root/root	usr/share/themes/GreenLaguna/gtk-3.0/assets/switch-trough-border-active.svg
 -rw-r--r--	root/root	usr/share/themes/GreenLaguna/gtk-3.0/assets/toolbar-button-border.svg
@@ -3650,7 +3643,6 @@ drwxr-xr-x	root/root	usr/share/themes/Menta/gtk-2.0/apps/Others/
 -rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/chromium.rc
 -rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/combo_down.png
 -rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/dummy.png
--rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/pcmanfm.rc
 -rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/pluma.rc
 -rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/stock_back.png
 -rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/stock_find.png
@@ -3658,6 +3650,7 @@ drwxr-xr-x	root/root	usr/share/themes/Menta/gtk-2.0/apps/Others/
 -rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/stock_home.png
 -rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/stock_refresh.png
 -rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/stock_stop.png
+-rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/apps/thunar.rc
 -rw-r--r--	root/root	usr/share/themes/Menta/gtk-2.0/gtkrc
 drwxr-xr-x	root/root	usr/share/themes/Menta/gtk-2.0/widgets/
 drwxr-xr-x	root/root	usr/share/themes/Menta/gtk-2.0/widgets/Null/
