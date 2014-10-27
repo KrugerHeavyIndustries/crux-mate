@@ -103,8 +103,8 @@ f:315a9dac810790eedb736c38f4e366f5:mate-applets/.footprint
 f:1ef8f199a0cfe0e8c94ad1e4882b917d:p5-xml-simple/.md5sum
 f:e4e1bb0059e1f0322497224fe99606c7:p5-xml-simple/Pkgfile
 f:bc0fef59bb0a60d1546d1c83c629babd:p5-xml-simple/.footprint
-f:661b37a4d6a592c5315694b0ecca9db7:mate-notification-daemon/.md5sum
-f:fec1b29ee342c11ef211709066a40eba:mate-notification-daemon/Pkgfile
+f:b019e0e3c484c87eb135bb213716470f:mate-notification-daemon/.md5sum
+f:4ef7d92bf46a9465d0ec7f8310a45add:mate-notification-daemon/Pkgfile
 f:de0d5475a82ee8fb655762c7300ffaa0:mate-notification-daemon/post-install
 f:7b57b8c8813763d42ce7aad74b206dd1:mate-notification-daemon/.footprint
 f:3df85f161bc1386eb9fe2636cc2d7be2:mate-settings-daemon/.md5sum

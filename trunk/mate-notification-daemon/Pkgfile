@@ -1,7 +1,7 @@
 # Depends on: libcanberra libwnck dbus-glib libnotify
 
 name=mate-notification-daemon
-version=1.8.0
+version=1.8.1
 release=1
 source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
 
