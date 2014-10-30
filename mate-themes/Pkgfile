@@ -1,3 +1,6 @@
+# Description: MATE desktop themes
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: gtk-engines gtk-engine-murrine icon-naming-utils
 
 name=mate-themes

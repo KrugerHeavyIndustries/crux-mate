@@ -1,3 +1,6 @@
+# Description: A fork of gdialog which allows creation of dialog boxes from the command line or scripts
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: itstool gtk intltool
 
 name=mate-dialogs

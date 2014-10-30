@@ -1,3 +1,6 @@
+# Description: MATE icon theme
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: p5-xml-parser icon-naming-utils intltool gtk
 
 name=mate-icon-theme

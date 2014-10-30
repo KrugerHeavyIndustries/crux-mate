@@ -1,3 +1,6 @@
+# Description: MATE session manager and configuration program for login applications
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: consolekit gtk
 
 name=mate-session-manager

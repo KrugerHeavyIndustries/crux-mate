@@ -1,5 +1,6 @@
 # Description: Polkit is a toolkit for defining and handling authorizations
-# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
+# URL: http://www.freedesktop.org/wiki/Software/polkit/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Group: mate
 # Depends on: glib intltool gobject-introspection js185 docbook-xsl
 

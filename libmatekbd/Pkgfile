@@ -1,3 +1,6 @@
+# Description: A MATE fork of the GNOME keyboard library
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: libxklavier intltool gtk
 
 name=libmatekbd

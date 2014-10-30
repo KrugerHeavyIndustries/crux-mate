@@ -1,3 +1,6 @@
+# Description: A library and UI for certificates and crypto
+# URL: https://wiki.gnome.org/action/show/Projects/GnomeKeyring
+# Maintainer: Matt Housh, jaeger at morpheus dot net
 # Depends on: p11-kit intltool glib gtk3 libgcrypt
 
 name=gcr

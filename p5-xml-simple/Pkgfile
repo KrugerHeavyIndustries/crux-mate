@@ -1,5 +1,6 @@
 # Description: Perl/CPAN XML::Simple module 
-# Maintainer: Chris Kruger
+# URL: https://github.com/grantm/xml-simple
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Group: mate
 
 name=p5-xml-simple

@@ -1,3 +1,6 @@
+# Description: A document viewer for MATE
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: mate-icon-theme libxml2 gtk libsecret caja poppler-glib
 
 name=atril

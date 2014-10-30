@@ -1,3 +1,6 @@
+# Description: The file manager for the MATE desktop
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: mate-desktop pangox-compat gvfs
 
 name=caja

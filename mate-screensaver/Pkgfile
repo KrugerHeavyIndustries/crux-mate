@@ -1,3 +1,6 @@
+# Description: A screensaver and locker for MATE
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: mate-desktop xorg-libxscrnsaver mate-menus dbus-glib
 
 name=mate-screensaver
