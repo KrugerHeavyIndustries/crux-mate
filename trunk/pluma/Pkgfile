@@ -1,3 +1,6 @@
+# Description: A powerful text editor for MATE
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: enchant gtksourceview iso-codes itstool
 
 name=pluma

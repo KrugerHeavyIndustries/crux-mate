@@ -1,5 +1,6 @@
 # Description: SpiderMonkey is Mozilla's Javascript Engine (js185) 
-# Maintainer: Chris Kruger
+# URL: https://developer.mozilla.org/En/SpiderMonkey/1.8.5
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Group: mate
 # Depends on: nspr python
 

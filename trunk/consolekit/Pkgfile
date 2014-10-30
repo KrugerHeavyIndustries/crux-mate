@@ -1,5 +1,6 @@
-# Description: The ConsoleKit framework keeps track of various users, sessions 
-# Maintainer: Chris Kruger crux-maint at krugerheavyindustries dot com
+# Description: A framework for defining and tracking users, login sessions, and seats
+# URL: http://www.freedesktop.org/wiki/Software/ConsoleKit/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Group: mate
 # Depends on: polkit dbus-glib xorg-libx11
 

@@ -1,3 +1,6 @@
+# Description: MATE settings daemon
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: libmatekbd libnotify nspr polkit dconf mate-desktop nss
 
 name=mate-settings-daemon

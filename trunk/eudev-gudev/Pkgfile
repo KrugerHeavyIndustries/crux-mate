@@ -1,7 +1,7 @@
 # Description: Userspace device management daemon
-# URL:         http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
-# Maintainer:
-# Depends on:  eudev glib
+# URL: http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: eudev glib
 
 name=eudev-gudev
 version=1.6

@@ -1,3 +1,6 @@
+# Description: A source code extension for the GtkTextView text widget
+# URL: http://projects.gnome.org/gtksourceview
+# Maintainer: Matt Housh, jaeger at morpheus dot net
 # Depends on: gtk libxml2 intltool
 
 name=gtksourceview

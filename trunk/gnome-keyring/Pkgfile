@@ -1,3 +1,6 @@
+# Description: A program that keeps passwords and other secrets for users
+# URL: https://wiki.gnome.org/action/show/Projects/GnomeKeyring
+# Maintainer: Matt Housh, jaeger at morpheus dot net
 # Depends on: gcr docbook-xsl
 
 name=gnome-keyring

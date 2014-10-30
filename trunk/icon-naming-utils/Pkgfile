@@ -1,5 +1,6 @@
-# Description:  Icon Naming Utilities
-# Maintainer: Chris Kruger
+# Description: Maps icon names used by desktop environments to the names in the Icon Naming Specification
+# URL: http://tango.freedesktop.org/Standard_Icon_Naming_Specification
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Group: mate
 # Depends on: p5-xml-simple
 

@@ -1,3 +1,6 @@
+# Description: Library, files, and editor implementing the freedesktop.org Desktop Menu Specification for MATE
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: intltool gobject-introspection
 
 name=mate-menus

@@ -1,3 +1,6 @@
+# Description: Applets for use with the MATE panel
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: mate-panel mate-icon-theme polkit libgtop gtksourceview libnotify
 
 name=mate-applets

@@ -1,3 +1,6 @@
+# Description: A library to access weather information from online services
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: libsoup gtk
 
 name=libmateweather

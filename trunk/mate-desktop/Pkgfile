@@ -1,3 +1,6 @@
+# Description: The libmate-desktop library, mate-about program, and desktop-wide documents
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: dconf libunique startup-notification itstool
 
 name=mate-desktop

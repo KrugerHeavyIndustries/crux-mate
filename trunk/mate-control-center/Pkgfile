@@ -1,3 +1,6 @@
+# Description: MATE's main interface for configuration of various aspects of the desktop
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: mate-settings-daemon desktop-file-utils
 
 name=mate-control-center

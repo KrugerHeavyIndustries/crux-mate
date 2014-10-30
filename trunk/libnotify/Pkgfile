@@ -1,7 +1,6 @@
 # Description: Notification library from the Galago project
 # URL: http://www.galago-project.org/news/index.php
-# Packager: Matt Housh, jaeger at morpheus dot net
-# Maintainer:
+# Maintainer: Matt Housh, jaeger at morpheus dot net
 # Depends on: dbus-glib, gtk, gtk3
 
 name=libnotify

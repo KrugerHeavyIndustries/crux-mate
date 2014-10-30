@@ -1,3 +1,6 @@
+# Description: An applet for the MATE panel that shows network device traffic
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: libgtop mate-panel
 
 name=mate-netspeed

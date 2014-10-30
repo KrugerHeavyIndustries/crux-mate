@@ -1,3 +1,6 @@
+# Description: A notification daemon for MATE
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: libcanberra libwnck dbus-glib libnotify
 
 name=mate-notification-daemon

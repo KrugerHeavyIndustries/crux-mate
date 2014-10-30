@@ -1,3 +1,6 @@
+# Description: The MATE window manager, a fork of Metacity
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
 # Depends on: libcanberra mate-dialogs xorg-libxdamage
 
 name=marco
