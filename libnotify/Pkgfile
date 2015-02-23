@@ -4,7 +4,7 @@
 # Depends on: dbus-glib, gtk, gtk3
 
 name=libnotify
-version=0.7.5
+version=0.7.6
 release=1
 source=(http://download.gnome.org/sources/$name/${version:0:3}/$name-$version.tar.xz)
 
