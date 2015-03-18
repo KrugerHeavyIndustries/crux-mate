@@ -67,4 +67,4 @@ exec /usr/bin/start-mate
 
 Then issue '**startx**' at the command line. Assuming kernel compile options are correct you should find yourself with a working MATE desktop (basic).
 
-If it doesn't work like this. Please [report your issues](https://code.google.com/p/crux-mate/issues/list). We'd love it to be this simple.
+If it doesn't work like this. Please [report your issues](https://github.com/KrugerHeavyIndustries/crux-mate/issues). We'd love it to be this simple.
