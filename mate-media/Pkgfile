@@ -1,0 +1,21 @@
+# Description: Media tools for MATE
+# URL: http://www.mate-desktop.org/
+# Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
+# Depends on: gst-plugins-base-compat libcanberra libtool tdb xorg-libxdamage xz
+
+name=mate-media
+version=1.8.0
+release=1
+source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
+
+build() {
+    cd $name-$version
+    ./configure --prefix=/usr \
+		--mandir=/usr/man \
+        --disable-nls \
+        --disable-schemas-compile \
+		--disable-pulseaudio
+    make
+    make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/locale
+}
