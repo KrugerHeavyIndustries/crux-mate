@@ -396,8 +396,11 @@ drwxr-xr-x	root/root	usr/share/mate-panel/applets/
 -rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.panel.Wncklet.mate-panel-applet
 drwxr-xr-x	root/root	usr/share/mate-panel/layouts/
 -rw-r--r--	root/root	usr/share/mate-panel/layouts/default.layout
+-rw-r--r--	root/root	usr/share/mate-panel/layouts/fedora.layout
 -rw-r--r--	root/root	usr/share/mate-panel/layouts/linuxmint.layout
+-rw-r--r--	root/root	usr/share/mate-panel/layouts/mageia.layout
 -rw-r--r--	root/root	usr/share/mate-panel/layouts/opensuse.layout
+-rw-r--r--	root/root	usr/share/mate-panel/layouts/ubuntu.layout
 drwxr-xr-x	root/root	usr/share/mate-panel/pixmaps/
 -rw-r--r--	root/root	usr/share/mate-panel/pixmaps/clock-calendar-icon.png
 -rw-r--r--	root/root	usr/share/mate-panel/pixmaps/clock-face-large.svg

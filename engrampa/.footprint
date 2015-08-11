@@ -7,6 +7,7 @@ drwxr-xr-x	root/root	usr/lib/caja/extensions-2.0/
 -rwxr-xr-x	root/root	usr/lib/caja/extensions-2.0/libcaja-engrampa.la
 -rwxr-xr-x	root/root	usr/lib/caja/extensions-2.0/libcaja-engrampa.so
 drwxr-xr-x	root/root	usr/lib/engrampa/
+-rwxr-xr-x	root/root	usr/lib/engrampa/engrampa-server
 drwxr-xr-x	root/root	usr/lib/engrampa/engrampa/
 -rw-r--r--	root/root	usr/lib/engrampa/engrampa/isoinfo.sh
 -rwxr-xr-x	root/root	usr/lib/engrampa/engrampa/rpm2cpio
@@ -17,8 +18,16 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/MateConf/
 drwxr-xr-x	root/root	usr/share/MateConf/gsettings/
 -rw-r--r--	root/root	usr/share/MateConf/gsettings/engrampa.convert
+drwxr-xr-x	root/root	usr/share/appdata/
+-rw-r--r--	root/root	usr/share/appdata/engrampa.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/engrampa.desktop
+drwxr-xr-x	root/root	usr/share/caja/
+drwxr-xr-x	root/root	usr/share/caja/extensions/
+-rw-r--r--	root/root	usr/share/caja/extensions/libcaja-engrampa.caja-extension
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.mate.Engrampa.service
 drwxr-xr-x	root/root	usr/share/engrampa/
 drwxr-xr-x	root/root	usr/share/engrampa/icons/
 drwxr-xr-x	root/root	usr/share/engrampa/icons/hicolor/

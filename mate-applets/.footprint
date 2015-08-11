@@ -11,14 +11,14 @@ drwxr-xr-x	root/root	usr/etc/sound/events/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/mate-applets/
 -rwxr-xr-x	root/root	usr/lib/mate-applets/accessx-status-applet
--rwxr-xr-x	root/root	usr/lib/mate-applets/battstat-applet-2
--rwxr-xr-x	root/root	usr/lib/mate-applets/charpick_applet2
+-rwxr-xr-x	root/root	usr/lib/mate-applets/battstat-applet
 -rwxr-xr-x	root/root	usr/lib/mate-applets/command-applet
--rwxr-xr-x	root/root	usr/lib/mate-applets/drivemount_applet2
--rwxr-xr-x	root/root	usr/lib/mate-applets/geyes_applet2
+-rwxr-xr-x	root/root	usr/lib/mate-applets/mate-charpick-applet
 -rwxr-xr-x	root/root	usr/lib/mate-applets/mate-cpufreq-applet
--rwxr-xr-x	root/root	usr/lib/mate-applets/mateweather-applet-2
--rwxr-xr-x	root/root	usr/lib/mate-applets/multiload-applet-2
+-rwxr-xr-x	root/root	usr/lib/mate-applets/mate-drivemount-applet
+-rwxr-xr-x	root/root	usr/lib/mate-applets/mate-geyes-applet
+-rwxr-xr-x	root/root	usr/lib/mate-applets/mate-multiload-applet
+-rwxr-xr-x	root/root	usr/lib/mate-applets/mateweather-applet
 -rwxr-xr-x	root/root	usr/lib/mate-applets/stickynotes_applet
 -rwxr-xr-x	root/root	usr/lib/mate-applets/timer-applet
 -rwxr-xr-x	root/root	usr/lib/mate-applets/trashapplet
@@ -120,15 +120,15 @@ drwxr-xr-x	root/root	usr/share/help/C/mate-multiload/figures/
 -rw-r--r--	root/root	usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/C/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/C/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/C/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/C/mate-stickynotes_applet/figures/
--rw-r--r--	root/root	usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
--rw-r--r--	root/root	usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/C/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/C/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/C/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/C/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/C/mate-stickynotes-applet/figures/
+-rw-r--r--	root/root	usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+-rw-r--r--	root/root	usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/C/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/C/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/C/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/C/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/C/mate-trashapplet/figures/
 -rw-r--r--	root/root	usr/share/help/C/mate-trashapplet/figures/trash-applet.png
@@ -282,15 +282,15 @@ lrwxrwxrwx	root/root	usr/share/help/ca/mate-multiload/figures/system-monitor-app
 lrwxrwxrwx	root/root	usr/share/help/ca/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/ca/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/ca/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/ca/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/ca/mate-stickynotes_applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes_applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes_applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes_applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes_applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/ca/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/ca/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/ca/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/ca/mate-stickynotes-applet/figures/
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes-applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes-applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes-applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes-applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/ca/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/ca/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ca/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/ca/mate-trashapplet/figures/
 lrwxrwxrwx	root/root	usr/share/help/ca/mate-trashapplet/figures/trash-applet.png -> /usr/share/help/C/mate-trashapplet/figures/trash-applet.png
@@ -381,15 +381,15 @@ lrwxrwxrwx	root/root	usr/share/help/cs/mate-multiload/figures/system-monitor-app
 lrwxrwxrwx	root/root	usr/share/help/cs/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/cs/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/cs/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/cs/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/cs/mate-stickynotes_applet/figures/
--rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
--rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/cs/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/cs/mate-stickynotes-applet/figures/
+-rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+-rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/cs/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/cs/mate-trashapplet/figures/
 lrwxrwxrwx	root/root	usr/share/help/cs/mate-trashapplet/figures/trash-applet.png -> /usr/share/help/C/mate-trashapplet/figures/trash-applet.png
@@ -509,15 +509,15 @@ drwxr-xr-x	root/root	usr/share/help/de/mate-multiload/figures/
 lrwxrwxrwx	root/root	usr/share/help/de/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/de/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/de/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/de/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/de/mate-stickynotes_applet/figures/
--rw-r--r--	root/root	usr/share/help/de/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
--rw-r--r--	root/root	usr/share/help/de/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/de/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/de/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/de/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/de/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/de/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/de/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/de/mate-stickynotes-applet/figures/
+-rw-r--r--	root/root	usr/share/help/de/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+-rw-r--r--	root/root	usr/share/help/de/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/de/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/de/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/de/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/de/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/de/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/de/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/de/mate-trashapplet/figures/
 -rw-r--r--	root/root	usr/share/help/de/mate-trashapplet/figures/trash-applet.png
@@ -608,15 +608,15 @@ lrwxrwxrwx	root/root	usr/share/help/el/mate-multiload/figures/system-monitor-app
 lrwxrwxrwx	root/root	usr/share/help/el/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/el/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/el/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/el/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/el/mate-stickynotes_applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes_applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes_applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes_applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes_applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/el/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/el/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/el/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/el/mate-stickynotes-applet/figures/
+lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes-applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes-applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes-applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes-applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/el/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/el/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/el/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/el/mate-trashapplet/figures/
 -rw-r--r--	root/root	usr/share/help/el/mate-trashapplet/figures/trash-applet.png
@@ -707,15 +707,15 @@ lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-multiload/figures/system-monitor-
 lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/en_GB/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/en_GB/mate-stickynotes_applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes_applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes_applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes_applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes_applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/en_GB/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/en_GB/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/en_GB/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/en_GB/mate-stickynotes-applet/figures/
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes-applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes-applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes-applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes-applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/en_GB/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/en_GB/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-trashapplet/figures/
 lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-trashapplet/figures/trash-applet.png -> /usr/share/help/C/mate-trashapplet/figures/trash-applet.png
@@ -806,15 +806,15 @@ lrwxrwxrwx	root/root	usr/share/help/es/mate-multiload/figures/system-monitor-app
 lrwxrwxrwx	root/root	usr/share/help/es/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/es/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/es/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/es/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/es/mate-stickynotes_applet/figures/
--rw-r--r--	root/root	usr/share/help/es/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
--rw-r--r--	root/root	usr/share/help/es/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/es/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/es/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/es/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/es/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/es/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/es/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/es/mate-stickynotes-applet/figures/
+-rw-r--r--	root/root	usr/share/help/es/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+-rw-r--r--	root/root	usr/share/help/es/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/es/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/es/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/es/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/es/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/es/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/es/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/es/mate-trashapplet/figures/
 -rw-r--r--	root/root	usr/share/help/es/mate-trashapplet/figures/trash-applet.png
@@ -905,15 +905,15 @@ lrwxrwxrwx	root/root	usr/share/help/eu/mate-multiload/figures/system-monitor-app
 -rw-r--r--	root/root	usr/share/help/eu/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/eu/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/eu/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/eu/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/eu/mate-stickynotes_applet/figures/
--rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
--rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/eu/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/eu/mate-stickynotes-applet/figures/
+-rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+-rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/eu/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/eu/mate-trashapplet/figures/
 -rw-r--r--	root/root	usr/share/help/eu/mate-trashapplet/figures/trash-applet.png
@@ -1004,15 +1004,15 @@ lrwxrwxrwx	root/root	usr/share/help/fi/mate-multiload/figures/system-monitor-app
 -rw-r--r--	root/root	usr/share/help/fi/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/fi/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/fi/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/fi/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/fi/mate-stickynotes_applet/figures/
--rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
--rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/fi/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/fi/mate-stickynotes-applet/figures/
+-rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+-rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/fi/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/fi/mate-trashapplet/figures/
 -rw-r--r--	root/root	usr/share/help/fi/mate-trashapplet/figures/trash-applet.png
@@ -1103,15 +1103,15 @@ lrwxrwxrwx	root/root	usr/share/help/fr/mate-multiload/figures/system-monitor-app
 lrwxrwxrwx	root/root	usr/share/help/fr/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/fr/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/fr/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/fr/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/fr/mate-stickynotes_applet/figures/
--rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
--rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/fr/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/fr/mate-stickynotes-applet/figures/
+-rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+-rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/fr/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/fr/mate-trashapplet/figures/
 -rw-r--r--	root/root	usr/share/help/fr/mate-trashapplet/figures/trash-applet.png
@@ -1267,15 +1267,15 @@ lrwxrwxrwx	root/root	usr/share/help/ko/mate-multiload/figures/system-monitor-app
 lrwxrwxrwx	root/root	usr/share/help/ko/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/ko/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/ko/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/ko/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/ko/mate-stickynotes_applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
-lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes_applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
-lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes_applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes_applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes_applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/ko/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/ko/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/ko/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/ko/mate-stickynotes-applet/figures/
+lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes-applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes-applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes-applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes-applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/ko/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/ko/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ko/mateweather/
 drwxr-xr-x	root/root	usr/share/help/ko/mateweather/figures/
 lrwxrwxrwx	root/root	usr/share/help/ko/mateweather/figures/mateweather-details.png -> /usr/share/help/C/mateweather/figures/mateweather-details.png
@@ -1421,15 +1421,15 @@ lrwxrwxrwx	root/root	usr/share/help/oc/mate-multiload/figures/system-monitor-app
 lrwxrwxrwx	root/root	usr/share/help/oc/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/oc/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/oc/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/oc/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/oc/mate-stickynotes_applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes_applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes_applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes_applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes_applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/oc/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/oc/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/oc/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/oc/mate-stickynotes-applet/figures/
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes-applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes-applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes-applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes-applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/oc/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/oc/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/oc/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/oc/mate-trashapplet/figures/
 lrwxrwxrwx	root/root	usr/share/help/oc/mate-trashapplet/figures/trash-applet.png -> /usr/share/help/C/mate-trashapplet/figures/trash-applet.png
@@ -1479,15 +1479,15 @@ lrwxrwxrwx	root/root	usr/share/help/pa/mate-multiload/figures/system-monitor-app
 lrwxrwxrwx	root/root	usr/share/help/pa/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/pa/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/pa/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/pa/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/pa/mate-stickynotes_applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
-lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes_applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
-lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes_applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes_applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes_applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/pa/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/pa/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/pa/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/pa/mate-stickynotes-applet/figures/
+lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes-applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes-applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes-applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes-applet/figures/stickynotes_applet.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/pa/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/pa/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/pa/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/pa/mate-trashapplet/figures/
 -rw-r--r--	root/root	usr/share/help/pa/mate-trashapplet/figures/trash-applet.png
@@ -1549,15 +1549,15 @@ lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-multiload/figures/system-monitor-
 lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/pt_BR/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/pt_BR/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-stickynotes_applet/figures/
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/figures/
+-rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+-rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-trashapplet/figures/
 lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-trashapplet/figures/trash-applet.png -> /usr/share/help/C/mate-trashapplet/figures/trash-applet.png
@@ -1624,15 +1624,15 @@ lrwxrwxrwx	root/root	usr/share/help/ru/mate-multiload/figures/system-monitor-app
 lrwxrwxrwx	root/root	usr/share/help/ru/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/ru/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/ru/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/ru/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/ru/mate-stickynotes_applet/figures/
--rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
--rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/ru/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/ru/mate-stickynotes-applet/figures/
+-rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+-rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ru/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/ru/mate-trashapplet/figures/
 lrwxrwxrwx	root/root	usr/share/help/ru/mate-trashapplet/figures/trash-applet.png -> /usr/share/help/C/mate-trashapplet/figures/trash-applet.png
@@ -1723,15 +1723,15 @@ drwxr-xr-x	root/root	usr/share/help/sv/mate-multiload/figures/
 lrwxrwxrwx	root/root	usr/share/help/sv/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/sv/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/sv/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/sv/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/sv/mate-stickynotes_applet/figures/
--rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
--rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/sv/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/sv/mate-stickynotes-applet/figures/
+-rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+-rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/sv/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/sv/mate-trashapplet/figures/
 -rw-r--r--	root/root	usr/share/help/sv/mate-trashapplet/figures/trash-applet.png
@@ -1822,15 +1822,15 @@ drwxr-xr-x	root/root	usr/share/help/uk/mate-multiload/figures/
 -rw-r--r--	root/root	usr/share/help/uk/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/uk/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/uk/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/uk/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/uk/mate-stickynotes_applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/uk/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
-lrwxrwxrwx	root/root	usr/share/help/uk/mate-stickynotes_applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
--rw-r--r--	root/root	usr/share/help/uk/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
--rw-r--r--	root/root	usr/share/help/uk/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/uk/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/uk/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/uk/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/uk/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/uk/mate-stickynotes-applet/figures/
+lrwxrwxrwx	root/root	usr/share/help/uk/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+lrwxrwxrwx	root/root	usr/share/help/uk/mate-stickynotes-applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+-rw-r--r--	root/root	usr/share/help/uk/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+-rw-r--r--	root/root	usr/share/help/uk/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/uk/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/uk/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/uk/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/uk/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/uk/mate-trashapplet/figures/
 -rw-r--r--	root/root	usr/share/help/uk/mate-trashapplet/figures/trash-applet.png
@@ -1921,15 +1921,15 @@ lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-multiload/figures/multiload-prefe
 lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-multiload/index.docbook
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-stickynotes_applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-stickynotes_applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-stickynotes_applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-stickynotes_applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/zh_CN/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/zh_CN/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/zh_CN/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/figures/
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-trashapplet/figures/
 lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-trashapplet/figures/trash-applet.png -> /usr/share/help/C/mate-trashapplet/figures/trash-applet.png
@@ -1972,15 +1972,15 @@ drwxr-xr-x	root/root	usr/share/help/zh_HK/mate-geyes/figures/
 -rw-r--r--	root/root	usr/share/help/zh_HK/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/zh_HK/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/zh_HK/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/zh_HK/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/zh_HK/mate-stickynotes_applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-stickynotes_applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-stickynotes_applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-stickynotes_applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/zh_HK/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/zh_HK/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/zh_HK/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/zh_HK/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/zh_HK/mate-stickynotes-applet/figures/
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-stickynotes-applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-stickynotes-applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-stickynotes-applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/zh_HK/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/zh_HK/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/zh_HK/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/zh_HK/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/zh_HK/mate-trashapplet/figures/
 lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-trashapplet/figures/trash-applet.png -> /usr/share/help/C/mate-trashapplet/figures/trash-applet.png
@@ -2005,15 +2005,15 @@ drwxr-xr-x	root/root	usr/share/help/zh_TW/mate-geyes/figures/
 -rw-r--r--	root/root	usr/share/help/zh_TW/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/zh_TW/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/zh_TW/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/zh_TW/mate-stickynotes_applet/
-drwxr-xr-x	root/root	usr/share/help/zh_TW/mate-stickynotes_applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-lock.png
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-stickynotes_applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynote-right-menu-new.png
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-stickynotes_applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-note-prefs.png
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-stickynotes_applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes_applet/figures/stickynotes-prefs.png
--rw-r--r--	root/root	usr/share/help/zh_TW/mate-stickynotes_applet/figures/stickynotes_applet.png
--rw-r--r--	root/root	usr/share/help/zh_TW/mate-stickynotes_applet/index.docbook
--rw-r--r--	root/root	usr/share/help/zh_TW/mate-stickynotes_applet/legal.xml
+drwxr-xr-x	root/root	usr/share/help/zh_TW/mate-stickynotes-applet/
+drwxr-xr-x	root/root	usr/share/help/zh_TW/mate-stickynotes-applet/figures/
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-stickynotes-applet/figures/stickynote-right-menu-new.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-new.png
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-stickynotes-applet/figures/stickynotes-note-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-note-prefs.png
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-stickynotes-applet/figures/stickynotes-prefs.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynotes-prefs.png
+-rw-r--r--	root/root	usr/share/help/zh_TW/mate-stickynotes-applet/figures/stickynotes_applet.png
+-rw-r--r--	root/root	usr/share/help/zh_TW/mate-stickynotes-applet/index.docbook
+-rw-r--r--	root/root	usr/share/help/zh_TW/mate-stickynotes-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/zh_TW/mate-trashapplet/
 drwxr-xr-x	root/root	usr/share/help/zh_TW/mate-trashapplet/figures/
 lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-trashapplet/figures/trash-applet.png -> /usr/share/help/C/mate-trashapplet/figures/trash-applet.png
@@ -2050,18 +2050,15 @@ drwxr-xr-x	root/root	usr/share/icons/mate/
 drwxr-xr-x	root/root	usr/share/icons/mate/48x48/
 drwxr-xr-x	root/root	usr/share/icons/mate/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/mate/48x48/apps/ax-applet.png
-drwxr-xr-x	root/root	usr/share/mate-2.0/
-drwxr-xr-x	root/root	usr/share/mate-2.0/ui/
--rw-r--r--	root/root	usr/share/mate-2.0/ui/accessx-status-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate-2.0/ui/battstat-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate-2.0/ui/charpick-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate-2.0/ui/cpufreq-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate-2.0/ui/drivemount-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate-2.0/ui/geyes-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate-2.0/ui/mateweather-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate-2.0/ui/multiload-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate-2.0/ui/stickynotes-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate-2.0/ui/trashapplet-menu.xml
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/mate-charpick-applet.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/mate-cpufreq-selector.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/mate-drivemount-applet.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/mate-geyes-applet.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/mate-invest-chart.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/mate-multiload-applet.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/mateweather.1.gz
 drwxr-xr-x	root/root	usr/share/mate-applets/
 drwxr-xr-x	root/root	usr/share/mate-applets/builder/
 -rw-r--r--	root/root	usr/share/mate-applets/builder/battstat_applet.ui
@@ -2107,6 +2104,18 @@ drwxr-xr-x	root/root	usr/share/mate-panel/applets/
 -rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.StickyNotesApplet.mate-panel-applet
 -rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.TimerApplet.mate-panel-applet
 -rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.TrashApplet.mate-panel-applet
+drwxr-xr-x	root/root	usr/share/mate/
+drwxr-xr-x	root/root	usr/share/mate/ui/
+-rw-r--r--	root/root	usr/share/mate/ui/accessx-status-applet-menu.xml
+-rw-r--r--	root/root	usr/share/mate/ui/battstat-applet-menu.xml
+-rw-r--r--	root/root	usr/share/mate/ui/charpick-applet-menu.xml
+-rw-r--r--	root/root	usr/share/mate/ui/cpufreq-applet-menu.xml
+-rw-r--r--	root/root	usr/share/mate/ui/drivemount-applet-menu.xml
+-rw-r--r--	root/root	usr/share/mate/ui/geyes-applet-menu.xml
+-rw-r--r--	root/root	usr/share/mate/ui/mateweather-applet-menu.xml
+-rw-r--r--	root/root	usr/share/mate/ui/multiload-applet-menu.xml
+-rw-r--r--	root/root	usr/share/mate/ui/stickynotes-applet-menu.xml
+-rw-r--r--	root/root	usr/share/mate/ui/trashapplet-menu.xml
 drwxr-xr-x	root/root	usr/share/pixmaps/
 drwxr-xr-x	root/root	usr/share/pixmaps/mate-accessx-status-applet/
 -rw-r--r--	root/root	usr/share/pixmaps/mate-accessx-status-applet/ax-applet.png

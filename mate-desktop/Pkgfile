@@ -4,7 +4,7 @@
 # Depends on: dconf libunique startup-notification itstool
 
 name=mate-desktop
-version=1.8.2
+version=1.10.1
 release=1
 source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
 

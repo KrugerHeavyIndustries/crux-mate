@@ -1,10 +1,10 @@
 # Description: The MATE window manager, a fork of Metacity
 # URL: http://www.mate-desktop.org/
 # Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
-# Depends on: libcanberra mate-dialogs xorg-libxdamage zenity desktop-file-utils
+# Depends on: libcanberra xorg-libxdamage zenity desktop-file-utils
 
 name=marco
-version=1.8.3
+version=1.10.1
 release=1
 source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
 

@@ -8,6 +8,13 @@ drwxr-xr-x	root/root	usr/etc/mate-settings-daemon/xrandr/
 drwxr-xr-x	root/root	usr/etc/xdg/
 drwxr-xr-x	root/root	usr/etc/xdg/autostart/
 -rw-r--r--	root/root	usr/etc/xdg/autostart/mate-settings-daemon.desktop
+drwxr-xr-x	root/root	usr/etc/xrdb/
+-rw-r--r--	root/root	usr/etc/xrdb/Editres.ad
+-rw-r--r--	root/root	usr/etc/xrdb/Emacs.ad
+-rw-r--r--	root/root	usr/etc/xrdb/General.ad
+-rw-r--r--	root/root	usr/etc/xrdb/Motif.ad
+-rw-r--r--	root/root	usr/etc/xrdb/Tk.ad
+-rw-r--r--	root/root	usr/etc/xrdb/Xaw.ad
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/mate-settings-daemon/
 -rw-r--r--	root/root	usr/include/mate-settings-daemon/mate-settings-client.h
@@ -15,6 +22,7 @@ drwxr-xr-x	root/root	usr/include/mate-settings-daemon/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/mate-settings-daemon/
 -rw-r--r--	root/root	usr/lib/mate-settings-daemon/a11y-keyboard.mate-settings-plugin
+-rw-r--r--	root/root	usr/lib/mate-settings-daemon/a11y-settings.mate-settings-plugin
 -rw-r--r--	root/root	usr/lib/mate-settings-daemon/background.mate-settings-plugin
 -rw-r--r--	root/root	usr/lib/mate-settings-daemon/clipboard.mate-settings-plugin
 -rw-r--r--	root/root	usr/lib/mate-settings-daemon/housekeeping.mate-settings-plugin
@@ -23,6 +31,9 @@ drwxr-xr-x	root/root	usr/lib/mate-settings-daemon/
 -rw-r--r--	root/root	usr/lib/mate-settings-daemon/liba11y-keyboard.a
 -rwxr-xr-x	root/root	usr/lib/mate-settings-daemon/liba11y-keyboard.la
 -rwxr-xr-x	root/root	usr/lib/mate-settings-daemon/liba11y-keyboard.so
+-rw-r--r--	root/root	usr/lib/mate-settings-daemon/liba11y-settings.a
+-rwxr-xr-x	root/root	usr/lib/mate-settings-daemon/liba11y-settings.la
+-rwxr-xr-x	root/root	usr/lib/mate-settings-daemon/liba11y-settings.so
 -rw-r--r--	root/root	usr/lib/mate-settings-daemon/libbackground.a
 -rwxr-xr-x	root/root	usr/lib/mate-settings-daemon/libbackground.la
 -rwxr-xr-x	root/root	usr/lib/mate-settings-daemon/libbackground.so
@@ -82,6 +93,8 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/man/
 drwxr-xr-x	root/root	usr/man/man1/
 -rw-r--r--	root/root	usr/man/man1/mate-settings-daemon.1.gz
+-rw-r--r--	root/root	usr/man/man1/msd-datetime-mechanism.1.gz
+-rw-r--r--	root/root	usr/man/man1/msd-locate-pointer.1.gz
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/MateConf/
 drwxr-xr-x	root/root	usr/share/MateConf/gsettings/
@@ -94,6 +107,7 @@ drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 drwxr-xr-x	root/root	usr/share/glib-2.0/
 drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.SettingsDaemon.plugins.a11y-keyboard.gschema.xml
+-rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.SettingsDaemon.plugins.a11y-settings.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.SettingsDaemon.plugins.background.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.SettingsDaemon.plugins.clipboard.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.SettingsDaemon.plugins.datetime.gschema.xml
@@ -111,7 +125,6 @@ drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.SettingsDaemon.plugins.xsettings.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.applications-at.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.font-rendering.gschema.xml
--rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.keybindings.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.peripherals-smartcard.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.peripherals-touchpad.gschema.xml
 drwxr-xr-x	root/root	usr/share/icons/
@@ -146,6 +159,9 @@ drwxr-xr-x	root/root	usr/share/icons/mate/scalable/actions/
 -rw-r--r--	root/root	usr/share/icons/mate/scalable/actions/touchpad-enabled.svg
 drwxr-xr-x	root/root	usr/share/icons/mate/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/mate/scalable/apps/msd-xrandr.svg
+drwxr-xr-x	root/root	usr/share/mate-control-center/
+drwxr-xr-x	root/root	usr/share/mate-control-center/keybindings/
+-rw-r--r--	root/root	usr/share/mate-control-center/keybindings/50-accessibility.xml
 drwxr-xr-x	root/root	usr/share/mate-settings-daemon/
 -rw-r--r--	root/root	usr/share/mate-settings-daemon/acme.ui
 drwxr-xr-x	root/root	usr/share/mate-settings-daemon/icons/
@@ -159,13 +175,6 @@ drwxr-xr-x	root/root	usr/share/mate-settings-daemon/icons/hicolor/64x64/devices/
 -rw-r--r--	root/root	usr/share/mate-settings-daemon/icons/hicolor/64x64/devices/kbd-scrolllock-off.png
 -rw-r--r--	root/root	usr/share/mate-settings-daemon/icons/hicolor/64x64/devices/kbd-scrolllock-on.png
 -rw-r--r--	root/root	usr/share/mate-settings-daemon/msd-a11y-preferences-dialog.ui
-drwxr-xr-x	root/root	usr/share/mate-settings-daemon/xrdb/
--rw-r--r--	root/root	usr/share/mate-settings-daemon/xrdb/Editres.ad
--rw-r--r--	root/root	usr/share/mate-settings-daemon/xrdb/Emacs.ad
--rw-r--r--	root/root	usr/share/mate-settings-daemon/xrdb/General.ad
--rw-r--r--	root/root	usr/share/mate-settings-daemon/xrdb/Motif.ad
--rw-r--r--	root/root	usr/share/mate-settings-daemon/xrdb/Tk.ad
--rw-r--r--	root/root	usr/share/mate-settings-daemon/xrdb/Xaw.ad
 drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy

@@ -4,7 +4,7 @@
 # Depends on: libxklavier intltool gtk
 
 name=libmatekbd
-version=1.8.1
+version=1.10.0
 release=1
 source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
 

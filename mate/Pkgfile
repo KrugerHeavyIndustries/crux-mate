@@ -1,10 +1,10 @@
 # Description: MATE Desktop Environment
 # URL: http://mate-desktop.org/
 # Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
-# Depends on: atril caja engrampa eom marco mate-applets mate-backgrounds mate-control-center mate-desktop mate-dialogs mate-icon-theme mate-menus mate-netspeed mate-notification-daemon mate-panel mate-polkit mate-screensaver mate-session-manager mate-settings-daemon mate-terminal mate-themes pluma
+# Depends on: atril caja engrampa eom marco mate-applets mate-backgrounds mate-control-center mate-desktop mate-icon-theme mate-menus mate-netspeed mate-notification-daemon mate-panel mate-polkit mate-screensaver mate-session-manager mate-settings-daemon mate-terminal mate-themes pluma
 
 name=mate
-version=1.8
+version=1.10
 release=1
 source=()
 

@@ -12,7 +12,13 @@ drwxr-xr-x	root/root	usr/share/backgrounds/mate/abstract/
 drwxr-xr-x	root/root	usr/share/backgrounds/mate/desktop/
 -rw-r--r--	root/root	usr/share/backgrounds/mate/desktop/Float-into-MATE.png
 -rw-r--r--	root/root	usr/share/backgrounds/mate/desktop/GreenTraditional.jpg
+-rw-r--r--	root/root	usr/share/backgrounds/mate/desktop/MATE-Stripes-Dark.png
+-rw-r--r--	root/root	usr/share/backgrounds/mate/desktop/MATE-Stripes-Light.png
 -rw-r--r--	root/root	usr/share/backgrounds/mate/desktop/Stripes.png
+-rw-r--r--	root/root	usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Cold-no-logo.png
+-rw-r--r--	root/root	usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Dark-no-logo.png
+-rw-r--r--	root/root	usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Radioactive-no-logo.png
+-rw-r--r--	root/root	usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Warm-no-logo.png
 drwxr-xr-x	root/root	usr/share/backgrounds/mate/nature/
 -rw-r--r--	root/root	usr/share/backgrounds/mate/nature/Aqua.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/mate/nature/Blinds.jpg

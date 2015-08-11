@@ -4,7 +4,7 @@
 # Depends on: mate-desktop pangox-compat gvfs
 
 name=caja
-version=1.8.2
+version=1.10.3
 release=1
 source=(http://pub.mate-desktop.org/releases/${version%.*}/$name-$version.tar.xz)
 

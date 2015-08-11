@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/eom-2.20/
 drwxr-xr-x	root/root	usr/include/eom-2.20/eom/
 -rw-r--r--	root/root	usr/include/eom-2.20/eom/eom-application.h
+-rw-r--r--	root/root	usr/include/eom-2.20/eom/eom-clipboard-handler.h
 -rw-r--r--	root/root	usr/include/eom-2.20/eom/eom-debug.h
 -rw-r--r--	root/root	usr/include/eom-2.20/eom/eom-dialog.h
 -rw-r--r--	root/root	usr/include/eom-2.20/eom/eom-enums.h
@@ -34,6 +35,8 @@ drwxr-xr-x	root/root	usr/lib/eom/plugins/
 -rwxr-xr-x	root/root	usr/lib/eom/plugins/libreload.la
 -rwxr-xr-x	root/root	usr/lib/eom/plugins/libreload.so
 -rw-r--r--	root/root	usr/lib/eom/plugins/reload.eom-plugin
+drwxr-xr-x	root/root	usr/lib/girepository-1.0/
+-rw-r--r--	root/root	usr/lib/girepository-1.0/Eom-1.0.typelib
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/eom.pc
 drwxr-xr-x	root/root	usr/man/
@@ -43,6 +46,8 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/MateConf/
 drwxr-xr-x	root/root	usr/share/MateConf/gsettings/
 -rw-r--r--	root/root	usr/share/MateConf/gsettings/eom.convert
+drwxr-xr-x	root/root	usr/share/appdata/
+-rw-r--r--	root/root	usr/share/appdata/eom.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/eom.desktop
 drwxr-xr-x	root/root	usr/share/eom/
@@ -83,8 +88,11 @@ drwxr-xr-x	root/root	usr/share/eom/icons/hicolor/scalable/actions/
 -rw-r--r--	root/root	usr/share/eom/icons/hicolor/scalable/actions/slideshow-play.svg
 drwxr-xr-x	root/root	usr/share/eom/pixmaps/
 -rw-r--r--	root/root	usr/share/eom/pixmaps/thumbnail-frame.png
+drwxr-xr-x	root/root	usr/share/gir-1.0/
+-rw-r--r--	root/root	usr/share/gir-1.0/Eom-1.0.gir
 drwxr-xr-x	root/root	usr/share/glib-2.0/
 drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
+-rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.eom.enums.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.eom.gschema.xml
 drwxr-xr-x	root/root	usr/share/help/
 drwxr-xr-x	root/root	usr/share/help/C/

@@ -39,6 +39,8 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/MateConf/
 drwxr-xr-x	root/root	usr/share/MateConf/gsettings/
 -rw-r--r--	root/root	usr/share/MateConf/gsettings/caja.convert
+drwxr-xr-x	root/root	usr/share/appdata/
+-rw-r--r--	root/root	usr/share/appdata/caja.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/caja-autorun-software.desktop
 -rw-r--r--	root/root	usr/share/applications/caja-browser.desktop
