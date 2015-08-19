@@ -1,7 +1,7 @@
 # Description: Media tools for MATE
 # URL: http://www.mate-desktop.org/
 # Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
-# Depends on: gst-plugins-base-compat libcanberra libtool tdb xorg-libxdamage xz libmatemixer
+# Depends on: gst-plugins-base-compat libcanberra libtool tdb xorg-libxdamage xz libmatemixer libunique mate-desktop
 
 name=mate-media
 version=1.10.0
