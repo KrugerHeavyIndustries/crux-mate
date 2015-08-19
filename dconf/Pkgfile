@@ -1,7 +1,7 @@
 # Description: GSettings backend configuration system
 # URL: https://live.gnome.org/dconf
 # Maintainer: Matt Housh, jaeger at morpheus dot net
-# Depends on: gtk3 docbook-xsl
+# Depends on: gtk3 docbook-xsl desktop-file-utils
 
 name=dconf
 version=0.20.0
