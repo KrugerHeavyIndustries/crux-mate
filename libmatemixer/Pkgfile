@@ -1,7 +1,7 @@
 # Description:
 # URL: http://www.mate-desktop.org/
 # Maintainer: Chris Kruger, crux-maint at krugerheavyindustries dot com
-# Depends on:
+# Depends on: intltool glib alsa-lib
 
 name=libmatemixer
 version=1.10.0
