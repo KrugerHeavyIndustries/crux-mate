@@ -1,7 +1,7 @@
 # Description: A userspace virtual filesystem designed to work with the I/O abstractions of gio (glib)
 # URL: http://projects.gnome.org/
 # Maintainer: Matt Housh, jaeger at morpheus dot net
-# Depends on: e2fsprogs eudev fuse glibc gtk3 libarchive libsecret libsoup lzo samba xorg-libxdamage docbook-xsl
+# Depends on: e2fsprogs eudev fuse glibc gtk3 libarchive libsecret libsoup lzo samba xorg-libxdamage docbook-xsl udisks2
 
 name=gvfs
 version=1.20.2
