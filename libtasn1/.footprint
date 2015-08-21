@@ -8,9 +8,9 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libtasn1.a
 -rwxr-xr-x	root/root	usr/lib/libtasn1.la
-lrwxrwxrwx	root/root	usr/lib/libtasn1.so -> libtasn1.so.6.2.1
-lrwxrwxrwx	root/root	usr/lib/libtasn1.so.6 -> libtasn1.so.6.2.1
--rwxr-xr-x	root/root	usr/lib/libtasn1.so.6.2.1
+lrwxrwxrwx	root/root	usr/lib/libtasn1.so -> libtasn1.so.6.4.2
+lrwxrwxrwx	root/root	usr/lib/libtasn1.so.6 -> libtasn1.so.6.4.2
+-rwxr-xr-x	root/root	usr/lib/libtasn1.so.6.4.2
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libtasn1.pc
 drwxr-xr-x	root/root	usr/man/
@@ -24,14 +24,17 @@ drwxr-xr-x	root/root	usr/man/man3/
 -rw-r--r--	root/root	usr/man/man3/asn1_check_version.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_copy_node.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_create_element.3.gz
+-rw-r--r--	root/root	usr/man/man3/asn1_decode_simple_ber.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_decode_simple_der.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_delete_element.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_delete_structure.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_delete_structure2.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_der_coding.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_der_decoding.3.gz
+-rw-r--r--	root/root	usr/man/man3/asn1_der_decoding2.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_der_decoding_element.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_der_decoding_startEnd.3.gz
+-rw-r--r--	root/root	usr/man/man3/asn1_dup_node.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_encode_simple_der.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_expand_any_defined_by.3.gz
 -rw-r--r--	root/root	usr/man/man3/asn1_expand_octet_string.3.gz
