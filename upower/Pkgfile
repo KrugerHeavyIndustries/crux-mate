@@ -5,18 +5,18 @@
 # Depends on: intltool polkit eudev-gudev dbus-glib
 
 name=upower
-version=0.9.23
+version=0.99.3
 release=1
 source=(http://upower.freedesktop.org/releases/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-	./configure --prefix=/usr \
-	--mandir=/usr/man \
-	--localstatedir=/var \
-	--libexecdir=/usr/lib/upower \
-	--disable-static
-	make
-	make DESTDIR=$PKG install
-	rm -rf $PKG/usr/share/locale
+    cd $name-$version
+    ./configure --prefix=/usr \
+        --mandir=/usr/man \
+        --localstatedir=/var \
+        --libexecdir=/usr/lib/upower \
+        --disable-static
+    make
+    make DESTDIR=$PKG install
+    rm -rf $PKG/usr/share/locale
 }
