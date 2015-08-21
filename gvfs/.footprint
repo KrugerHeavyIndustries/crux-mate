@@ -59,6 +59,7 @@ drwxr-xr-x	root/root	usr/man/man1/
 -rw-r--r--	root/root	usr/man/man1/gvfs-cat.1.gz
 -rw-r--r--	root/root	usr/man/man1/gvfs-copy.1.gz
 -rw-r--r--	root/root	usr/man/man1/gvfs-info.1.gz
+-rw-r--r--	root/root	usr/man/man1/gvfs-less.1.gz
 -rw-r--r--	root/root	usr/man/man1/gvfs-ls.1.gz
 -rw-r--r--	root/root	usr/man/man1/gvfs-mime.1.gz
 -rw-r--r--	root/root	usr/man/man1/gvfs-mkdir.1.gz
@@ -82,9 +83,6 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/GConf/
 drwxr-xr-x	root/root	usr/share/GConf/gsettings/
 -rw-r--r--	root/root	usr/share/GConf/gsettings/gvfs-smb.convert
-drwxr-xr-x	root/root	usr/share/bash-completion/
-drwxr-xr-x	root/root	usr/share/bash-completion/completions/
--rw-r--r--	root/root	usr/share/bash-completion/completions/gvfs
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/gvfs-daemon.service
