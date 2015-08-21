@@ -4,7 +4,7 @@
 # Depends on: eudev glib
 
 name=eudev-gudev
-version=1.6
+version=3.1.2
 release=1
 source=(http://dev.gentoo.org/~blueness/eudev/eudev-$version.tar.gz
         81-crux.rules start_udev)
