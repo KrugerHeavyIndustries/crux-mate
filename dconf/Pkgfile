@@ -1,10 +1,10 @@
 # Description: GSettings backend configuration system
 # URL: https://live.gnome.org/dconf
 # Maintainer: Matt Housh, jaeger at morpheus dot net
-# Depends on: gtk3 docbook-xsl desktop-file-utils
+# Depends on: dbus glib
 
 name=dconf
-version=0.20.0
+version=0.24.0
 release=1
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
@@ -15,5 +15,5 @@ build() {
         --mandir=/usr/man
     make
     make DESTDIR=$PKG install
-    rm -r $PKG/usr/share/{gtk-doc,locale}
+    rm -r $PKG/usr/share/gtk-doc
 }
