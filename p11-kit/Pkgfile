@@ -4,7 +4,7 @@
 # Depends on: libtasn1 libffi
 
 name=p11-kit
-version=0.20.2
+version=0.23.1
 release=1
 source=(http://p11-glue.freedesktop.org/releases/$name-$version.tar.gz)
 
