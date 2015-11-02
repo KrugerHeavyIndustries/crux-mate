@@ -6,7 +6,7 @@
 
 [Kruger Heavy Industries](http://www.krugerheavyindustries.com) initiated and maintains the port of the MATE desktop environment for CRUX Linux with substantial assistance from Matt Housh.
 
-## Prerequisite ## 
+## Prerequisite ##
 
 Your CRUX Linux kernel will need DRI (Direct Rendering Infrastructure) and udev enabled for CRUX MATE to work.
 
